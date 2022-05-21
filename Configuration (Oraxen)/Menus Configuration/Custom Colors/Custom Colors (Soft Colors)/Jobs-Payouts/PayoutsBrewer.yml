@@ -1,0 +1,149 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_info_sub_menu%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYwNmFiMjhlZmY1ZTdiMTM5M2M1ODIyMjZjYTlkOTcyMjk0NjlhMWQ1ODUyZjcyZmQ1MWNiNTg4NzUifX19'
+      name: "&{#F3DCD4}★ &{#ECC9C7}Brewer &{#F3DCD4}★"
+      lore:
+      - ""
+      - "&7Here you can find all the potions that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhMTRhOGNmMDkyZDBjZDE2OTMzYmUyZGM5ZDQ0MGZiMzBiNTE1OTIxZmM2YjY4Y2RjYzE5YWJmODY0NmZjZiJ9fX0==="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Potions - Positive Effects &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "%oraxen_potion% &7Mundane Potion &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion% &7Thick Potion &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion% &7Awkward Potion &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_regeneration% &7Potion of Regeneration &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_speed% &7Potion of Speed &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_strength% &7Potion of Strength &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_fire_resistance% &7Potion of Fire Resistance &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_instant_health% &7Potion of Instant Health &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_night_vision% &7Potion of Night Vision &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_leaping% &7Potion of Leaping (Jump Boost) &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_water_breathing% &7Potion of Water Breathing &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_invisibility% &7Potion of Invisibility &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_slow_falling% &7Potion of Slow Falling &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_luck% &7Potion of Luck &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlkYWVmN2VmNjExMDU3YWZkOWY5NDA0NDRjMzBmZmJkNWQ1NDY1OGQzYjFjNjczNjJhNTc5NzY1ZTI4NzIzNSJ9fX0="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Potions - Negative Effects &{#F3DCD4}☆"
+      lore: 
+      - ""
+      - "%oraxen_potion_of_poison% &7Potion of Poison &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_weakness% &7Potion of Weakness &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_slowness% &7Potion of Slowness &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - "%oraxen_potion_of_harming% &7Potion of Harming &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjgyNDI3YjI2MGQwYTYxZTY0ODNmYzNiMmMzNWE1ODU4NTFlMDhhOWE5ZGYzNzI1NDhiNDE2OGNjODE3YyJ9fX0="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Potions - Mixed Effects &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "%oraxen_potion_of_turtle_master% &7Potion of the Turtle Master &8» &{#F3DCD4}5.0$ &8- &a7.5XP &8- &{#ECC9C7}2.5⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExYTNjZWM3YWFmOTA0MjEyY2NmOTNiYjY3YTNjYWYzZDY0OTc4M2JhOTBiOGI2MGJiNjNjNzY4N2ViMzlmIn19fQ=="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Extras  and Materials &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "%oraxen_nether_wart% &7Nether Wart &8» &{#F3DCD4}4.00$ &8- &a2.50XP &8- &{#ECC9C7}6.00⛁"
+      - "%oraxen_redstone% &7Redstone &{#F3DCD4}2.00$ &8- &a3.00XP &8- &{#ECC9C7}1.00⛁"
+      - "%oraxen_glowstone_dust% &7Glowstone Dust &8» &{#F3DCD4}4.00$ &8- &a5.80XP &8- &{#ECC9C7}2.20⛁"
+      - "%oraxen_fermented_spider_eye% &7Fermented Spider Eye &{#F3DCD4}6.30$ &8- &a8.00XP &8- &{#ECC9C7}3.50⛁"
+      - "%oraxen_gunpowder% &7Gunpowder &8» &{#F3DCD4}3.00$ &8- &a5.00XP &8- &{#ECC9C7}2.30⛁"
+      - "%oraxen_dragon_breath% &7Dragon Breath &{#F3DCD4}25.00$ &8- &a30.00XP &8- &{#ECC9C7}23.00⛁"
+      - "%oraxen_sugar% &7Sugar &8» &{#F3DCD4}3.00$ &8- &a5.00XP &8- &{#ECC9C7}2.00⛁"
+      - "%oraxen_rabbit_foot% &7Rabbit Foot &{#F3DCD4}8.00$ &8- &a10.00XP &8- &{#ECC9C7}6.50⛁"
+      - "%oraxen_glistering_melon% &7Glistering Melon Slice &8» &{#F3DCD4}7.00$ &8- &a10.00XP &8- &{#ECC9C7}6.30⛁"
+      - "%oraxen_spider_eye% &7Spider Eye &{#F3DCD4}3.00$ &8- &a4.50XP &8- &{#ECC9C7}1.80⛁"
+      - "%oraxen_pufferfish% &7Pufferfish &8» &{#F3DCD4}7.00$ &8- &a9.00XP &8- &{#ECC9C7}5.80⛁"
+      - "%oraxen_magma_cream% &7Magma Cream &{#F3DCD4}5.00$ &8- &a4.30XP &8- &{#ECC9C7}6.00⛁"
+      - "%oraxen_golden_carrot% &7Golden Carrot &8» &{#F3DCD4}8.00$ &8- &a11.0XP &8- &{#ECC9C7}6.80⛁"
+      - "%oraxen_blaze_powder% &7Blaze Powder &{#F3DCD4}6.00$ &8- &a8.00XP &8- &{#ECC9C7}4.9⛁"
+      - "%oraxen_ghast_tear% &7Ghast Tear &8» &{#F3DCD4}12.00$ &8- &a15.00XP &8- &{#ECC9C7}8.50⛁"
+      - "%oraxen_turtle_helmet% &7Turtle Helmet &{#F3DCD4}20.00$ &8- &a25.00XP &8- &{#ECC9C7}13.00⛁"
+      - "%oraxen_phantom_membrane% &7Phantom Membrane &8» &{#F3DCD4}7.00$ &8- &a11.00XP &8- &{#ECC9C7}6.30⛁"
+      - "%oraxen_potion% &7Potion &{#F3DCD4}2.00$ &8- &a4.5XP &8- &{#ECC9C7}1.30⛁"
+      - ""
+      - "%oraxen_player% &7Player Kill &8» &{#F3DCD4}3.00$ &8- &a3.50XP &8- &{#ECC9C7}2.00⛁"
+      - "%oraxen_player% &7Custom Kill (Brewer) &{#F3DCD4}5.00$ &8- &a6.00XP &8- &{#ECC9C7}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#F3DCD4}★ &{#ECC9C7}Next Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#F3DCD4}★ &{#ECC9C7}Previous Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#F3DCD4}Right-Click &7to return to the brewer menu."
+        - " &7» &{#F3DCD4}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoBrewer"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

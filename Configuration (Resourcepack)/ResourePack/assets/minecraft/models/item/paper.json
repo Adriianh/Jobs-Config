@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/paper"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "custom/button/close_button" },
+		{ "predicate": { "custom_model_data": 2}, "model": "custom/button/next_page" },
+		{ "predicate": { "custom_model_data": 3}, "model": "custom/button/previous_page" },
+		{ "predicate": { "custom_model_data": 4}, "model": "custom/button/gray_alert" },
+		{ "predicate": { "custom_model_data": 5}, "model": "custom/button/green_alert" },
+		{ "predicate": { "custom_model_data": 6}, "model": "custom/button/yellow_alert" },
+		{ "predicate": { "custom_model_data": 7}, "model": "custom/button/red_alert" },
+		{ "predicate": { "custom_model_data": 8}, "model": "custom/button/barrier_icon" }
+	]
+}

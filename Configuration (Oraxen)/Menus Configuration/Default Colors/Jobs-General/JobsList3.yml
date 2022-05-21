@@ -1,0 +1,390 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_browse%"
+Layout:
+- '         '
+- ' - @ | = '
+- ' ? ? ? ? '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Options:
+  arguments: false
+Bindings: 
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? join 2'
+    - '(?i)job(-)?(gui)?(s)? list 2'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '?':
+    display:
+      material: 'source:ORAXEN:gray_alert'
+      name: "&7"
+    icons:
+      - condition: 'check papi *"%jobsr_user_joinedjobcount%" == *0'
+        prority: 1
+        display:
+          material: 'source:ORAXEN:gray_alert'
+          name: "&7"
+      - condition: 'check papi *"%jobsr_user_joinedjobcount%" <= *1'
+        display:
+          material: 'source:ORAXEN:green_alert'
+          name: "&aAlert"
+          lore:
+            - ''
+            - '&7You have 1 job.'
+            - ''
+      - condition: 'check papi *"%jobsr_user_joinedjobcount%" <= *3'
+        display:
+          material: 'source:ORAXEN:yellow_alert'
+          name: "&eAlert"
+          lore:
+            - ''
+            - '&7You have 2 or 3 jobs.'
+            - ''
+      - condition: 'check papi *"%jobsr_user_joinedjobcount%" <= *5'
+        display:
+          material: 'source:ORAXEN:red_alert'
+          name: "&cAlert"
+          lore:
+            - ''
+            - '&7You have 4 or 5 jobs.'
+            - ''
+  '-':
+    update: 20
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+      name: "&{#3AB4B2}★ &{#123973}Enchanter &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&7Abracadabra, goat legs. Toad eyes, frog legs, good luck all week!"
+      - "&7Or maybe not... (ಥ _ ಥ)"
+      - ""
+      - "&7Click here to start working as a &{#3AB4B2}Enchanter."
+      - ""
+    actions:
+      all: 
+        - condition: 'js: vars("%jobsr_user_joinedjobcount%") < 5'
+          actions:
+            - "command: jobs:jobs join enchanter"
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&aEnchanter` `&7Now you work as a Enchanter!` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+          deny-actions:
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cError` `&7You have too many jobs or you cannot enter it.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_enchanter%" == *true'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cExplorer &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you already had this job."
+          - ""
+  '@':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI5Njc2ZWU2ZGE1YTM1MjFjYjQ3ODQ2Mzc3OWI4NzExZTMxODg3Y2Q5YTZkOWZkZWNmY2JjNTUwODNlNTUxNSJ9fX0="
+      name: "&{#3AB4B2}★ &{#123973}Weaponsmith &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&{#543D3D}NETHERITE&7, &{#2FECD8}DIAMONDS&7, &{#818181}IRON&7!!"
+      - "&7Time to create my own armor and be the strongest"
+      - ""
+      - "&7Click here to start working as a &{#3AB4B2}Weaponsmith."
+      - ""
+    actions:
+      all: 
+        - condition: 'js: vars("%jobsr_user_joinedjobcount%") < 5'
+          actions:
+            - "command: jobs:jobs join weaponsmith"
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&aWeaponsmith` `&7Now you work as a Weaponsmith!` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+          deny-actions:
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cError` `&7You have too many jobs or you cannot enter it.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_weaponsmith%" == *true'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cWeaponsmith &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you already had this job."
+          - ""
+  '|':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5MWExNDg2N2VmOTg2Nzg3MmRjZGM4YzU0ZTNkNGNmYjVlNTI1ZGNjZmI3Zjk5YTczMTRhNDVmYWViMzAxZSJ9fX0="
+      name: "&{#3AB4B2}★ &{#123973}Fisher &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&7Fish has a bad smell..."
+      - "&7But, it is very, VERY tasty (❤ ω ❤)"
+      - ""
+      - "&7Click here to start working as a &{#3AB4B2}Fisher."
+      - ""
+    actions:
+      all: 
+        - condition: 'js: vars("%jobsr_user_joinedjobcount%") < 5'
+          actions:
+            - "command: jobs:jobs join fisherman"
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&aFisher` `&7Now you work as a Fisher!` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+          deny-actions:
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cError` `&7You have too many jobs or you cannot enter it.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_fisher%" == *true'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cFisher &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you already had this job."
+          - ""
+  =:
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzNTJiOTc5YTQ4OWRmYzhiYTdiMWUxMjU5NzYzODQzZDc3MmYzOWYxNDIwZjg2NzI1MzdhYTc1MjJkYzFiZiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Farmer &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&7Growing &{#3AB4B2}wheat &7is very tiring..."
+      - "&7Until you taste a tasty bread (★ ω ★)"
+      - ""
+      - "&7Click here to start working as a &{#3AB4B2}Farmer."
+      - ""
+    actions:
+      all: 
+        - condition: 'js: vars("%jobsr_user_joinedjobcount%") < 5'
+          actions:
+            - "command: jobs:jobs join farmer"
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&aFarmer` `&7Now you work as a Farmer!` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+          deny-actions:
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cError` `&7You have too many jobs or you cannot enter it.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_farmer%" == *true'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cFarmer &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you already had this job."
+          - ""
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "open: JobsList2"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the main menu. "
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsMenu"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  A:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cLeave &4★"
+      lore:
+      - ""
+      - "&7AAAHH!"
+      - "&7I think I just summoned something bad... (；′⌒`)"
+      - ""
+      - "&7Click here to resign."
+      - ""
+    actions:
+      all:
+        - condition: 'check papi *"%jobsr_user_isin_enchanter%" == *true'
+          actions:
+            - "command: jobs:jobs leave enchanter"
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'title: `&aEnchanter` `&7You quit correctly.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_enchanter%" == *false'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cLeave &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you didn't have this job."
+          - ""
+  B:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cLeave &4★"
+      lore:
+      - ""
+      - "&7NOOOOO!!!!"
+      - "&7I broke my hand, I can't hammer anymore ╯︿╰"
+      - ""
+      - "&7Click here to resign."
+      - ""
+    actions:
+      all:
+        - condition: 'check papi *"%jobsr_user_isin_weaponsmith%" == *true'
+          actions:
+            - "command: jobs:jobs leave weaponsmith"
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'title: `&aWeaponsmith` `&7You quit correctly.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_weaponsmith%" == *false'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cLeave &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you didn't have this job."
+          - ""
+  C:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cLeave &4★"
+      lore:
+      - ""
+      - "&7I LOVE THE FLAVOR!!"
+      - "&7But i can't take the smell, i'm so sorry"
+      - ""
+      - "&7Click here to resign."
+      - ""
+    actions:
+      all:
+        - condition: 'check papi *"%jobsr_user_isin_fisherman%" == *true'
+          actions:
+            - "command: jobs:jobs leave fisherman"
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'title: `&aFisher` `&7You quit correctly.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_fisherman%" == *false'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cLeave &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you didn't have this job."
+          - ""
+  D:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cLeave &4★"
+      lore:
+      - ""
+      - "&7Is seriously???"
+      - "&7Because no one told me i'm allergic to wheat ಥ_ಥ"
+      - ""
+      - "&7Click here to resign."
+      - ""
+    actions:
+      all:
+        - condition: 'check papi *"%jobsr_user_isin_farmer%" == *true'
+          actions:
+            - "command: jobs:jobs leave farmer"
+            - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+            - 'title: `&aFarmer` `&7You quit correctly.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+    icons:
+      - condition: 'check papi *"%jobsr_user_isin_farmer%" == *false'
+        priority: 1
+        inherit: true
+        display:
+          name: "&4★ &cLeave &4★"
+          material: 'source:ORAXEN:barrier_icon'
+          lore:
+          - ""
+          - "&7What are you trying?, you didn't have this job."
+          - ""

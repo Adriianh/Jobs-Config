@@ -1,0 +1,255 @@
+
+# Made by TrMenu Template (Boost x2)
+# Date: 2022-01-30 12:34:12
+
+Layout:
+- '#########'
+- '#A#B#C#D#'
+- '#########'
+- '##<#X#>##'
+Title: "&{#D7B9AA}ᴊᴏʙs &8| &{#D7B9AA}ᴘᴇʀsᴏɴᴀʟ ʙᴏᴏsᴛ &6[x14]"
+
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+  'A':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZkYjFjMDhhMmU0ZDczOGM0YmNhN2I2ZGI3YzQ0NGRkNWVjZTEwZThhYjU0MGVlMWJmZDcxNjMzYmQ1MmJiOCJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+      lore:
+        - ''
+        - '&7This little boost will last nothing longer and'
+        - '&7nothing less than... 5 minutes.'
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f14x'
+        - '     &7Time: &f5 min.'
+        - '     &7Price: &e$95,000'
+        - ''
+    actions: 
+      all:
+        - condition: 'js: utils.hasMoney(player, 95000)'
+          actions:
+            - 'open: PersonalBoostList25'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 94999'
+        inherit: true
+        display:
+          material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3NmZhMmJmMWI2ODJkOTIyMmY3ZThkYTFkMTljMDVlZTI4MGMxMWFmMzJkZWNjYzdlMWZkOWQ0NThhY2ZlMiJ9fX0='
+          name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+          lore:
+            - ''
+            - '&7This little boost will last nothing longer and'
+            - '&7nothing less than... 5 minutes.'
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f14x'
+            - '     &7Time: &f5 min.'
+            - '     &7Price: &e$95,000'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+
+  'B':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZkYjFjMDhhMmU0ZDczOGM0YmNhN2I2ZGI3YzQ0NGRkNWVjZTEwZThhYjU0MGVlMWJmZDcxNjMzYmQ1MmJiOCJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+      lore:
+        - ''
+        - '&7This little boost will last nothing longer and'
+        - '&7nothing less than... 15 minutes.'
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f14x'
+        - '     &7Time: &f15 min.'
+        - '     &7Price: &e$110,000'
+        - ''
+    actions: 
+      all:
+        - condition: 'js: utils.hasMoney(player, 110000)'
+          actions:
+            - 'open: PersonalBoostList26'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 109999'
+        inherit: true
+        display:
+          material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3NmZhMmJmMWI2ODJkOTIyMmY3ZThkYTFkMTljMDVlZTI4MGMxMWFmMzJkZWNjYzdlMWZkOWQ0NThhY2ZlMiJ9fX0='
+          name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+          lore:
+            - ''
+            - '&7This little boost will last nothing longer and'
+            - '&7nothing less than... 15 minutes.'
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f14x'
+            - '     &7Time: &f15 min.'
+            - '     &7Price: &e$110,000'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+                - "message: &8[&4✘&8] &7Oh, maybe you need more money..."
+                - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+                - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+                - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+                  actions:
+                    - 'close'
+  'C':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZkYjFjMDhhMmU0ZDczOGM0YmNhN2I2ZGI3YzQ0NGRkNWVjZTEwZThhYjU0MGVlMWJmZDcxNjMzYmQ1MmJiOCJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+      lore:
+        - ''
+        - '&7This little boost will last nothing longer and'
+        - '&7nothing less than... 30 minutes.'
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f14x'
+        - '     &7Time: &f30 min.'
+        - '     &7Price: &e$150,000'
+        - ''
+    actions: 
+      all:
+        - condition: 'js: utils.hasMoney(player, 150000)'
+          actions:
+            - 'open: PersonalBoostList27'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 149999'
+        inherit: true
+        display:
+          material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3NmZhMmJmMWI2ODJkOTIyMmY3ZThkYTFkMTljMDVlZTI4MGMxMWFmMzJkZWNjYzdlMWZkOWQ0NThhY2ZlMiJ9fX0='
+          name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+          lore:
+            - ''
+            - '&7This little boost will last nothing longer and'
+            - '&7nothing less than... 30 minutes.'
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f14x'
+            - '     &7Time: &f30 min.'
+            - '     &7Price: &e$150,000'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'D':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZkYjFjMDhhMmU0ZDczOGM0YmNhN2I2ZGI3YzQ0NGRkNWVjZTEwZThhYjU0MGVlMWJmZDcxNjMzYmQ1MmJiOCJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+      lore:
+        - ''
+        - '&7This little boost will last nothing longer and'
+        - '&7nothing less than... 1 hour.'
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f14x'
+        - '     &7Time: &f1 hour.'
+        - '     &7Price: &e$200,000'
+        - ''
+    actions: 
+      all:
+        - condition: 'js: utils.hasMoney(player, 200000)'
+          actions:
+            - 'open: PersonalBoostList28'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 199999'
+        inherit: true
+        display:
+          material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3NmZhMmJmMWI2ODJkOTIyMmY3ZThkYTFkMTljMDVlZTI4MGMxMWFmMzJkZWNjYzdlMWZkOWQ0NThhY2ZlMiJ9fX0='
+          name: "&{#D7B9AA}★ &{#AA9183}Boost &6[x14] &{#D7B9AA}★"
+          lore:
+            - ''
+            - '&7This little boost will last nothing longer and'
+            - '&7nothing less than... 1 hour.'
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f14x'
+            - '     &7Time: &f1 hour.'
+            - '     &7Price: &e$200,000'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  ">":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19'
+      name: "&{#D7B9AA}★ &{#AA9183}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the main menu. "
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsBoost"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

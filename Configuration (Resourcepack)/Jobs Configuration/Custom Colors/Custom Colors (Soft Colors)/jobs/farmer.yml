@@ -1,0 +1,311 @@
+Farmer:
+  fullname: Farmer
+  shortname: Fa
+  FullDescription:
+  - "Earns money farming crops."
+  ChatColour: BLUE
+  chat-display: full
+  max-level: 100
+  leveling-progression-equation: 12*(joblevel)+(joblevel*joblevel*4.5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.02))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.02))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 3
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Regular Joe
+      Objectives:
+      - Breed;Sheep;10
+      - Shear;White;10
+      - Milk;Cow;3
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Be a farmer and get money
+      - Get 100 for this!
+  Gui:
+    Item: wooden_hoe
+  Bake:
+    potato:
+      income: 15
+      experience: 23
+      points: 11.50
+    cod:
+      income: 12.50
+      experience: 16
+      points: 8.75
+    salmon:
+      income: 12.50
+      experience: 16
+      points: 8.75
+    raw_chicken:
+      income: 15
+      experience: 23
+      points: 11.50
+    raw_porkchop:
+      income: 15
+      experience: 23
+      points: 11.50
+    raw_beef:
+      income: 15
+      experience: 23
+      points: 11.50
+    raw_rabbit:
+      income: 15
+      experience: 23
+      points: 11.50
+    raw_mutton:
+      income: 15
+      experience: 23
+      points: 11.50
+  Eat:
+    apple:
+      income: 12.50
+      experience: 16
+      points: 8.75
+    bread:
+      income: 12.50
+      experience: 16
+      points: 8.75 
+    baked_potato:
+      income: 13.35
+      experience: 20
+      points: 8.75
+    carrot:
+      income: 15
+      experience: 23
+      points: 11.50
+    beetroot_soup:
+      income: 15
+      experience: 23
+      points: 11.50
+    melon_slice:
+      income: 15
+      experience: 23
+      points: 11.50
+    sweet_berries:
+      income: 15
+      experience: 23
+      points: 11.50
+    dried_kelp:
+      income: 15
+      experience: 23
+      points: 11.50
+    mushroom_stew:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_cod:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_salmon:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_chicken:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_beef:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_mutton:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_rabbit:
+      income: 15
+      experience: 23
+      points: 11.50
+    cooked_porkchop:
+      income: 15
+      experience: 23
+      points: 11.50
+    pumpkin_pie:
+      income: 15
+      experience: 23
+      points: 11.50
+    cake:
+      income: 15
+      experience: 23
+      points: 11.50
+    cookie:
+      income: 15
+      experience: 23
+      points: 11.50
+    golden_apple:
+      income: 15
+      experience: 23
+      points: 11.50
+    enchanted_golden_apple:
+      income: 15
+      experience: 23
+      points: 11.50
+  Breed:
+    chicken:
+      income: 12.50
+      experience: 16
+      points: 8.75
+    cow:
+      income: 13.35
+      experience: 20
+      points: 8.75
+    pig:
+      income: 12.50
+      experience: 16
+      points: 8.75
+    sheep:
+      income: 15
+      experience: 23
+      points: 11.5
+    rabbit:
+      income: 15
+      experience: 23
+      points: 11.5
+    horse:
+      income: 15
+      experience: 23
+      points: 11.5
+    donkey:
+      income: 15
+      experience: 23
+      points: 11.5
+    mule:
+      income: 15
+      experience: 23
+      points: 11.5
+    llama:
+      income: 15
+      experience: 23
+      points: 11.5
+    wolf:
+      income: 15
+      experience: 23
+      points: 11.5
+    cat:
+      income: 15
+      experience: 23
+      points: 11.5
+  Collect:
+    sweet_berry_bush-3:
+      income: 5.85
+      points: 3.75
+      experience: 13
+    composter:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    beehive-5:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    bee_nest-5:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+  Break:
+    oak_sapling:
+      income: 0.1
+      experience: 0.3
+      points: 0
+    birch_sapling:
+      income: 0.1
+      experience: 0.3
+      points: 0
+    spruce_sapling:
+      income: 0.1
+      experience: 0.3
+      points: 0
+    acacia_sapling:
+      income: 0.1
+      experience: 0.3
+      points: 0
+    dark_oak_sapling:
+      income: 0.1
+      experience: 0.3
+      points: 0
+    jungle_sapling:
+      income: 0.1
+      experience: 0.3
+      points: 0
+    wheat-7:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    potatoes-7:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    carrots-7:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    sugar_cane:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    beetroots-3:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    cactus:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    kelp:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    pumpkin:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    melon:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    sweet_berry_bush-3:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    cocoa-2:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    brown_mushroom:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    red_mushroom:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+    nether_wart-3:
+      income: 0.3
+      experience: 0.5
+      points: 0.1
+  Milk:
+    Cow:
+      income: 5
+      points: 3
+      experience: 6
+    MushroomCow:
+      income: 5
+      points: 3
+      experience: 6.0
+  Shear:
+    collor-all:
+      income: 3
+      experience: 3.5
+      points: 2
+  Kill:
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5

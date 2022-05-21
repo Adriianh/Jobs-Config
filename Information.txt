@@ -1,0 +1,9 @@
+
+    • The folder called "Configuration", is to use my configuration without the need of a plugin that manages a texturepack. Use a minecraft vanilla texturepack, it comes included with the configuration.
+
+    • The folder called "Configuration (Oraxen)", is to use my configuration with the Oraxen plugin, it also includes the necessary configuration for this one.
+
+
+    • Please, if you need help or need to report any problem, contact me by discord or join my discord server.
+        - User: Adriiánh#1754 (DM's Open)
+        - Server: https://discord.gg/7BAAdHMny4

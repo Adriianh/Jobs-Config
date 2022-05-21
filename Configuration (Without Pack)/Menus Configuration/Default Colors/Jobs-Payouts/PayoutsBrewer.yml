@@ -1,0 +1,143 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&{#3AB4B2}ᴊᴏʙs &8| &{#3AB4B2}ʙʀᴇᴡᴇʀ ᴘᴏᴛɪᴏɴs"
+Layout:
+- '#########'
+- '####-####'
+- '#########'
+- '#A#B#C#D#'
+- '#########'
+- '##<#X#>##'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYwNmFiMjhlZmY1ZTdiMTM5M2M1ODIyMjZjYTlkOTcyMjk0NjlhMWQ1ODUyZjcyZmQ1MWNiNTg4NzUifX19'
+      name: "&{#3AB4B2}★ &{#123973}Brewer &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&7Here you can find all the potions that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhMTRhOGNmMDkyZDBjZDE2OTMzYmUyZGM5ZDQ0MGZiMzBiNTE1OTIxZmM2YjY4Y2RjYzE5YWJmODY0NmZjZiJ9fX0==="
+      name: "&{#3AB4B2}☆ &{#123973}Potions - Positive Effects &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "&7Mundane Potion &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Thick Potion &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Awkward Potion &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Regeneration &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Speed &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Strength &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Fire Resistance &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Instant Health &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Night Vision &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Leaping (Jump Boost) &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Water Breathing &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Invisibility &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Slow Falling &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Luck &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlkYWVmN2VmNjExMDU3YWZkOWY5NDA0NDRjMzBmZmJkNWQ1NDY1OGQzYjFjNjczNjJhNTc5NzY1ZTI4NzIzNSJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Potions - Negative Effects &{#3AB4B2}☆"
+      lore: 
+      - ""
+      - "&7Potion of Poison &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Weakness &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Slowness &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - "&7Potion of Harming &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjgyNDI3YjI2MGQwYTYxZTY0ODNmYzNiMmMzNWE1ODU4NTFlMDhhOWE5ZGYzNzI1NDhiNDE2OGNjODE3YyJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Potions - Mixed Effects &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "\uEBA6 &7Potion of the Turtle Master &8» &{#3AB4B2}5.0$ &8- &a7.5XP &8- &{#123973}2.5⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExYTNjZWM3YWFmOTA0MjEyY2NmOTNiYjY3YTNjYWYzZDY0OTc4M2JhOTBiOGI2MGJiNjNjNzY4N2ViMzlmIn19fQ=="
+      name: "&{#3AB4B2}☆ &{#123973}Extras  and Materials &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "&7Nether Wart &8» &{#3AB4B2}4.00$ &8- &a2.50XP &8- &{#123973}6.00⛁"
+      - "&7Redstone &{#3AB4B2}2.00$ &8- &a3.00XP &8- &{#123973}1.00⛁"
+      - "&7Glowstone Dust &8» &{#3AB4B2}4.00$ &8- &a5.80XP &8- &{#123973}2.20⛁"
+      - "&7Fermented Spider Eye &{#3AB4B2}6.30$ &8- &a8.00XP &8- &{#123973}3.50⛁"
+      - "&7Gunpowder &8» &{#3AB4B2}3.00$ &8- &a5.00XP &8- &{#123973}2.30⛁"
+      - "&7Dragon Breath &{#3AB4B2}25.00$ &8- &a30.00XP &8- &{#123973}23.00⛁"
+      - "&7Sugar &8» &{#3AB4B2}3.00$ &8- &a5.00XP &8- &{#123973}2.00⛁"
+      - "&7Rabbit Foot &{#3AB4B2}8.00$ &8- &a10.00XP &8- &{#123973}6.50⛁"
+      - "&7Glistering Melon Slice &8» &{#3AB4B2}7.00$ &8- &a10.00XP &8- &{#123973}6.30⛁"
+      - "&7Spider Eye &{#3AB4B2}3.00$ &8- &a4.50XP &8- &{#123973}1.80⛁"
+      - "&7Pufferfish &8» &{#3AB4B2}7.00$ &8- &a9.00XP &8- &{#123973}5.80⛁"
+      - "&7Magma Cream &{#3AB4B2}5.00$ &8- &a4.30XP &8- &{#123973}6.00⛁"
+      - "&7Golden Carrot &8» &{#3AB4B2}8.00$ &8- &a11.0XP &8- &{#123973}6.80⛁"
+      - "&7Blaze Powder &{#3AB4B2}6.00$ &8- &a8.00XP &8- &{#123973}4.9⛁"
+      - "&7Ghast Tear &8» &{#3AB4B2}12.00$ &8- &a15.00XP &8- &{#123973}8.50⛁"
+      - "&7Turtle Helmet &{#3AB4B2}20.00$ &8- &a25.00XP &8- &{#123973}13.00⛁"
+      - "&7Phantom Membrane &8» &{#3AB4B2}7.00$ &8- &a11.00XP &8- &{#123973}6.30⛁"
+      - "&7Potion &{#3AB4B2}2.00$ &8- &a4.5XP &8- &{#123973}1.30⛁"
+      - ""
+      - "&7Player Kill &8» &{#3AB4B2}3.00$ &8- &a3.50XP &8- &{#123973}2.00⛁"
+      - "&7Custom Kill (Brewer) &{#3AB4B2}5.00$ &8- &a6.00XP &8- &{#123973}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  "<":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  X:
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the brewer menu."
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoBrewer"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"

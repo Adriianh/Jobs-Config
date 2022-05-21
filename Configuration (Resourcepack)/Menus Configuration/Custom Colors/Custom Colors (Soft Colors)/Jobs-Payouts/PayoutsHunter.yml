@@ -1,0 +1,181 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f갊갊힙"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0='
+      name: "&{#F3DCD4}★ &{#ECC9C7}Hunter &{#F3DCD4}★"
+      lore:
+      - ""
+      - "&7Here you can find all the blocks that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDZhZWE2YWNhMWE4MWIyM2JkOGM1ZTUwOGZlNzY2NDhmYzJlNDFmYWExYzhmYzI2Y2ZhOGJkY2U0MTYzIn19fQ=="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Monsters &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "\uE0E4 &7Zombie &8» &{#F3DCD4}0.80$ &8- &a0.90XP &8- &{#ECC9C7}0.75⛁"
+      - "\uEA01 &7Zombie Villager &8» &{#F3DCD4}0.85$ &8- &a0.95XP &8- &{#ECC9C7}0.79⛁"
+      - "\uEA02 &7Zombie Horse &8» &{#F3DCD4}0.85$ &8- &a0.92XP &8- &{#ECC9C7}0.78⛁"
+      - "\uEA03 &7Husk &8» &{#F3DCD4}0.85$ &8- &a0.95XP &8- &{#ECC9C7}0.78⛁"
+      - "\uEA04 &7Drowned &8» &{#F3DCD4}0.85$ &8- &a0.95XP &8- &{#ECC9C7}0.78⛁"
+      - "\uE0E5 &7Skeleton &8» &{#F3DCD4}0.81$ &8- &a0.93XP &8- &{#ECC9C7}0.76⛁"
+      - "\uEA05 &7Skeleton Horse &8» &{#F3DCD4}0.85$ &8- &a0.95XP &8- &{#ECC9C7}0.80⛁"
+      - "\uEA06 &7Stray &8» &{#F3DCD4}0.88$ &8- &a1.0XP &8- &{#ECC9C7}0.82⛁"
+      - "\uE0E6 &7Spider &8» &{#F3DCD4}0.80$ &8- &a0.82XP &8- &{#ECC9C7}0.75⛁"
+      - "\uEB00 &7Cave Spider &8» &{#F3DCD4}0.82$ &8- &a0.85XP &8- &{#ECC9C7}0.77⛁"
+      - "\uEB01 &7Silverfish &8» &{#F3DCD4}0.50$ &8- &a0.55XP &8- &{#ECC9C7}0.45⛁"
+      - "\uE0F0 &7Creeper &8» &{#F3DCD4}0.85$ &8- &a0.90XP &8- &{#ECC9C7}0.80⛁"
+      - "\uEB02 &7Witch &8» &{#F3DCD4}0.90$ &8- &a1.0XP &8- &{#ECC9C7}0.85⛁"
+      - "\uEB03 &7Phantom &8» &{#F3DCD4}0.90$ &8- &a1.05XP &8- &{#ECC9C7}0.85⛁"
+      - "\uEB04 &7Slime &8» &{#F3DCD4}0.95$ &8- &a1.1XP &8- &{#ECC9C7}0.88⛁"
+      - "\uEB05 &7Iron Golem &8» &{#F3DCD4}3.5$ &8- &a5.0XP &8- &{#ECC9C7}2.8⛁"
+      - "\uEB06 &7Snowman &8» &{#F3DCD4}1.4$ &8- &a2.3XP &8- &{#ECC9C7}1.1⛁"
+      - "\uEC00 &7Pillager &8» &{#F3DCD4}1.8$ &8- &a2.3XP &8- &{#ECC9C7}1.4⛁"
+      - "\uEC01 &7Ravager &8» &{#F3DCD4}4.5$ &8- &a5.4XP &8- &{#ECC9C7}3.0⛁"
+      - "\uEC02 &7Vindicator &8» &{#F3DCD4}3.7$ &8- &a4.4XP &8- &{#ECC9C7}3.4⛁"
+      - "\uEC03 &7Evoker &8» &{#F3DCD4}3.8$ &8- &a4.5XP &8- &{#ECC9C7}3.5⛁"
+      - "\uEC04 &7Vex &8» &{#F3DCD4}2.4$ &8- &a3.4XP &8- &{#ECC9C7}2.0⛁"
+      - ""
+      - "\uEC05 &7Guardian &8» &{#F3DCD4}3.4$ &8- &a3.8XP &8- &{#ECC9C7}3.1⛁"
+      - ""
+      - "\uEC06 &7Blaze &8» &{#F3DCD4}1.8$ &8- &a2.3XP &8- &{#ECC9C7}1.5⛁"
+      - "\uED00 &7Magma Cube &8» &{#F3DCD4}2.4$ &8- &a3.5XP &8- &{#ECC9C7}2.0⛁"
+      - "\uED01 &7Strider &8» &{#F3DCD4}1.3$ &8- &a1.8XP &8- &{#ECC9C7}1.0⛁"
+      - "\uED02 &7Piglin &8» &{#F3DCD4}2.0$ &8- &a2.5XP &8- &{#ECC9C7}1.7⛁"
+      - "\uE0F2 &7Piglin Brute &8» &{#F3DCD4}2.4 &8- &a3.0XP &8- &{#ECC9C7}2.0⛁"
+      - "\uED03 &7Zoglin &8» &{#F3DCD4}1.9$ &8- &a2.3XP &8- &{#ECC9C7}1.7⛁"
+      - "\uED04 &7Ghast &8» &{#F3DCD4}4.5$ &8- &a6.3XP &8- &{#ECC9C7}3.9⛁"
+      - "\uED05 &7Wither Skeleton &8» &{#F3DCD4}5.0$ &8- &a7.4XP &8- &{#ECC9C7}4.4⛁"
+      - ""
+      - "\uE0F1 &7Enderman &8» &{#F3DCD4}5.4$ &8- &a7.8XP &8- &{#ECC9C7}4.6⛁"
+      - "\uED06 &7Shulker &8» &{#F3DCD4}5.6$ &8- &a8.0XP &8- &{#ECC9C7}4.8⛁"
+      - "\uEE00 &7Endermite &8» &{#F3DCD4}3.4$ &8- &a3.9XP &8- &{#ECC9C7}2.8⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhOWNkNThkNGM2N2JjY2M4ZmIxZjVmNzU2YTJkMzgxYzlmZmFjMjkyNGI3ZjRjYjcxYWE5ZmExM2ZiNWMifX19"
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Animals &{#F3DCD4}☆"
+      lore: 
+      - ""
+      - "\uE0F5 &7Chicken &8» &{#F3DCD4}1.05$ &8- &a0.9XP &8- &{#ECC9C7}1.2⛁"
+      - "\uE0F3 &7Cow &8» &{#F3DCD4}1.30$ &8- &a1.5XP &8- &{#ECC9C7}1.15⛁"
+      - "\uEE01 &7Mooshroom &8» &{#F3DCD4}1.50$ &8- &a1.6XP &8- &{#ECC9C7}1.30⛁"
+      - "\uE0F4 &7Pig &8» &{#F3DCD4}1.25$ &8- &a1.4XP &8- &{#ECC9C7}1.10⛁"
+      - "\uE0F6 &7Sheep &8» &{#F3DCD4}1.25$ &8- &a1.4XP &8- &{#ECC9C7}1.10⛁"
+      - "\uEA00 &7Rabbit &8» &{#F3DCD4}1.70$ &8- &a1.6XP &8- &{#ECC9C7}1.30⛁"
+      - "\uEE02 &7Squid &8» &{#F3DCD4}1.55$ &8- &a1.5XP &8- &{#ECC9C7}1.35⛁"
+      - "\uEE03 &7Dolphin &8» &{#F3DCD4}2.2$ &8- &a2.5XP &8- &{#ECC9C7}1.8⛁"
+      - "\uEAA4 &7All Fishes &8» &{#F3DCD4}0.85$ &8- &a1.0XP &8- &{#ECC9C7}0.75⛁"
+      - ""
+      - "\uEE04 &7Bat &8» &{#F3DCD4}0.95$ &8- &a1.2XP &8- &{#ECC9C7}0.90⛁"
+      - "\uEE05 &7Parrot &8» &{#F3DCD4}1.4$ &8- &a1.6XP &8- &{#ECC9C7}1.2⛁"
+      - "\uEE06 &7Bee &8» &{#F3DCD4}1.1$ &8- &a1.4XP &8- &{#ECC9C7}1.0⛁"
+      - ""
+      - "\uEF00 &7Mule &8» &{#F3DCD4}1.8$ &8- &a2.0XP &8- &{#ECC9C7}1.6⛁"
+      - "\uEF01 &7Horse &8» &{#F3DCD4}2.0$ &8- &a2.2XP &8- &{#ECC9C7}1.7⛁"
+      - "\uEF02 &7Donkey &8» &{#F3DCD4}1.8$ &8- &a2.0XP &8- &{#ECC9C7}1.6⛁"
+      - "\uEF03 &7Llama &8» &{#F3DCD4}2.1$ &8- &a2.2XP &8- &{#ECC9C7}1.9⛁"
+      - ""
+      - "\uEF04 &7Ocelot &8» &{#F3DCD4}1.6$ &8- &a1.9XP &8- &{#ECC9C7}1.3⛁"
+      - "\uEF05 &7Cat &8» &{#F3DCD4}1.3$ &8- &a1.7XP &8- &{#ECC9C7}1.0⛁"
+      - "\uEF06 &7Wolf &8» &{#F3DCD4}1.2$ &8- &a1.6XP &8- &{#ECC9C7}0.90⛁"
+      - "\uEAA0 &7Fox &8» &{#F3DCD4}1.5$ &8- &a1.8XP &8- &{#ECC9C7}1.3⛁"
+      - "\uEAA1 &7Polar Bear &8» &{#F3DCD4}1.9$ &8- &a2.2XP &8- &{#ECC9C7}1.6⛁"
+      - "\uEAA2 &7Panda &8» &{#F3DCD4}2.2$ &8- &a2.5XP &8- &{#ECC9C7}1.8⛁"
+      - ""
+      - "\uEAA3 &7Turtle &8» &{#F3DCD4}2.4$ &8- &a2.7XP &8- &{#ECC9C7}2.0⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJmOWU5N2Y0YmU1MzM2MzRiZDFiM2UzNjc5ZWRlYmZmZmI5ODQwMTNhMWQ1OTAyZmEzYzM1ZDM0MzViYzEwIn19fQ=="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Bosses &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "\uEAA5 &7Elder Guardian &8» &{#F3DCD4}350.0$ &8- &a600.0XP &8- &{#ECC9C7}120.0⛁"
+      - "\uEAA6 &7Wither Boss &8» &{#F3DCD4}650.0$ &8- &a850.0XP &8- &{#ECC9C7}250.0⛁"
+      - "\uEAB0 &7Ender Dragon &8» &{#F3DCD4}5000.0$ &8- &a7500.0XP &8- &{#ECC9C7}750.0⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkYmQwNmY5YzkyN2RiNmM3OWZjOWY1ZWYyMzk3YWIwNjU0MTkxMzY0ZDBmNWM4OWY5MjRlNWVkOGQzYWYifX19"
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Extras &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "\uEAB1 &7Villager &8» &{#F3DCD4}8.5$ &8- &a12.4XP &8- &{#ECC9C7}6.8⛁"
+      - "\uEAB2 &7Wandering Trader &8» &{#F3DCD4}12.0$ &8- &a16.5XP &8- &{#ECC9C7}8.4⛁"
+      - ""
+      - "\uEAB3 &7Player Kill &8» &{#F3DCD4}3.00$ &8- &a3.50XP &8- &{#ECC9C7}2.00⛁"
+      - "\uEAB4 &7Custom Kill (All Jobs) &{#F3DCD4}5.00$ &8- &a6.00XP &8- &{#ECC9C7}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&{#F3DCD4}★ &{#ECC9C7}Next Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 3
+      name: "&{#F3DCD4}★ &{#ECC9C7}Previous Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 1
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#F3DCD4}Right-Click &7to return to the hunter menu."
+        - " &7» &{#F3DCD4}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoHunter"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"

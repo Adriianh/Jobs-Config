@@ -1,0 +1,119 @@
+
+# Made by TrMenu Template
+# Date: 2022-02-07 16:51:28
+
+Layout:
+- '#########'
+- '#A      #'
+- '#B      #'
+- '#C      #'
+- '#########'
+- '##<#X#>##'
+Title: "&{#251e3e}ᴊᴏʙs sʜᴏᴘ &8| &{#251e3e}sᴇᴇᴅs ᴍᴇɴᴜ"
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+  'A':
+    display:
+      material: carrot
+      name: "&bCarrot"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f2'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopFood CARROT 2 1 64'
+  'B':
+    display:
+      material: potato
+      name: "&bPotato"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f2'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopFood POTATO 2 1 64'
+  'C':
+    display:
+      material: melon seeds
+      name: "&bMelon Seeds"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f5'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopFood MELON_SEEDS 5 1 64'
+  ">":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19'
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the main menu. "
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsShop"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

@@ -1,0 +1,65 @@
+#Icons - Jobs Config
+close_icon:
+  displayname: "<red>Close Button"
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: "item/handheld"
+    textures:
+      - icons/close_button.png
+next_page:
+  displayname: "<white>Next Page"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/next_page.png
+previous_page:
+  displayname: "<white>Previous Page"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/previous_page.png
+barrier_icon:
+  displayname: "<red>Barrier Icon"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/barrier_icon.png
+gray_alert:
+  displayname: "<gray>Gray Alert Icon"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/gray_alert.png
+green_alert:
+  displayname: "<green>Green Alert Icon"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/green_alert.png
+yellow_alert:
+  displayname: "<yellow>Yellow Alert Icon"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/yellow_alert.png
+red_alert:
+  displayname: "<red>Red Alert Icon"
+  material: PAPER
+  Pack:
+    generate_model: true 
+    parent_model: "item/handheld"
+    textures:
+      - icons/red_alert.png

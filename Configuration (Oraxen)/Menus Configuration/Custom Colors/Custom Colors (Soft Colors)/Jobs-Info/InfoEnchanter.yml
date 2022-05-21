@@ -1,0 +1,157 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_info_sub_menu%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+      name: "&{#F3DCD4}★ &{#ECC9C7}Enchanter &{#F3DCD4}★"
+      lore:
+        - ""
+        - "&7Hello, &{#F3DCD4}%player_name%&7!"
+        - ""
+        - "&7In this little guide we will"
+        - "&7teach you the basics about the"
+        - "&7the work of a enchanter."
+        - ""
+        - "&7An enchanter is the person who is dedicated"
+        - "&7 to using magic to achieve enchantments"
+        - "&7through an enchantment table."
+        - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ=="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Earnings &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "&7The gains of an Enchanter are based on magic."
+      - "&7(Enchant Objects)"
+      - ""
+      - "&7You'll receive money depending on how valuable the item"
+      - "&{#F3DCD4}you're going to enchant is."
+      - ""
+      - "&7Go to the next &{#F3DCD4}head&7!"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Payouts &{#F3DCD4}☆"
+      lore: 
+      - ""
+      - "Click here to see the list of payouts"
+      - "(The money you will receive for each item)"
+      - ""
+      - " &7» &{#F3DCD4}Click &7to see payouts."
+      - ""
+    actions:
+      all:
+        - "open: PayoutsEnchanter"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBjZDEzMjIzYThkOWMxNzNjZWRjZTZjNGJlYmViYTA2YTI0YTFiYTI3NWRkM2ViNWM3OTMzZjlhNzRiYTAxMSJ9fX0="
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Main Items &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "%oraxen_netherite_chestplate% &7Armors           "
+      - "%oraxen_diamond_sword% &7Swords"
+      - "%oraxen_iron_axe% &7Axes"
+      - "%oraxen_golden_pickaxe% &7Pickaxes"
+      - "%oraxen_stone_shovel% &7Shovels"
+      - "%oraxen_bow% &7Bow and Crossbow"
+      - "%oraxen_trident% &7Trident"
+      - "%oraxen_shield% &7Shield"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19"
+      name: "&{#F3DCD4}☆ &{#ECC9C7}Stats and Rewards &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "&7From here you can see your level and claim your rewards."
+      - ""
+      - "&7You will be rewarded with something every time you level up"
+      - "&7a job, each job will have its own rewards."
+      - ""
+      - "&7If you are one of the highest level people on the server, you"
+      - "&7will appear in the leaderboards menu."
+      - ""
+      - " &7» &{#F3DCD4}Right-Click &7to see your stats."
+      - " &7» &{#F3DCD4}Left-Click &7to see your rewards."
+      - ""
+    actions:
+      right:
+        - "open: JobsStats"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - "open: RewardsEnchanter"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#F3DCD4}★ &{#ECC9C7}Next Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#F3DCD4}★ &{#ECC9C7}Previous Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#F3DCD4}Right-Click &7to return to the info menu."
+        - " &7» &{#F3DCD4}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsInformation2"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

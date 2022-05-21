@@ -1,0 +1,175 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f갊갊힙"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFlODI2ZTdkYjg0NDdmYmQ2Mjk4OGZlZTBlODNiYmRkNjk0Mzc4YWVmMTJkMjU3MmU5NzVmMDU5YTU0OTkwIn19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Woodcutter &{#D7B9AA}★"
+      lore:
+        - ""
+        - "&7Hello, &{#D7B9AA}%player_name%&7!"
+        - ""
+        - "&7In this little guide we will"
+        - "&7teach you the basics about the"
+        - "&7the work of a lumberjack."
+        - ""
+        - "&7A lumberjack is cutting down trees."
+        - "&7Each type of wood will have a different"
+        - "&7profit, we will show you later."
+        - ""
+        - "&7(If you cut down a tree in real life, please"
+        - "&7plant more. The &aworld &7will thank you <3)"
+        - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ=="
+      name: "&{#D7B9AA}☆ &{#AA9183}Earnings &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "&7As previous mentions, a &{#D7B9AA}lumberjack's &7job"
+      - "&7is to cut down trees."
+      - ""
+      - "&7So, your early income will be based on"
+      - "&{#D7B9AA}felling&7, each type of wood will have a"
+      - "&7different payment which we will show you"
+      - "&7in no time. Similarly, you can get money,"
+      - "&7experience, and points through &{#D7B9AA}murder&7."
+      - ""
+      - "&7Go to the next &{#D7B9AA}head&7!"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Payouts &{#D7B9AA}☆"
+      lore: 
+      - ""
+      - "Click here to see the list of payouts"
+      - "(The money you will receive for each block)"
+      - ""
+      - " &7» &{#D7B9AA}Click &7to see payouts."
+      - ""
+    actions:
+      all:
+        - "open: PayoutsWoodcutter"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+    
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBjZDEzMjIzYThkOWMxNzNjZWRjZTZjNGJlYmViYTA2YTI0YTFiYTI3NWRkM2ViNWM3OTMzZjlhNzRiYTAxMSJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Main Blocks &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "\uE000 &7Oak Log           "
+      - "\uE001 &7Birch Log"
+      - "\uE002 &7Spruce Log"
+      - "\uE003 &7Acacia Log"
+      - "\uE004 &7Dark Oak Log"
+      - "\uE005 &7Jungle Log"
+      - ""
+      - "\uE0A1 &7Stripped Oak Log"
+      - "\uE0A2 &7Stripped Birch Log"
+      - "\uE0A3 &7Stripped Spruce Log"
+      - "\uE0A4 &7Stripped Acacia Log"
+      - "\uE0A5 &7Stripped Dark Oak Log        "
+      - "\uE0A6 &7Stripped Jungle Log"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19"
+      name: "&{#D7B9AA}☆ &{#AA9183}Stats and Rewards &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "&7From here you can see your level and claim your rewards."
+      - ""
+      - "&7You will be rewarded with something every time you level up"
+      - "&7a job, each job will have its own rewards."
+      - ""
+      - "&7If you are one of the highest level people on the server, you"
+      - "&7will appear in the leaderboards menu."
+      - ""
+      - " &7» &{#D7B9AA}Right-Click &7to see your stats."
+      - " &7» &{#D7B9AA}Left-Click &7to see your rewards."
+      - ""
+    actions:
+      right:
+        - "open: JobsStats"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - "open: RewardsWoodcutter"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&{#D7B9AA}★ &{#AA9183}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 3
+      name: "&{#D7B9AA}★ &{#AA9183}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 1
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the info menu."
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsInformation"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

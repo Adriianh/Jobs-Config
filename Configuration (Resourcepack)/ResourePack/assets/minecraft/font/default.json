@@ -1,0 +1,2088 @@
+{
+    "providers": [
+        
+            {"ascent": 19, "chars": ["갉"], "file": "custom/guis/jobs_main.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힠"], "file": "custom/guis/jobs_browse.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힟"], "file": "custom/guis/jobs_info_54.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힝"], "file": "custom/guis/jobs_info_36.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힜"], "file": "custom/guis/jobs_shop_main.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힛"], "file": "custom/guis/jobs_shop_categories.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["휨"], "file": "custom/guis/jobs_shop_categories_armor.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힚"], "file": "custom/guis/jobs_menu_stats.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힙"], "file": "custom/guis/jobs_info_sub_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힘"], "file": "custom/guis/jobs_info_sub_menu2.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힗"], "file": "custom/guis/jobs_info_sub_menu3.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힖"], "file": "custom/guis/jobs_info_sub_menu6.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힕"], "file": "custom/guis/jobs_tops_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힑"], "file": "custom/guis/jobs_boost_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힔"], "file": "custom/guis/jobs_options_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힓"], "file": "custom/guis/jobs_profile_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힒"], "file": "custom/guis/jobs_server_stats_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힎"], "file": "custom/guis/jobs_rewards_54.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힏"], "file": "custom/guis/jobs_rewards_36.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힌"], "file": "custom/guis/jobs_purchase_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힍"], "file": "custom/guis/jobs_sell_menu.png", "height": 256, "type": "bitmap"},
+            {"ascent": 19, "chars": ["힋"], "file": "custom/guis/jobs_boost_others.png", "height": 256, "type": "bitmap"},
+            {"ascent": -32768, "chars": ["갊"], "file": "custom/guis/pixel_split.png", "height": -6, "type": "bitmap"},
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/oak.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE000"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/birch.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE001"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/spruce.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE002"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/acacia.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE003"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dark_oak.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE004"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/jungle.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE005"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_oak.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0A1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_birch.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0A2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_spruce.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0A3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_acacia.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0A4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_dark_oak.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0A5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_jungle.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0A6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/coal.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/iron.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/gold.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/quartz.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/lapislazuli.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/redstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/emerald.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0B6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/diamond.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/ancient_debris.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cobblestone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/granite.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/diorite.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/andesite.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0C6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/netherrack.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE00A"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/leaves.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE00B"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/glass.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE00C"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE00D"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/terracota.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE00E"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/concrete.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE00F"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/crafting_table.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0D1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dirt.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0D2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/coarse_dirt.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0D3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/grass_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0D4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/sand.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0D5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/red_sand.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0D6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/clay.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E0"]
+                }
+                ,
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/gravel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E1"]
+                }
+                ,
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/soul_sand.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/soul_soil.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/zombie.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/skeleton.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/spider.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0E6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/creeper.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/enderman.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/piglin.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cow.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/pig.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chicken.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/sheep.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uE0F6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/rabbit.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA00"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/zombie_villager.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA01"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/zombie_horse.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA02"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/husk.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA03"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/drowned.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA04"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/skeleton_horse.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA05"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stray.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEA06"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cave_spider.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB00"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/silverfish.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB01"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/witch.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB02"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/phantom.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB03"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/slime.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB04"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/iron_golem.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB05"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/snowman.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEB06"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/pillager.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC00"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/ravager.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC01"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/vindicator.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC02"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/evoker.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC03"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/vex.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC04"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/guardian.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC05"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/blaze.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEC06"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/magma_cube.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED00"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/strider.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED01"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/piglin_brute.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED02"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/zoglin.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED03"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/ghast.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED04"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/wither_skeleton.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED05"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/shulker.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uED06"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/endermite.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE00"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/mooshroom.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE01"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/squid.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE02"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dolphin.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE03"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/bat.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE04"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/parrot.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE05"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/bee.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEE06"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/mule.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF00"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/horse.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF01"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/donkey.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF02"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/llama.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF03"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/ocelot.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF04"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cat.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF05"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/wolf.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEF06"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/fox.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/polar_bear.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/panda.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/turtle.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/salmon.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/elder_guardian.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/wither_boss.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAA6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/ender_dragon.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/villager.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/wandering_trader.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/player.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/netherite_sword.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_speed.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_strength.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAB6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_poison.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_weakness.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_slowness.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_leaping.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_regeneration.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_fireresistance.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_instanthealth.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAC6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_nightvision.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_waterbreathing.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_invisibility.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_slowfalling.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_luck.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_harming.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAD6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/nether_wart.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/redstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/glowstone_dust.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/fermented_spider_eye.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/gunpowder.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/dragon_breath.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/sugar.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAE6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/rabbit_foot.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/glistering_melon_slice.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/spider_eye.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/pufferfish.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/magma_cream.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_carrot.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/blaze_powder.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEAF6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/ghast_tear.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/turtle_helmet.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/phantom_membrane.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/potion.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/brewing_stand.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/netherite_axe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/potion_turtlemaster.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBA6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stem_crimson.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stem_warped.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/crimson_hyphae.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/warped_hyphae.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_crimson_stem.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_warped_stem.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_crimson_hyphae.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBB6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/stripped_warped_hyphae.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/oak_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/birch_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/spruce_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/acacia_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dark_oak_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/jungle_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBC6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/crimson_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/warped_planks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/nether_gold_ore.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/mossy_cobblestone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/red_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/blackstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/obsidian.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBD6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/tube_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/brain_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/bubble_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/fire_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/horn_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dead_tube_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dead_brain_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBE6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dead_bubble_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dead_fire_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dead_horn_coral_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/nether_bricks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cracked_nether_bricks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chiseled_nether_bricks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/smooth_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEBF6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cut_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chiseled_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/smooth_red_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cut_red_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chiseled_red_sandstone.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/prismarine.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/prismarine_bricks.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECA6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/dark_prismarine.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/purpur_block.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/purpur_pillar.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/netherite_pickaxe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/netherite_shovel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/netherite_helmet.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/netherite_chestplate.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECB6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/netherite_leggings.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/netherite_boots.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/diamond_helmet.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/diamond_chestplate.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/diamond_leggings.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/diamond_boots.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/iron_helmet.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECC6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/iron_chestplate.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/iron_leggings.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/iron_boots.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/golden_helmet.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/golden_chestplate.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/golden_leggings.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/golden_boots.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECD6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chainmail_helmet.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chainmail_chestplate.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chainmail_leggings.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/chainmail_boots.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/leather_cap.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/leather_tunic.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/leather_pants.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECE6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/leather_boots.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/diamond_sword.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/iron_sword.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_sword.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/stone_sword.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/wooden_sword.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/bow.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uECF6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/crossbow_arrow.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/trident.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/shield.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/netherite_hoe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/diamond_pickaxe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/diamond_axe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/diamond_shovel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDE6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/diamond_hoe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/iron_pickaxe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/iron_axe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/iron_shovel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/iron_hoe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_pickaxe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_axe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDA6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_shovel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_hoe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/stone_pickaxe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/stone_axe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/stone_shovel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/stone_hoe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/wooden_pickaxe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDB6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/wooden_axe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/wooden_shovel.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/wooden_hoe.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cod.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/tropical_fish.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/fishing_rod.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/potato.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDC6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cod.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/salmon.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/chicken.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/porkchop.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/beef.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/mutton.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/rabbit.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDD6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/apple.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/bread.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/baked_potato.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/carrot.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/beetroot_soup.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/dried_kelp.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/melon_slice.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEB6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/sweet_berries.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/mushroom_stew.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_cod.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_salmon.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_chicken.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_porkchop.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_beef.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEDF6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_mutton.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cooked_rabbit.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/rabbit_stew.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/pumpkin_pie.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cake.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cookie.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/golden_apple.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEA6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/enchanted_golden_apple.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:block/oak_sapling.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/feather.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/wheat.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/sugar_cane.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/beetroot.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/cactus.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEC6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/cocoa_beans.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/kelp.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/pumpkin.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/melon.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED3"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/sweet_berries.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED4"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:block/brown_mushroom.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED5"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:block/red_mushroom.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEED6"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:custom/white_wool.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEE0"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/milk_bucket.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEE1"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/leather.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEE2"]
+                },
+                {
+                    "type": "bitmap",
+                    "file": "minecraft:item/honeycomb.png",
+                    "ascent": 9,
+                    "height": 9,
+                    "chars": ["\uEEE3"]
+                }
+    ]
+}

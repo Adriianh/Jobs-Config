@@ -1,0 +1,159 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&{#D7B9AA}ᴊᴏʙs &8| &{#D7B9AA}ᴍɪɴᴇʀ ʙʟᴏᴄᴋs"
+Layout:
+- '#########'
+- '####-####'
+- '#########'
+- '#A#B#C#D#'
+- '#########'
+- '##<#X#>##'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU1NWY5YTQ4YWNjNDJhMDFiODgxYWY3MjZmZmMxYWMxNzg3ODllMzI3NGNiMmMxY2RiMTJmNTdjIn19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Miner &{#D7B9AA}★"
+      lore:
+      - ""
+      - "&7Here you can find all the blocks that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Ores &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "&7Coal Ore &8» &{#D7B9AA}0.80$ &8- &a1.0XP &8- &{#AA9183}0.75⛁"
+      - "&7Iron Ore &8» &{#D7B9AA}0.83$ &8- &a1.02XP &8- &{#AA9183}0.78⛁"
+      - "&7Gold Ore &8» &{#D7B9AA}0.85$ &8- &a1.05XP &8- &{#AA9183}0.80⛁"
+      - "&7Quartz Ore &8» &{#D7B9AA}0.80$ &8- &a1.0XP &8- &{#AA9183}0.75⛁"
+      - "&7Nether Gold Ore &8» &{#D7B9AA}0.80$ &8- &a1.0XP &8- &{#AA9183}0.75⛁"
+      - "&7Lapis Lazuli Ore &8» &{#D7B9AA}0.82$ &8- &a1.02XP &8- &{#AA9183}0.78⛁"
+      - "&7Redstone Ore &8» &{#D7B9AA}0.82$ &8- &a1.02XP &8- &{#AA9183}0.78⛁"
+      - "&7Emerald Ore &8» &{#D7B9AA}0.88$ &8- &a1.10XP &8- &{#AA9183}0.82⛁"
+      - "&7Diamond Ore &8» &{#D7B9AA}0.95$ &8- &a1.15XP &8- &{#AA9183}0.85⛁"
+      - "&7Ancient Debris &8» &{#D7B9AA}1.10$ &8- &a1.50XP &8- &{#AA9183}1.00⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmODMxM2EyODg2ZWQ5OTBhM2QzODE3MTYzNGNjN2JhOTUyOGJiMDBkNGI1M2NiMGQ3MTJiMWNiMjA2YmQ0ZiJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Stone and derivatives &{#D7B9AA}☆"
+      lore: 
+      - ""
+      - "&7Cobblestone &8» &{#D7B9AA}0.40$ &8- &a0.50XP &8- &{#AA9183}0.35⛁"
+      - "&7Mossy Cobblestone &8» &{#D7B9AA}0.43$ &8- &a0.55XP &8- &{#AA9183}0.38⛁"
+      - "&7Infested Cobblestone &8» &{#D7B9AA}0.45$ &8- &a0.57XP &8- &{#AA9183}0.40⛁"
+      - "&7Stone &8» &{#D7B9AA}0.48$ &8- &a0.60XP &8- &{#AA9183}0.42⛁"
+      - "&7Infested Stone &8» &{#D7B9AA}0.50$ &8- &a0.63XP &8- &{#AA9183}0.44⛁"
+      - "&7Granite &8» &{#D7B9AA}0.42$ &8- &a0.52XP &8- &{#AA9183}0.38⛁"
+      - "&7Diorite &8» &{#D7B9AA}0.42$ &8- &a0.52XP &8- &{#AA9183}0.38⛁"
+      - "&7Andesite &8» &{#D7B9AA}0.42$ &8- &a0.52XP &8- &{#AA9183}0.38⛁"
+      - ""
+      - "&7Sandstone &8» &{#D7B9AA}0.35$ &8- &a0.40XP &8- &{#AA9183}0.30⛁"
+      - "&7Red Sandstone &8» &{#D7B9AA}0.38$ &8- &a0.44XP &8- &{#AA9183}0.34⛁"
+      - ""
+      - "&7Blackstone &8» &{#D7B9AA}0.50$ &8- &a0.55XP &8- &{#AA9183}0.48⛁"
+      - "&7Obsidian &8» &{#D7B9AA}0.55$ &8- &a0.60XP &8- &{#AA9183}0.50⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzlmYzNjZjU1MDhkNDBjMTQ2OTlkNWJmN2YyNTI3NTllMTk1NmFmOWE2NmQxNWE2YzM4NTQzNzhjNjFmNmQ5YSJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Coral and Death Coral &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "&7Tube Coral Block &8» &{#D7B9AA}0.60$ &8- &a0.65XP &8- &{#AA9183}0.58⛁"
+      - "&7Brain Coral Block &8» &{#D7B9AA}0.60$ &8- &a0.65XP &8- &{#AA9183}0.58⛁"
+      - "&7Bubble Coral Block &8» &{#D7B9AA}0.60$ &8- &a0.65XP &8- &{#AA9183}0.58⛁"
+      - "&7Fire Coral Block &8» &{#D7B9AA}0.60$ &8- &a0.65XP &8- &{#AA9183}0.58⛁"
+      - "&7Horn Coral Block &8» &{#D7B9AA}0.60$ &8- &a0.65XP &8- &{#AA9183}0.58⛁"
+      - ""
+      - "&7Dead Tube Coral Block &8» &{#D7B9AA}0.62$ &8- &a0.68XP &8- &{#AA9183}0.60⛁"
+      - "&7Dead Brain Coral Block &8» &{#D7B9AA}0.62$ &8- &a0.68XP &8- &{#AA9183}0.60⛁"
+      - "&7Dead Bubble Coral Block &8» &{#D7B9AA}0.62$ &8- &a0.68XP &8- &{#AA9183}0.60⛁"
+      - "&7Dead Fire Coral Block &8» &{#D7B9AA}0.62$ &8- &a0.68XP &8- &{#AA9183}0.60⛁"
+      - "&7Dead Horn Coral Block &8» &{#D7B9AA}0.62$ &8- &a0.68XP &8- &{#AA9183}0.60⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTliOTRlNWFkOTNkYzdhZGY1OTAwNTZkNGExZTAzNDA5MjUzZGZlY2ZjODhlODMxNTQxYzhkZjU0ZmYwNWNhNiJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Extras &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "&7Netherrack &8» &{#D7B9AA}0.25$ &8- &a0.30XP &8- &{#AA9183}0.15⛁"
+      - "&7Nether Bricks &8» &{#D7B9AA}0.45$ &8- &a0.50XP &8- &{#AA9183}0.40⛁"
+      - "&7Cracked Nether Bricks &8» &{#D7B9AA}0.48$ &8- &a0.53XP &8- &{#AA9183}0.43⛁"
+      - "&7Chiseled Nether Bricks &8» &{#D7B9AA}0.48$ &8- &a0.53XP &8- &{#AA9183}0.43⛁"
+      - ""
+      - "&7Smooth Sandstone &8» &{#D7B9AA}0.37$ &8- &a0.42XP &8- &{#AA9183}0.32⛁"
+      - "&7Cut Sandstone &8» &{#D7B9AA}0.37$ &8- &a0.42XP &8- &{#AA9183}0.32⛁"
+      - "&7Chiseled Sandstone &8» &{#D7B9AA}0.37$ &8- &a0.42XP &8- &{#AA9183}0.32⛁"
+      - "&7Smooth Red Sandstone &8» &{#D7B9AA}0.37$ &8- &a0.42XP &8- &{#AA9183}0.32⛁"
+      - "&7Cut Red Sandstone &8» &{#D7B9AA}0.37$ &8- &a0.42XP &8- &{#AA9183}0.32⛁"
+      - "&7Chiseled Red Sandstone &8» &{#D7B9AA}0.37$ &8- &a0.42XP &8- &{#AA9183}0.32⛁"
+      - ""
+      - "&7Prismarine &8» &{#D7B9AA}0.50$ &8- &a0.60XP &8- &{#AA9183}0.45⛁"
+      - "&7Prismarine Bricks &8» &{#D7B9AA}0.53$ &8- &a0.63XP &8- &{#AA9183}0.48⛁"
+      - "&7Dark Prismarine &8» &{#D7B9AA}0.55$ &8- &a0.63XP &8- &{#AA9183}0.50⛁"
+      - ""
+      - "&7Purpur Block &8» &{#D7B9AA}0.55$ &8- &a0.65XP &8- &{#AA9183}0.50⛁"
+      - "&7Purpur Pilar &8» &{#D7B9AA}0.57$ &8- &a0.68P &8- &{#AA9183}0.52⛁"
+      - ""
+      - "&7Player Kill &8» &{#D7B9AA}3.00$ &8- &a3.50XP &8- &{#AA9183}2.00⛁"
+      - "&7Custom Kill (Miner) &8» &{#D7B9AA}5.00$ &8- &a6.00XP &8- &{#AA9183}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      name: "&{#D7B9AA}★ &{#AA9183}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  "<":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      name: "&{#D7B9AA}★ &{#AA9183}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  X:
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the miner menu."
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoMiner"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"

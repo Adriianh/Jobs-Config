@@ -1,0 +1,227 @@
+Title: "&{#D7B9AA}ᴊᴏʙs &8| &{#D7B9AA}sᴇʀᴠᴇʀ sᴛᴀᴛs"
+
+Layout:
+- '#########'
+- '#A#B#C#D#'
+- '#E#F#G#H#'
+- '#I#J#K#L#'
+- '####*####'
+- '##<#X#>##'
+
+Bindings: 
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? server stats'
+
+Icons:
+  '#':
+    display:
+      material: black stained glass panel
+
+  '*':
+    update: [ -1, 5, 20, -1 ]
+    display:
+      material: <skull:9842dc3b917b1a796c303e15105474a8e315de7982b6ca54feafb5a4d13d4e95>
+      name: " &{#D7B9AA}★ &{#AA9183}Server Stats &{#D7B9AA}★ "
+      lore:
+        - ''
+        - '&8| &7RAM: &2%server_ram_used%/%server_ram_total% &7MB'
+        - '&8[ %progress_bar_{server_ram_used}_m:{server_ram_total}_c:&3■_p:&7■_r:&8■_l:20% &8]'
+        - ''
+        - '&b${flash_➥} &3Left-Click &7to display more info.'
+    actions:
+      left:
+        - 'set-meta: icon_server_hide true'
+        - 'sound: BLOCK_NOTE_BLOCK_BIT-1-0'
+        - 'refresh: *'
+    icons:
+      - condition: 'check &icon_server_hide is *true'
+        priority: 5
+        inherit: true
+        display:
+          lore:
+            - ''
+            - '&8| &7RAM: &2%server_ram_used%/%server_ram_total% &7MB'
+            - '&8[ %progress_bar_{server_ram_used}_m:{server_ram_total}_c:&3■_p:&7■_r:&8■_l:20% &8]'
+            - ''
+            - '&8| &7ONLINE: &e%server_online% &6${js: utils.getOnlinePlayers().size() > 1 ? "Players" : "Player"}'
+            - '&8| &7UPTIME: &e%server_uptime%'
+            - '&8| &7TPS: &a%server_tps%'
+            - ''
+            - '&a${flash_➥} &2Right-Click &7to hide extra-info.'
+        actions:
+          right:
+            - 'rem-meta: icon_server_hide'
+            - 'sound: BLOCK_NOTE_BLOCK_BIT-1-2'
+            - 'refresh: *'
+
+  'A':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFlODI2ZTdkYjg0NDdmYmQ2Mjk4OGZlZTBlODNiYmRkNjk0Mzc4YWVmMTJkMjU3MmU5NzVmMDU5YTU0OTkwIn19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Woodcutter &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_woodcutter%'
+        - ''
+  'B':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU1NWY5YTQ4YWNjNDJhMDFiODgxYWY3MjZmZmMxYWMxNzg3ODllMzI3NGNiMmMxY2RiMTJmNTdjIn19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Miner &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_miner%'
+        - ''
+  'C':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU4MmYyMzM4ZTcyZTQ3ZTQ1NzQ5Njk3NjlmYTgxYzgyZGY2NzI1NzkyZTYxNmQyZmRkZjRhN2ZlZTQ5Y2VhIn19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Builder &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_builder%'
+        - ''
+  'D':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFiNDNiOGMzZDM0ZjEyNWU1YTNmOGI5MmNkNDNkZmQxNGM2MjQwMmMzMzI5ODQ2MWQ0ZDRkN2NlMmQzYWVhIn19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Digger &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_digger%'
+        - ''
+  'E':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUzYzg5YTJhZGM0ZWU1YmExZjA1ZTVkNjRlOWI0YmI2YjMyMzJjNzIwMjhlMGNiZTM1ZTFiNzNkMGM1N2RjMSJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Explorer &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_explorer%'
+        - ''
+  'F':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Hunter &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_hunter%'
+        - ''
+  'G':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNkYzBmZWI3MDAxZTJjMTBmZDUwNjZlNTAxYjg3ZTNkNjQ3OTMwOTJiODVhNTBjODU2ZDk2MmY4YmU5MmM3OCJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Crafter &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_crafter%'
+        - ''
+  'H':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYwNmFiMjhlZmY1ZTdiMTM5M2M1ODIyMjZjYTlkOTcyMjk0NjlhMWQ1ODUyZjcyZmQ1MWNiNTg4NzUifX19'
+      name: "&{#D7B9AA}★ &{#AA9183}Brewer &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_brewer%'
+        - ''
+  'I':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+      name: "&{#D7B9AA}★ &{#AA9183}Enchanter &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_enchanter%'
+        - ''
+  'J':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI5Njc2ZWU2ZGE1YTM1MjFjYjQ3ODQ2Mzc3OWI4NzExZTMxODg3Y2Q5YTZkOWZkZWNmY2JjNTUwODNlNTUxNSJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Weaponsmith &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_weaponsmith%'
+        - ''
+  'K':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5MWExNDg2N2VmOTg2Nzg3MmRjZGM4YzU0ZTNkNGNmYjVlNTI1ZGNjZmI3Zjk5YTczMTRhNDVmYWViMzAxZSJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Fisher &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_fisherman%'
+        - ''
+  'L':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzNTJiOTc5YTQ4OWRmYzhiYTdiMWUxMjU5NzYzODQzZDc3MmYzOWYxNDIwZjg2NzI1MzdhYTc1MjJkYzFiZiJ9fX0='
+      name: "&{#D7B9AA}★ &{#AA9183}Farmer &{#D7B9AA}★"
+      lore:
+        - '&7'
+        - ' &7• &bJob Info:'
+        - '     &7Total Workers: &f%jobsr_totalplayers_farmer%'
+        - ''
+  ">":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19'
+      name: "&{#D7B9AA}★ &{#AA9183}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+      name: "&{#D7B9AA}★ &{#AA9183}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the main menu. "
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsMenu"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+
+Functions:
+  flash: |-
+    function flash() {
+      var display = new Date().getSeconds() % 2 == 0
+      return display ? args[0] : "  "
+    }
+    flash()

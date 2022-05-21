@@ -1,0 +1,393 @@
+# Made by TrMenu Template
+# Date: 2022-01-16 13:23:37
+
+Layout:
+- '         '
+- ' -@|=ABC '
+- '  DEFGH  '
+- '   I J   '
+- '         '
+- '  < X >  '
+
+Options:
+  arguments: false
+Bindings: 
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? top'
+    - '(?i)job(-)?(gui)?(s)? tops'
+    - '(?i)job(-)?(gui)?(s)? leaderboard'
+
+Title: "&f갊갊힕"
+Icons:
+  '@':
+    update: [20, 20, 20, 20]
+    display:
+      material: diamond
+      name: "&{#3AB4B2} ★ &{#123973}Miner &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bMiner Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_miner_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_miner_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_miner_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_miner_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_miner_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_miner_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_miner_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_miner_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_miner_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_miner_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_miner_10_alltime_value%'
+        - ''
+  A:
+    update: [20, 20, 20, 20]
+    display:
+      material: amethyst shard
+      name: "&{#3AB4B2} ★ &{#123973}Explorer &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bExplorer Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_explorer_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_explorer_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_explorer_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_explorer_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_explorer_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_explorer_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_explorer_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_explorer_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_explorer_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_explorer_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_explorer_10_alltime_value%'
+        - ''
+  B:
+    update: [20, 20, 20, 20]
+    display:
+      material: copper ingot
+      name: "&{#3AB4B2} ★ &{#123973}Hunter &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bHunter Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_hunter_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_hunter_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_hunter_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_hunter_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_hunter_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_hunter_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_hunter_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_hunter_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_hunter_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_hunter_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_hunter_10_alltime_value%'
+        - ''
+  '#':
+    display:
+      material: black stained glass pane
+  C:
+    update: [20, 20, 20, 20]
+    display:
+      material: coal
+      name: "&{#3AB4B2} ★ &{#123973}Crafter &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bCrafter Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_crafter_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_crafter_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_crafter_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_crafter_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_crafter_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_crafter_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_crafter_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_crafter_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_crafter_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_crafter_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_crafter_10_alltime_value%'
+        - ''
+  D:
+    update: [20, 20, 20, 20]
+    display:
+      material: gold ingot
+      name: "&{#3AB4B2} ★ &{#123973}Brewer &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bBrewer Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_brewer_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_brewer_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_brewer_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_brewer_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_brewer_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_brewer_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_brewer_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_brewer_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_brewer_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_brewer_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_brewer_10_alltime_value%'
+        - ''
+  E:
+    update: [20, 20, 20, 20]
+    display:
+      material: netherite ingot
+      name: "&{#3AB4B2} ★ &{#123973}Enchanter &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bEnchanter Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_enchanter_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_enchanter_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_enchanter_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_enchanter_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_enchanter_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_enchanter_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_enchanter_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_enchanter_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_enchanter_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_enchanter_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_enchanter_10_alltime_value%'
+        - ''
+  F:
+    update: [20, 20, 20, 20]
+    display:
+      material: brick
+      name: "&{#3AB4B2} ★ &{#123973}Weaponsmith &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bWeaponsmith Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_weaponsmith_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_weaponsmith_10_alltime_value%'
+        - ''
+  G:
+    update: [20, 20, 20, 20]
+    display:
+      material: quartz
+      name: "&{#3AB4B2} ★ &{#123973}Fisher &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bFisher Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_fisherman_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_fisherman_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_fisherman_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_fisherman_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_fisherman_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_fisherman_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_fisherman_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_fisherman_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_fisherman_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_fisherman_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_10_alltime_value%'
+        - ''
+  H:
+    update: [20, 20, 20, 20]
+    display:
+      material: iron ingot
+      name: "&{#3AB4B2} ★ &{#123973}Farmer &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bFarmer Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_farmer_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_farmer_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_farmer_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_farmer_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_farmer_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_farmer_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_farmer_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_farmer_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_farmer_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_farmer_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_farmer_10_alltime_value%'
+        - ''
+  I:
+    update: [20, 20, 20, 20]
+    display:
+      material: raw iron
+      name: "&{#3AB4B2} ★ &{#123973}Points &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bPoints Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_points_1_alltime_name% - %ajlb_lb_jobsr_user_points_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_points_2_alltime_name% - %ajlb_lb_jobsr_user_points_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_points_3_alltime_name% - %ajlb_lb_jobsr_user_points_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_points_4_alltime_name% - %ajlb_lb_jobsr_user_points_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_points_5_alltime_name% - %ajlb_lb_jobsr_user_points_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_points_6_alltime_name% - %ajlb_lb_jobsr_user_points_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_points_7_alltime_name% - %ajlb_lb_jobsr_user_points_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_points_8_alltime_name% - %ajlb_lb_jobsr_user_points_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_points_9_alltime_name% - %ajlb_lb_jobsr_user_points_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_points_10_alltime_name% - %ajlb_lb_jobsr_user_points_10_alltime_value%'
+        - ''
+  J:
+    update: [20, 20, 20, 20]
+    display:
+      material: raw gold
+      name: "&{#3AB4B2} ★ &{#123973}Money &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bMoney Top (1-10):'
+        - '      &71.- %ajlb_lb_vault_eco_balance_1_alltime_name% - %ajlb_lb_vault_eco_balance_1_alltime_value%'
+        - '      &72.- %ajlb_lb_vault_eco_balance_2_alltime_name% - %ajlb_lb_vault_eco_balance_2_alltime_value%'
+        - '      &73.- %ajlb_lb_vault_eco_balance_3_alltime_name% - %ajlb_lb_vault_eco_balance_4_alltime_value%'
+        - '      &74.- %ajlb_lb_vault_eco_balance_4_alltime_name% - %ajlb_lb_vault_eco_balance_4_alltime_value%'
+        - '      &75.- %ajlb_lb_vault_eco_balance_5_alltime_name% - %ajlb_lb_vault_eco_balance_5_alltime_value%'
+        - '      &76.- %ajlb_lb_vault_eco_balance_6_alltime_name% - %ajlb_lb_vault_eco_balance_6_alltime_value%'
+        - '      &77.- %ajlb_lb_vault_eco_balance_7_alltime_name% - %ajlb_lb_vault_eco_balance_7_alltime_value%'
+        - '      &78.- %ajlb_lb_vault_eco_balance_8_alltime_name% - %ajlb_lb_vault_eco_balance_8_alltime_value%'
+        - '      &79.- %ajlb_lb_vault_eco_balance_9_alltime_name% - %ajlb_lb_vault_eco_balance_9_alltime_value%'
+        - '     &710.- %ajlb_lb_vault_eco_balance_10_alltime_name% - %ajlb_lb_vault_eco_balance_10_alltime_value%'
+        - ''
+  '-':
+    update: [20, 20, 20, 20]
+    display:
+      material: charcoal
+      name: "&{#3AB4B2} ★ &{#123973}Woodcutter &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bWoodcutter Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_woodcutter_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_woodcutter_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_woodcutter_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_woodcutter_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_woodcutter_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_woodcutter_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_woodcutter_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_woodcutter_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_woodcutter_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_woodcutter_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_woodcutter_10_alltime_value%'
+        - ''
+  '|':
+    update: [20, 20, 20, 20]
+    display:
+      material: emerald
+      name: "&{#3AB4B2} ★ &{#123973}Builder &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bBuilder Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_builder_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_builder_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_builder_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_builder_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_builder_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_builder_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_builder_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_builder_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_builder_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_builder_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_builder_10_alltime_value%'
+        - ''
+  =:
+    update: [20, 20, 20, 20]
+    display:
+      material: lapis lazuli
+      name: "&{#3AB4B2} ★ &{#123973}Digger &{#3AB4B2}★"
+      lore:
+        - ''
+        - '&7Do you want to know who are the workers with the'
+        - '&7highest level?, here you can see it.'
+        - ''
+        - ' &7• &bBuilder Top (1-10):'
+        - '      &71.- %ajlb_lb_jobsr_user_jlevel_digger_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_1_alltime_value%'
+        - '      &72.- %ajlb_lb_jobsr_user_jlevel_digger_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_2_alltime_value%'
+        - '      &73.- %ajlb_lb_jobsr_user_jlevel_digger_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_4_alltime_value%'
+        - '      &74.- %ajlb_lb_jobsr_user_jlevel_digger_4_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_4_alltime_value%'
+        - '      &75.- %ajlb_lb_jobsr_user_jlevel_digger_5_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_5_alltime_value%'
+        - '      &76.- %ajlb_lb_jobsr_user_jlevel_digger_6_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_6_alltime_value%'
+        - '      &77.- %ajlb_lb_jobsr_user_jlevel_digger_7_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_7_alltime_value%'
+        - '      &78.- %ajlb_lb_jobsr_user_jlevel_digger_8_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_8_alltime_value%'
+        - '      &79.- %ajlb_lb_jobsr_user_jlevel_digger_9_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_9_alltime_value%'
+        - '     &710.- %ajlb_lb_jobsr_user_jlevel_digger_10_alltime_name% - %ajlb_lb_jobsr_user_jlevel_digger_10_alltime_value%'
+        - ''
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 3
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 1
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the main menu."
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsMenu"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

@@ -1,0 +1,110 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&{#F3DCD4}ᴊᴏʙs &8| &{#F3DCD4}ғɪsʜᴇʀ ᴍᴏʙs"
+Layout:
+- '#########'
+- '####-####'
+- '#########'
+- '##A#B#C##'
+- '#########'
+- '##<#X#>##'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5MWExNDg2N2VmOTg2Nzg3MmRjZGM4YzU0ZTNkNGNmYjVlNTI1ZGNjZmI3Zjk5YTczMTRhNDVmYWViMzAxZSJ9fX0='
+      name: "&{#F3DCD4}★ &{#AA9183}Fisher &{#F3DCD4}★"
+      lore:
+      - ""
+      - "&7Here you can find all the blocks that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBjZDcxZmJiYmJiNjZjN2JhZjc4ODFmNDE1YzY0ZmE4NGY2NTA0OTU4YTU3Y2NkYjg1ODkyNTI2NDdlYSJ9fX0="
+      name: "&{#F3DCD4}☆ &{#AA9183}Fishes (Fish) &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "&7Cod &8» &{#F3DCD4}12.50$ &8- &a16.0XP &8- &{#AA9183}8.75⛁           "
+      - "&7Salmon &8» &{#F3DCD4}12.50$ &8- &a16.0XP &8- &{#AA9183}8.75⛁"
+      - "&7Pufferfish &8» &{#F3DCD4}13.35$ &8- &a20.0XP &8- &{#AA9183}8.75⛁"
+      - "&7Tropical Fish &8» &{#F3DCD4}15.0$ &8- &a23.0XP &8- &{#AA9183}11.50⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0="
+      name: "&{#F3DCD4}☆ &{#AA9183}Mobs (Kill) &{#F3DCD4}☆"
+      lore: 
+      - ""
+      - "&7Cod &8» &{#F3DCD4}4.85$ &8- &a8.0XP &8- &{#AA9183}3.75⛁           "
+      - "&7Salmon &8» &{#F3DCD4}4.85$ &8- &a8.0XP &8- &{#AA9183}3.75⛁"
+      - "&7Pufferfish &8» &{#F3DCD4}5.85$ &8- &a13.0XP &8- &{#AA9183}3.75⛁"
+      - "&7Tropical Fish &8» &{#F3DCD4}6.85$ &8- &a15.0XP &8- &{#AA9183}4.75⛁"
+      - "&7Turtle &8» &{#F3DCD4}7.0$ &8- &a10.0XP &8- &{#AA9183}5.50⛁"
+      - "&7Dolphin &8» &{#F3DCD4}10.50$ &8- &a14.0XP &8- &{#AA9183}8.50⛁"
+      - "&7Guardian &8» &{#F3DCD4}9.0$ &8- &a13.0XP &8- &{#AA9183}7.90⛁"
+      - "&7Squid &8» &{#F3DCD4}6.30$ &8- &a8.85XP &8- &{#AA9183}4.0⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkYmQwNmY5YzkyN2RiNmM3OWZjOWY1ZWYyMzk3YWIwNjU0MTkxMzY0ZDBmNWM4OWY5MjRlNWVkOGQzYWYifX19"
+      name: "&{#F3DCD4}☆ &{#AA9183}Extras &{#F3DCD4}☆"
+      lore:
+      - ""
+      - "&7Player Kill &8» &{#F3DCD4}3.00$ &8- &a3.50XP &8- &{#AA9183}2.00⛁"
+      - "&7Custom Kill (Fisherman) &{#F3DCD4}5.00$ &8- &a6.00XP &8- &{#AA9183}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      name: "&{#F3DCD4}★ &{#AA9183}Next Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  "<":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      name: "&{#F3DCD4}★ &{#AA9183}Previous Page &{#F3DCD4}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  X:
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#F3DCD4}Right-Click &7to return to the hunter menu."
+        - " &7» &{#F3DCD4}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoFisher"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"

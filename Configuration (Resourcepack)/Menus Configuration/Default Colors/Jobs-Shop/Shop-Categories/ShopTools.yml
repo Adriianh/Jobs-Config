@@ -1,0 +1,125 @@
+
+# Made by TrMenu Template
+# Date: 2022-02-07 16:51:28
+
+Layout:
+- '         '
+- ' A       '
+- ' B       '
+- ' C       '
+- '         '
+- '  < X >  '
+Title: "&f갊갊힛"
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+  'A':
+    display:
+      material: diamond pickaxe
+      name: "&bDiamond Pickaxe"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f95'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopTools DIAMOND_PICKAXE 95 1 64'
+  'A':
+    display:
+      material: diamond hoe
+      name: "&bDiamond Hoe"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f65'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopTools DIAMOND_HOE 65 1 64'
+  'A':
+    display:
+      material: diamond shovel
+      name: "&bDiamond Shovel"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f75'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopTools DIAMOND_SHOVEL 75 1 64'
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 3
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 1
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the main menu. "
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsShop"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

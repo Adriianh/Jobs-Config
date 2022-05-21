@@ -1,0 +1,767 @@
+economy:
+  error:
+    nomoney: '&8[{#ff1a1a}✖&8] {#c2c2a3}Sorry, no money left in national bank!'
+limitedItem:
+  error:
+    levelup: '&8[{#ff1a1a}✖&8] {#c2c2a3}You need to level up in [jobname] to use this item!'
+general:
+  info:
+    toplineseparator: '&7*********************** &6%playername% &7***********************'
+    separator: '&7*******************************************************'
+    time:
+      days: '{#66ff66}%days% {#c2c2a3}days '
+      hours: '{#66ff66}%hours% {#c2c2a3}hours '
+      mins: '{#66ff66}%mins% {#c2c2a3}min '
+      secs: '{#66ff66}%secs% {#c2c2a3}sec '
+    invalidPage: '{#ff1a1a}Invalid page'
+    'true': 'true'
+    'false': 'false'
+    blocks:
+      furnace: Furnace
+      smoker: Smoker
+      blastfurnace: Blast furnace
+      brewingstand: Brewing stand
+  admin:
+    error: '&8[{#ff1a1a}✖&8] {#c2c2a3}There was an error in the command.'
+    success: '&8[{#66ff66}✔&8] {#c2c2a3}Your command has been performed.'
+  error:
+    noHelpPage: '&8[{#ff1a1a}✖&8] {#c2c2a3} There is no help page by this number!'
+    notNumber: '&8[{#ff1a1a}✖&8] {#c2c2a3}Please use numbers!'
+    job: '&8[{#ff1a1a}✖&8] {#c2c2a3}The job you selected does not exist or you not joined to this!'
+    noCommand: '&8[{#ff1a1a}✖&8] {#c2c2a3}There is no command by this name!'
+    permission: '&8[{#ff1a1a}✖&8] {#c2c2a3}You do not have permission to do that!'
+    noinfo: '&8[{#ff1a1a}✖&8] {#c2c2a3}No information found!'
+    noinfoByPlayer: '&8[{#ff1a1a}✖&8] {#c2c2a3}No information found by [%playername%] player name!'
+    ingame: '&8[{#ff1a1a}✖&8] {#c2c2a3}You can use this command only in game!'
+    fromconsole: '&8[{#ff1a1a}✖&8] {#c2c2a3}You can use this command only from console!'
+    worldisdisabled: '&8[{#ff1a1a}✖&8] {#c2c2a3}You can''t use command in this world!'
+    newRegistration: '&8[{#66ff66}!&8] {#c2c2a3}Registered new ownership for [block] &7[current]&e/{#c2c2a3}[max]'
+    noRegistration: '&8[{#ff1a1a}✖&8] {#c2c2a3}You''ve reached max [block] count!'
+command:
+  help:
+    output:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Type /jobs [cmd] ? for more information about a command.'
+      cmdUsage: '&8[{#66ff66}!&8] {#c2c2a3}Usage: &7[command]'
+      label: Jobs
+      cmdInfoFormat: '{#66ff66}[command] &8- &7[description]'
+      cmdFormat: '{#66ff66}/[command] &7[arguments]'
+      helpPageDescription: '{#66ff66}* [description]'
+      title: '&bJobs &7- &bHelp'
+      page: '&bPage {#c2c2a3}(1) &bof {#c2c2a3}(2)'
+      fliperSimbols: ''
+      prevPage: '&7<- Prev '
+      prevPageOff: '&7<- Prev '
+      nextPage: '&7 Next ->'
+      nextPageOff: '&7 Next ->'
+      pageCount: '{#66ff66}([current] ↪ [total])'
+      pageCountHover: '{#66ff66}[totalEntries] {#c2c2a3}entries'
+      prevPageGui: '{#66ff66}Previous page '
+      nextPageGui: '{#66ff66}Next Page'
+  moneyboost:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Boosts money gain for all players'
+      args: '[jobname]/all/reset [time]/[rate]'
+    output:
+      allreset: '&8[{#66ff66}!&8] {#c2c2a3}All money boosts turned off'
+      jobsboostreset: '&8[{#66ff66}!&8] {#c2c2a3}Money boost has been turned off for %jobname%'
+      nothingtoreset: '&8[{#ff1a1a}!&8] {#c2c2a3}Nothing to reset'
+      boostalladded: '&8[{#66ff66}✔&8] {#c2c2a3}Money boost of %boost% added for all jobs!'
+      boostadded: '&8[{#66ff66}✔&8] {#c2c2a3}Money boost of {#66ff66}%boost% {#c2c2a3}added for {#66ff66}%jobname%{#c2c2a3}!'
+      infostats: '&8[{#66ff66}!&8] {#c2c2a3}Money rate {#66ff66}x%boost% {#c2c2a3}enabled'
+  pointboost:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Boosts point gain for all players'
+      args: '[jobname]/all/reset [time]/[rate]'
+    output:
+      allreset: '&8[{#ff1a1a}✖&8] {#c2c2a3}All point boosts turned off'
+      jobsboostreset: '&8[{#ff1a1a}✖&8] {#c2c2a3}Point boost has been turned off for %jobname%'
+      nothingtoreset: '&8[{#ff1a1a}!&8] {#c2c2a3}Nothing to reset'
+      boostalladded: '&8[{#66ff66}✔&8] {#c2c2a3}Points boost of %boost% added for all jobs!'
+      boostadded: '&8[{#66ff66}✔&8] {#c2c2a3}Points boost of {#66ff66}%boost% {#c2c2a3}added for {#66ff66}%jobname%{#c2c2a3}!'
+      infostats: '&8[{#66ff66}✔&8] {#c2c2a3}Points rate {#66ff66}x%boost% {#c2c2a3}enabled'
+  expboost:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Boosts exp gain for all players'
+      args: '[jobname]/all/reset [time]/[rate]'
+    output:
+      allreset: '&8[{#ff1a1a}✖&8] {#c2c2a3}All exp boosts turned off'
+      jobsboostreset: '&8[{#ff1a1a}✖&8] {#c2c2a3}Exp boost has been turned off for {#66ff66}%jobname%'
+      nothingtoreset: '&8[{#ff1a1a}!&8] {#c2c2a3}Nothing to reset'
+      boostalladded: '&8[{#66ff66}✔&8] {#c2c2a3}Exp boost of %boost% added for all jobs!'
+      boostadded: '&8[{#66ff66}✔&8] {#c2c2a3}Exp boost of {#66ff66}%boost% {#c2c2a3}added for {#66ff66}%jobname%{#c2c2a3}!'
+      infostats: '&8[{#66ff66}!&8] {#c2c2a3}Exp rate {#66ff66}x%boost% {#c2c2a3}enabled'
+  schedule:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Enables the given scheduler'
+      args: enable [scheduleName] [untilTime]
+    output:
+      noScheduleFound: '&8[{#ff1a1a}✖&8] {#c2c2a3}Schedule with this name not found.'
+      alreadyEnabled: '&8[{#ff1a1a}✖&8] {#c2c2a3}This schedule already enabled.'
+      enabled: '&8[{#66ff66}✔&8] {#c2c2a3}Schedule have been enabled from{#66ff66} %from%{#c2c2a3} until{#66ff66} %until%'
+  itembonus:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Check item bonus'
+      args: ''
+    output:
+      list: '{#66ff66}[jobname]&7: {#c2c2a3}%money% %points% %exp%'
+      notAplyingList: '{#ff1a1a}[jobname]&7: {#c2c2a3}%money% %points% %exp%'
+      hover: '{#66ff66}%itemtype%'
+      hoverLevelLimits: "{#c2c2a3}From level: {#66ff66}%from% \n{#c2c2a3}Until level: {#66ff66}%until%"
+  edititembonus:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Edit item boost bonus'
+      args: list/add/remove [jobname] [itemBoostName]
+  bonus:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Show job bonuses'
+      args: '[jobname]'
+    output:
+      topline: '&7&m---------------- &e[Money] &6[Points] {#66ff66}[EXP] &7&m----------------'
+      permission: ' {#c2c2a3}Perm bonus: &e%money% &6%points% {#66ff66}%exp%'
+      item: ' {#c2c2a3}Item bonus: &e%money% &6%points% {#66ff66}%exp%'
+      global: ' {#c2c2a3}Global bonus: &e%money% &6%points% {#66ff66}%exp%'
+      dynamic: ' {#c2c2a3}Dynamic bonus: &e%money% &6%points% {#66ff66}%exp%'
+      nearspawner: ' {#c2c2a3}Spawner bonus: &e%money% &6%points% {#66ff66}%exp%'
+      petpay: ' {#c2c2a3}PetPay bonus: &e%money% &6%points% {#66ff66}%exp%'
+      area: ' {#c2c2a3}Area bonus: &e%money% &6%points% {#66ff66}%exp%'
+      mcmmo: ' {#c2c2a3}McMMO bonus: &e%money% &6%points% {#66ff66}%exp%'
+      final: ' {#c2c2a3}Final bonus: &e%money% &6%points% {#66ff66}%exp%'
+      specialPrefix: ''
+      finalExplanation: '&8[{#66ff66}!&8] {#c2c2a3}Does not include Petpay and Near spawner bonus/penalty'
+  convert:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Converts the database system from one system to another.
+        If you are currently running SQLite, this will convert it to MySQL and vice
+        versa.'
+      args: ''
+  limit:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows payment limits for jobs'
+      args: '[playername]'
+    output:
+      moneytime: '&8[{#66ff66}!&8] {#c2c2a3}Time left until money limit resets: {#66ff66}%time%'
+      moneyLimit: '&8[{#66ff66}!&8] {#c2c2a3}Money limit: {#66ff66}%current%&7/{#66ff66}%total%'
+      exptime: '&8[{#66ff66}!&8] {#c2c2a3}Time left until Exp limit resets: {#66ff66}%time%'
+      expLimit: '&8[{#66ff66}!&8] {#c2c2a3}Exp limit: {#66ff66}%current%&7/{#66ff66}%total%'
+      pointstime: '&8[{#66ff66}!&8] {#c2c2a3}Time left until Point limit resets: {#66ff66}%time%'
+      pointsLimit: '&8[{#66ff66}!&8] {#c2c2a3}Point limit: {#66ff66}%current%&7/{#66ff66}%total%'
+      reachedmoneylimit: '&8[{#ff1a1a}!&8] {#c2c2a3}You have reached money limit in given time!'
+      reachedmoneylimit2: '&8[{#66ff66}!&8] {#c2c2a3}You can check your limit with {#66ff66}/jobs limit
+        {#c2c2a3}command'
+      reachedmoneylimit3: '&8[{#ff1a1a}!&8] {#c2c2a3}Money earned is now reduced exponentially...
+        But you still earn a little!'
+      reachedexplimit: '&8[{#ff1a1a}!&8] {#c2c2a3}You have reached exp limit in given time!'
+      reachedexplimit2: '&8[{#66ff66}!&8] {#c2c2a3}You can check your limit with {#66ff66}/jobs limit {#c2c2a3}command'
+      reachedpointslimit: '&8[{#ff1a1a}!&8] {#c2c2a3}You have reached exp limit in given time!'
+      reachedpointslimit2: '&8[{#66ff66}!&8] {#c2c2a3}You can check your limit with {#66ff66}/jobs limit
+        {#c2c2a3}command'
+      notenabled: '&8[{#66ff66}!&8] {#c2c2a3}Money limit is not enabled'
+  resetlimit:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Resets a player''s payment limits'
+      args: '[playername]'
+    output:
+      reseted: '&8[{#66ff66}✔&8] {#c2c2a3}Payment limits have been reset for: &2%playername%'
+  resetquesttotal:
+    help:
+      info: Resets a player's done quest counter
+      args: '[playername]/all'
+    output:
+      reseted: '&eDone quests have been reset for: &2%playername%'
+  resetquest:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Resets a player''s quest'
+      args: '[playername] [jobname]'
+    output:
+      reseted: '&8[{#66ff66}✔&8] {#c2c2a3}Quest has been reset for: {#66ff66}%playername%'
+      noQuests: '&8[{#ff1a1a}✖&8] {#c2c2a3}Can''t find any quests'
+  points:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows how much points does a player have.'
+      args: '[playername]'
+    currentpoints: ' &8[{#66ff66}!&8] {#c2c2a3}Current point amount: {#66ff66}%currentpoints%'
+    totalpoints: ' &8[{#66ff66}!&8] {#c2c2a3}Total amount of collected points until now: {#66ff66}%totalpoints%'
+  editpoints:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Edit player''s points.'
+      args: set/add/take [playername] [amount]
+    output:
+      set: '&8[{#66ff66}✔&8] {#c2c2a3}Players {#66ff66}(%playername%) {#c2c2a3}points was set to {#66ff66}%amount%'
+      add: '&8[{#66ff66}✔&8] {#c2c2a3}Player {#66ff66}(%playername%) {#c2c2a3}got additional {#66ff66}%amount% {#c2c2a3}points.
+        Now they have {#66ff66}%total%'
+      take: '&8[{#66ff66}✔&8] {#c2c2a3}Player {#66ff66}(%playername%) {#c2c2a3}lost {#66ff66}%amount% {#c2c2a3}points. Now they
+        have {#66ff66}%total%'
+  editjobs:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Edit current jobs.'
+      args: ''
+      list:
+        job: '{#66ff66}Jobs:'
+        jobs: '  &7-> &8[{#c2c2a3}%jobname%&8]'
+        actions: '    &7-> &8[{#c2c2a3}%actionname%&8]'
+        material: '      &7-> &8[{#c2c2a3}%materialname%&8]      '
+        materialRemove: '{#ff1a1a}[X]'
+        materialAdd: '      &7-> &8[{#66ff66}+&8]'
+        money: '        &7-> {#c2c2a3}Money: {#66ff66}%amount%'
+        exp: '        &7-> {#c2c2a3}Exp: {#66ff66}%amount%'
+        points: '        -> {#c2c2a3}Points: {#66ff66}%amount%'
+      modify:
+        newValue: '&8[{#66ff66}!&8] {#c2c2a3}Enter new value'
+        enter: '&8[{#66ff66}!&8] {#c2c2a3}Enter new name or press '
+        hand: '{#66ff66}HAND '
+        handHover: '&8[{#66ff66}!&8] {#c2c2a3}Press to grab info from item in your hand'
+        or: '{#c2c2a3}or '
+        look: '{#66ff66}LOOKING AT'
+        lookHover: '&8[{#66ff66}!&8] {#c2c2a3}Press to grab info from block you are looking'
+  editquests:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Edit current quests.'
+      args: ''
+      list:
+        quest: '{#66ff66}Quests:'
+        jobs: '  &7-> &8[{#c2c2a3}%jobname%&8]'
+        quests: '  &7-> &8[{#c2c2a3}%questname%&8]'
+        actions: '    &7-> &8[{#c2c2a3}%actionname%&8]'
+        objectives: '      &7-> &8[{#c2c2a3}%objectivename%&8]'
+        objectiveRemove: '{#ff1a1a}[X]'
+        objectiveAdd: '      &7-> &8[{#66ff66}+&8]'
+      modify:
+        newValue: '&8[{#66ff66}!&8] {#c2c2a3}Enter new value'
+        enter: '&8[{#66ff66}!&8] {#c2c2a3}Enter new name or press '
+        hand: '{#66ff66}HAND '
+        handHover: '&8[{#66ff66}!&8] {#c2c2a3}Press to grab info from item in your hand'
+        or: '{#c2c2a3}or '
+        look: '{#66ff66}LOOKING AT'
+        lookHover: '&8[{#66ff66}!&8] {#c2c2a3}Press to grab info from block you are looking'
+  blockinfo:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows information for the block you are looking at.'
+      args: ''
+    output:
+      material: ' {#c2c2a3}Block name: {#66ff66}%blockname%'
+      id: ' {#c2c2a3}Block id: {#66ff66}%blockid%'
+      state: ' {#c2c2a3}Block sate: {#66ff66}%blockdata%'
+      deprecated: ' {#c2c2a3}Usage: {#66ff66}%first% &7or {#66ff66}%second%'
+      use: ' {#c2c2a3}Config file usage: {#66ff66}%usage%'
+  iteminfo:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows information for the item you are holding.'
+      args: ''
+    output:
+      material: ' {#c2c2a3}Item name: {#66ff66}%itemname%'
+      id: ' {#c2c2a3}Item id: {#66ff66}%itemid%'
+      data: ' {#c2c2a3}Item data: {#66ff66}%itemdata%'
+      deprecated: ' {#c2c2a3}Usage: {#66ff66}%first% &7or {#66ff66}%second%'
+      use: ' {#c2c2a3}Config file usage: {#66ff66}%usage%'
+  placeholders:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}List out all placeholders'
+      args: (parse) (placeholder)
+    output:
+      list: '{#66ff66}[place]. {#c2c2a3}[placeholder]'
+      outputResult: ' {#c2c2a3}result: {#66ff66}[result]'
+      parse: '{#66ff66}[placeholder] {#c2c2a3}by {#66ff66}[source] {#c2c2a3}result &8[{#66ff66}[result]&8]'
+  entitylist:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows all possible entities that can be used with the plugin.'
+      args: ''
+  stats:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Show the level you are in each job you are part of.'
+      args: '[playername]'
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}Please join a job first.'
+    output:
+      message: '{#66ff66}%jobname% &8| {#c2c2a3}Lvl {#66ff66}%joblevel% &8| {#c2c2a3}XP {#66ff66}%jobxp%/%jobmaxxp%'
+      max-level: '     {#66ff66}%jobname%   &8-   {#66ff66}Max LVL'
+    bossBarOutput: '{#66ff66}%jobname% &8| {#c2c2a3}Lvl {#66ff66}%joblevel% &8| &7XP %gain%'
+    bossBarGain: ' {#c2c2a3}+%gain%'
+  shop:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Opens special jobs shop.'
+      args: ''
+    info:
+      title: '{#66ff66}Jobs &8| {#66ff66}Shop'
+      currentPoints: '{#c2c2a3}Your points: {#66ff66}%currentpoints%'
+      price: '{#c2c2a3}Price: {#66ff66}%price%'
+      reqJobs: '{#c2c2a3}Required jobs:'
+      reqJobsList: '  {#66ff66}%jobsname% &8| {#c2c2a3}Lvl {#66ff66}%level%'
+      reqTotalLevel: '{#c2c2a3}Required total level: {#66ff66}%totalLevel%'
+      reqJobsColor: '{#990000}'
+      reqJobsLevelColor: '{#990000}'
+      reqTotalLevelColor: '{#990000}'
+      cantOpen: '&8[{#ff1a1a}✖&8] {#c2c2a3}Can''t open this page'
+      NoPermForItem: '&8[{#ff1a1a}✖&8] {#c2c2a3}You don''t have required permissions for this item!'
+      NoPermToBuy: '&8[{#ff1a1a}✖&8] {#c2c2a3}No permissions to buy this item'
+      NoJobReqForitem: '&8[{#ff1a1a}✖&8] {#c2c2a3}You don''t have the required job {#66ff66}(%jobname%)
+        {#c2c2a3}with required {#66ff66}(%joblevel%) {#c2c2a3}level'
+      NoPoints: '&8[{#ff1a1a}✖&8] {#c2c2a3}You don''t have enough points'
+      NoTotalLevel: '&8[{#ff1a1a}✖&8] {#c2c2a3}Total jobs level is too low {#ff1a1a}(%totalLevel%)'
+      Paid: '&8[{#66ff66}!&8] {#c2c2a3}You have paid {#66ff66}%amount% {#c2c2a3}for this item'
+  archive:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows all jobs saved in archive by user.'
+      args: '[playername]'
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}There is no jobs saved.'
+  give:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Gives item by jobs name and item category name. Player name
+        is optional'
+      args: '[playername] [jobname] [items/limiteditems] [jobitemname]'
+    output:
+      notonline: '&8[{#ff1a1a}✖&8] {#c2c2a3}Player with that name is not online!'
+      noitem: '&8[{#ff1a1a}✖&8] {#c2c2a3}Can''t find any item by given name!'
+  info:
+    help:
+      title: '&7&m--- {#66ff66}Jobs &7&m---'
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Show how much each job is getting paid and for what.'
+      penalty: '&8[{#ff1a1a}!&8] {#c2c2a3}This job has a penalty of {#ff1a1a}[penalty]% {#c2c2a3}because there
+        are too many players working in it.'
+      bonus: '&8[{#66ff66}!&8] {#c2c2a3}This job has a bonus of {#66ff66}[bonus]% {#c2c2a3}because there are not
+        enough players working in it.'
+      args: '[jobname] [action]'
+      actions: '{#c2c2a3}Valid actions are: {#66ff66}%actions%'
+      max: ' - {#c2c2a3}Max level:{#66ff66} '
+      newMax: ' {#c2c2a3}Max level: {#66ff66}[max]'
+      material: '&7%material%'
+      levelRange: ' &8({#66ff66}%levelFrom% &7- {#66ff66}%levelUntil% {#c2c2a3}levels&8)'
+      levelFrom: ' &8({#c2c2a3}from {#66ff66}%levelFrom% {#c2c2a3}level&8)'
+      levelUntil: ' {#66ff66}({#c2c2a3}until {#66ff66}%levelUntil% {#c2c2a3}level&8)'
+      money: ' &e%money%$'
+      points: ' &6%points%⛃'
+      exp: ' {#66ff66}%exp%⁕'
+    gui:
+      pickjob: '{#66ff66}Pick your job!'
+      jobinfo: '{#66ff66}[jobname] {#c2c2a3}info!'
+      actions: '{#c2c2a3}Valid actions are:'
+      leftClick: '&7Left Click for more info'
+      middleClick: '&7Middle Click to leave this job'
+      qClick: '&7Q key to leave this job'
+      rightClick: '&7Right Click to join job'
+      leftSlots: '&7Left slots:{#66ff66} '
+      working: '{#ff1a1a}&nAlready working'
+      cantJoin: '&8[{#ff1a1a}✖&8] {#c2c2a3}You can''t join to the selected job.'
+      max: '{#c2c2a3}Max level:{#66ff66} '
+      back: '&7<- {#c2c2a3}Back'
+      next: '{#c2c2a3}Next &7->'
+    output:
+      break:
+        info: '{#66ff66}Break'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for breaking blocks.'
+      tntbreak:
+        info: '{#66ff66}TNTBreak'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for breaking blocks with TNT.'
+      place:
+        info: '{#66ff66}Place'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for placing blocks.'
+      striplogs:
+        info: '{#66ff66}Strip logs'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for stripping logs.'
+      kill:
+        info: '{#66ff66}Kill'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for killing monsters.'
+      mmkill:
+        info: '{#66ff66}MMKill'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for killing Mythic monsters.'
+      fish:
+        info: '{#66ff66}Fish'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from fishing.'
+      craft:
+        info: '{#66ff66}Craft'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from crafting.'
+      smelt:
+        info: '{#66ff66}Smelt'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from smelting.'
+      brew:
+        info: '{#66ff66}Brew'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from brewing.'
+      eat:
+        info: '{#66ff66}Eat'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from eating food.'
+      dye:
+        info: '{#66ff66}Dye'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from dyeing.'
+      enchant:
+        info: '{#66ff66}Enchant'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from enchanting.'
+      vtrade:
+        info: '{#66ff66}Villager trade'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for trading a villager.'
+      repair:
+        info: '{#66ff66}Repair'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from repairing.'
+      breed:
+        info: '{#66ff66}Breed'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from breeding.'
+      tame:
+        info: '{#66ff66}Tame'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from taming.'
+      milk:
+        info: '{#66ff66}Milk'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from milking cows.'
+      shear:
+        info: '{#66ff66}Shear'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from shearing sheep.'
+      explore:
+        info: '{#66ff66}Explore'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from exploring.'
+      custom-kill:
+        info: '{#66ff66}Custom kill'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money from custom player kills.'
+      collect:
+        info: '{#66ff66}Collect'
+        none: '{#66ff66}jobname% {#c2c2a3}does not get money for collecting blocks.'
+      bake:
+        info: '{#66ff66}Bake'
+        none: '{#66ff66}%jobname% {#c2c2a3}does not get money for cooking foods.'
+  playerinfo:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Show how much each job is getting paid and for what on another
+        player.'
+      args: '[playername] [jobname] [action]'
+  join:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Join the selected job.'
+      args: '[jobfullname]'
+    error:
+      alreadyin: '&8[{#ff1a1a}✖&8] {#c2c2a3}You are already in the job %jobname%.'
+      fullslots: '&8[{#ff1a1a}✖&8] {#c2c2a3}You cannot join the job {#66ff66}%jobname%{#c2c2a3}, there are no
+        slots available.'
+      maxjobs: '&8[{#ff1a1a}✖&8] {#c2c2a3}You have already joined too many jobs.'
+      rejoin: '&8[{#ff1a1a}✖&8] {#c2c2a3}Can''t rejoin this job. Wait {#66ff66}[time]'
+    rejoin: '&8[{#66ff66}!&8] {#c2c2a3}Click to rejoin this job: '
+    success: '&8[{#66ff66}✔&8] {#c2c2a3}You have joined the job %jobname%.'
+    confirm: '&8[{#66ff66}!&8] {#c2c2a3}Click to confirm joining action for the {#66ff66}[jobname] {#c2c2a3}job.'
+  leave:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Leave the selected job.'
+      args: '[oldplayerjob]'
+    success: '&8[{#66ff66}!&8] {#c2c2a3}You have left the job {#66ff66}[jobname].'
+    confirmationNeed: '&8[{#ff1a1a}!&8] {#c2c2a3}Are you sure you want to leave from{#66ff66} [jobname]{#c2c2a3}
+      job? Type the command again within{#66ff66} [time] {#c2c2a3}seconds to confirm!'
+  leaveall:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Leave all your jobs.'
+    error:
+      nojobs: '&8[{#66ff66}!&8] {#c2c2a3}You do not have any jobs to leave!'
+    success: '&8[{#66ff66}!&8] {#c2c2a3}You have left all your jobs.'
+    confirmationNeed: '&8[{#ff1a1a}!&8] {#c2c2a3}Are you sure you want to leave from all jobs? Type
+      the command again within{#66ff66} [time] {#c2c2a3}seconds to confirm!'
+  explored:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Check who visited this chunk'
+    error:
+      noexplore: '&8[{#66ff66}!&8] {#c2c2a3}No one visited this chunk'
+    fullExplore: '&8[{#66ff66}c&8] {#c2c2a3}This chunk is fully explored'
+    list: '{#66ff66}%place%. {#c2c2a3}%playername%'
+  browse:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}List the jobs available to you.'
+    error:
+      nojobs: '&8[{#ff1a1a}!&8] {#c2c2a3}There are no jobs you can join.'
+    output:
+      header: '&8[{#66ff66}!&8] {#c2c2a3}You are allowed to join the following jobs:'
+      footer: '&8[{#66ff66}!&8] {#c2c2a3}For more information type in {#66ff66}/jobs info [JobName]'
+      totalWorkers: ' {#c2c2a3}Workers: {#66ff66}[amount]'
+      penalty: ' {#c2c2a3}Penalty: {#66ff66}[amount]%'
+      bonus: ' {#c2c2a3}Bonus: {#66ff66}[amount]%'
+      newHeader: '&7&m---------- {#66ff66}[amount] {#c2c2a3}Available Jobs &7&m----------'
+      description: '[description]'
+      list: '    {#66ff66}[place]. {#c2c2a3}[jobname]'
+      console:
+        newHeader: '&7&m---------- {#66ff66}[amount] {#c2c2a3}Available Jobs &7&m----------'
+        description: '[description]'
+        totalWorkers: ' {#c2c2a3}Workers: {#66ff66}[amount]'
+        penalty: ' {#c2c2a3}Penalty: {#66ff66}[amount]%'
+        bonus: ' {#c2c2a3}Bonus: {#66ff66}[amount]%'
+        list: ' {#c2c2a3}[jobname]'
+        newMax: ' {#c2c2a3}Max level: {#66ff66}[max]'
+      click: '{#66ff66}Click on the job to see more info about it!'
+      detailed: '{#66ff66}Click to see more detailed list on job actions'
+      jobHeader: '&7&m---------- {#c2c2a3}[jobname] &7&m----------'
+      chooseJob: '{#66ff66}&nChoose this job'
+      chooseJobHover: '{#66ff66}Click here to get this job'
+  ownedblocks:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Check block ownership'
+      args: '[playername]'
+    output:
+      list: '{#66ff66}[place]. {#c2c2a3}[type] -> [location]'
+      listHover: '{#c2c2a3}Click to remove: {#66ff66}[location]'
+  clearownership:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Clear block ownership'
+      args: '[playername]'
+    output:
+      cleared: '&8[{#66ff66}!&8] {#c2c2a3}Removed {#66ff66}[furnaces] {#c2c2a3}furnaces, {#66ff66}[brewing] {#c2c2a3}brewing
+        stands, {#66ff66}[smoker]{#c2c2a3} smokers and {#66ff66}[blast]{#c2c2a3} blast furnaces.'
+      lost: '&8[{#66ff66}!&8] {#c2c2a3}Lost ownership of {#66ff66}[type] {#c2c2a3}at {#66ff66}[location]'
+  skipquest:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Skip defined quest and get new one'
+      args: '[jobname] [questname] (playerName)'
+    output:
+      questSkipForCost: '&8[{#66ff66}!&8] {#c2c2a3}You skipped the quest and paid:{#66ff66} %amount%$'
+  quests:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}List available quests'
+      args: '[playername]'
+    error:
+      noquests: '&8[{#66ff66}c&8] {#c2c2a3}There are no quests'
+    toplineseparator: '&7&m----------------------- {#66ff66}[playerName] &8({#c2c2a3}[questsDone]&8)
+      &7&m-----------------------'
+    status:
+      changed: '&8[{#66ff66}!&8] {#c2c2a3}The quests status has been changed to{#66ff66} %status%'
+      started: '{#66ff66}&lSTARTED'
+      stopped: '{#ff1a1a}&lSTOPPED'
+    output:
+      completed: '{#66ff66}&l      COMPLETED!&7      '
+      questLine: '{#66ff66}[progress] {#c2c2a3}[questName] {#66ff66}[done]&7/{#66ff66}[required]'
+      skip: '{#66ff66}Click to skip this quest'
+      skips: '{#c2c2a3}Left skips: {#66ff66}[skips]'
+      hover: "{#66ff66}[jobName] \n&7[desc] \n{#c2c2a3}New quest in: {#66ff66}[time]"
+  fire:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Fire the player from the job.'
+      args: '[playername] [jobname]'
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}Player does not have the job %jobname%.'
+    output:
+      target: '&8[{#ff1a1a}!&8] {#c2c2a3}You have been fired from %jobname%.'
+  fireall:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Fire player from all their jobs.'
+      args: '[playername]/all'
+    error:
+      nojobs: '&8[{#ff1a1a}✖&8] {#c2c2a3}Player does not have any jobs to be fired from!'
+    output:
+      target: '&8[{#ff1a1a}!&8] {#c2c2a3}You have been fired from all your jobs.'
+  employ:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Employ the player to the job.'
+      args: '[playername] [jobname]'
+    error:
+      alreadyin: '&8[{#ff1a1a}!&8] {#c2c2a3}Player is already in the job %jobname%.'
+      fullslots: '&8[{#ff1a1a}✖&8] {#c2c2a3}You cannot join the job %jobname%, there are no slots
+        available.'
+    output:
+      target: '&8[{#66ff66}!&8] {#c2c2a3}You have been employed as a %jobname%.'
+  top:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows top players by jobs name.'
+      args: '[jobname]/clear pageNumber'
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}Can''t find any job with this name.'
+    output:
+      topline: '{#c2c2a3}Top{#66ff66} %amount% {#c2c2a3}players by {#66ff66}%jobname% {#c2c2a3}job'
+      list: '{#66ff66}%number%. {#c2c2a3}%playername% &8| {#c2c2a3}lvl {#66ff66}%level% {#c2c2a3}with{#66ff66} %exp% {#c2c2a3}exp'
+      prev: '&7 <- Prev page &8|'
+      next: '&2|&7 Next Page ->'
+      show: '{#c2c2a3}Show from {#66ff66}[from] {#c2c2a3}until {#66ff66}[until] {#c2c2a3}top list'
+  gtop:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows top players by global jobs level.'
+      args: clear/pageNumber
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}Can''t find any information.'
+    output:
+      topline: '{#c2c2a3}Top{#66ff66} %amount% {#c2c2a3}players by global job level'
+      list: '{#66ff66}%number%. {#c2c2a3}%playername% &8| {#c2c2a3}lvl {#66ff66}%level% {#c2c2a3}with{#66ff66} %exp% {#c2c2a3}exp'
+      prev: '&7<- Prev page &8|'
+      next: '&8|&7 Next Page ->'
+      show: '{#c2c2a3}Show from {#66ff66}[from] {#c2c2a3}until {#66ff66}[until] {#c2c2a3}global top list'
+  area:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Modify restricted areas.'
+      args: add/remove/info/list
+      addUsage: '&8[{#66ff66}!&8] {#c2c2a3}Usage: {#66ff66}/Jobs area add [areaName/wg:worldGuardAreaName]
+        [bonus]'
+      removeUsage: '&8[{#66ff66}!&8] {#c2c2a3}Usage: {#66ff66}/Jobs area remove [areaName]'
+    output:
+      addedNew: '&8[{#66ff66}!&8] {#c2c2a3}Added a new restricted area with {#66ff66}%bonus% {#c2c2a3}bonus'
+      removed: '&8[{#66ff66}!&8] {#c2c2a3}Removed the restricted area {#66ff66}%name%'
+      list: '{#66ff66}%number%. {#c2c2a3}%areaname% {#c2c2a3}w:{#66ff66}%worldname% (%x1%:%y1%:%z1%/&e%x2%:%y2%:%z2%)
+        {#c2c2a3}%bonus%'
+      wgList: '{#66ff66}%number%. {#c2c2a3}WorldGuard: {#66ff66}%areaname% {#c2c2a3}%bonus%'
+      noAreas: '&8[{#ff1a1a}!&8] {#c2c2a3}There are no saved restricted areas'
+      noAreasByLoc: '&8[{#ff1a1a}!&8] {#c2c2a3}There are no restricted areas in this location'
+      areaList: '&8[{#66ff66}!&8] {#c2c2a3}Restricted areas by your location: {#66ff66}%list%'
+      selected1: '&8[{#66ff66}!&8] {#c2c2a3}Selected the first point: {#66ff66}%x%:%y%:%z%'
+      selected2: '&8[{#66ff66}!&8] {#c2c2a3}Selected the second point: {#66ff66}%x%:%y%:%z%'
+      select: '&8[{#66ff66}!&8] {#c2c2a3}Select 2 points with the selection tool {#66ff66}(%tool%)'
+      exist: '&8[{#ff1a1a}!&8] {#c2c2a3}Restriction area by this name already exists'
+      dontExist: '&8[{#66ff66}!&8] {#c2c2a3}Restriction area by this name does not exist'
+      wgDontExist: '&8[{#66ff66}!&8] {#c2c2a3}WorldGuard area by this name does not exist'
+  log:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows statistics.'
+      args: '[playername]'
+    output:
+      topline: '&7&m------------------------- &6%playername% &7&m-------------------------'
+      ls: '{#66ff66}* %number%. {#c2c2a3}%action%: {#66ff66}%item% {#c2c2a3}qty: {#66ff66}%qty% %money%%exp%%points%'
+      money: '{#c2c2a3}Money: {#66ff66}%amount% '
+      exp: '{#c2c2a3}Exp: {#66ff66}%amount% '
+      points: '{#c2c2a3}Points: {#66ff66}%amount%'
+      totalIncomes: '    {#c2c2a3}Total money:{#66ff66} %money%{#c2c2a3}, Total exp:{#66ff66} %exp%{#c2c2a3}, Total points:{#66ff66}
+        %points%'
+      bottomline: '&7&m------------------------------------------------------------'
+      prev: '&7<- Prev page &8|'
+      next: '&8|&7 Next Page ->'
+      nodata: '&8[{#ff1a1a}✖&8] {#c2c2a3}Data not found'
+  glog:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows global statistics.'
+      args: ''
+    output:
+      topline: '&7&m----------------------- &6Global statistics &7&m-----------------------'
+      ls: '{#66ff66}* %number%. {#c2c2a3}%action%: {#66ff66}%item% {#c2c2a3}qty: {#66ff66}%qty% %money%%exp%%points%'
+      money: '{#c2c2a3}Money: {#66ff66}%amount% '
+      exp: '{#c2c2a3}Exp: {#66ff66}%amount% '
+      points: '{#c2c2a3}Points: {#66ff66}%amount%'
+      totalIncomes: '    {#c2c2a3}Total money:{#66ff66} %money%{#c2c2a3}, Total exp:{#66ff66} %exp%{#c2c2a3}, Total points:{#66ff66}
+        %points%'
+      bottomline: '&7&m---------------------------------------------------------------'
+      nodata: '&8[{#ff1a1a}✖&8] {#c2c2a3}Data not found'
+  transfer:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Transfer a player''s job from an old job to a new job.'
+      args: '[playername] [oldjob] [newjob]'
+    output:
+      target: '&8[{#66ff66}!&8] {#c2c2a3}You have been transferred from %oldjobname% to %newjobname%.'
+  promote:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Promote the player X levels in a job.'
+      args: '[playername] [jobname] [levels] (-cmd)'
+    output:
+      target: '&8[{#66ff66}!&8] {#c2c2a3}You have been promoted %levelsgained% levels in %jobname%.'
+  exp:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Change the player exp for job.'
+      args: '[playername] [jobname] set/add/take [amount]'
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}This player must first join a job.'
+    output:
+      target: '&8[{#66ff66}!&8] {#c2c2a3}Your exp was changed for {#66ff66}%jobname% {#c2c2a3}and now you at {#66ff66}%level%lvl
+        {#c2c2a3}and with {#66ff66}%exp%exp.'
+  level:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Change the player''s level in a job.'
+      args: '[playername] [jobname] set/add/take [amount]'
+    error:
+      nojob: '&8[{#ff1a1a}✖&8] {#c2c2a3}This player must first join a job.'
+    output:
+      target: '&8[{#66ff66}!&8] {#c2c2a3}Your level was changed for {#66ff66}%jobname% {#c2c2a3}and now you at
+        {#66ff66}%level%lvl {#c2c2a3}and with {#66ff66}%exp%exp.'
+  demote:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Demote the player X levels in a job.'
+      args: '[playername] [jobname] [levels]'
+    output:
+      target: '&8[{#ff1a1a}!&8] {#c2c2a3}You have been demoted %levelslost% levels in %jobname%.'
+  grantxp:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Grants the player X experience in a job.'
+      args: '[playername] [jobname] [xp]'
+    output:
+      target: '&8[{#66ff66}!&8] {#c2c2a3}You have been granted %xpgained% experience in %jobname%.'
+  removexp:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Remove X experience from the player in a job.'
+      args: '[playername] [jobname] [xp]'
+    output:
+      target: '&8[{#ff1a1a}!&8] {#c2c2a3}You have lost %xplost% experience in %jobname%.'
+  signupdate:
+    help:
+      info: Manually updates a sign by its name
+      args: '[jobname]'
+  bp:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Shows block protections around you in 10 block radius'
+      args: ''
+    output:
+      found: '&8[{#66ff66}!&8] {#c2c2a3}Found {#66ff66}%amount% {#c2c2a3}protected blocks around you'
+      notFound: '&8[{#ff1a1a}!&8] {#c2c2a3}No protected blocks found around you'
+  reload:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Reload configurations.'
+  toggle:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Toggles payment output on action bar or bossbar.'
+      args: actionbar/bossbar
+    output:
+      turnedoff: '&8[{#ff1a1a}!&8] {#c2c2a3}This feature is turned off!'
+      paid:
+        main: '{#c2c2a3}You got:'
+        money: '{#66ff66}[amount] {#c2c2a3}money'
+        exp: '{#66ff66}[exp] {#c2c2a3}exp'
+        points: '{#66ff66}[points] {#c2c2a3}points'
+      'on': '&8[{#66ff66}!&8] {#c2c2a3}Toggled: {#66ff66}ON'
+      'off': '&8[{#66ff66}!&8] {#c2c2a3}Toggled: {#ff1a1a}OFF'
+  version:
+    help:
+      info: '&8[{#66ff66}!&8] {#c2c2a3}Plugin version information'
+      args: ''
+    output:
+      jobsVersion: '{#c2c2a3}Jobs: {#66ff66}[version]'
+      jobsVersionNew: '&7-> {#66ff66}[newVersion]'
+      dbType: ' {#66ff66}[db]'
+      newServer: '{#c2c2a3}Server: {#66ff66}[version]'
+      Economy: '{#c2c2a3}Economy: {#66ff66}[provider] '
+      newVault: '{#c2c2a3}Vault: {#66ff66}[version] '
+      CMILib: '{#c2c2a3}CMILib: {#66ff66}[version] '
+      cmilVersionNew: '&7-> {#66ff66}[newVersion]'
+message:
+  skillup:
+    broadcast: '&8[{#66ff66}!&8] {#66ff66}%playername% {#c2c2a3}has been promoted to a {#66ff66}%titlename% %jobname%.'
+    nobroadcast: '&8[{#66ff66}!&8] {#c2c2a3}Congratulations, you have been promoted to a {#66ff66}%titlename%
+      %jobname%.'
+  levelup:
+    broadcast: '&8[{#66ff66}!&8] {#66ff66}%playername% {#c2c2a3}is now a level {#66ff66}%joblevel% %jobname%.'
+    nobroadcast: '&8[{#66ff66}!&8] {#c2c2a3}You are now level {#66ff66}%joblevel% %jobname%.'
+  leveldown:
+    message: '&8[{#ff1a1a}!&8] {#c2c2a3}You lost level{#66ff66} %lostLevel%{#c2c2a3} in{#66ff66} %jobname%{#c2c2a3} job! Level:{#66ff66}
+      %joblevel%{#c2c2a3}.'
+  cowtimer: '&8[{#66ff66}!&8] {#c2c2a3}You still need to wait {#66ff66}%time% {#c2c2a3}sec to get paid for this
+    job.'
+  blocktimer: '&8[{#66ff66}!&8] {#c2c2a3}You need to wait {#66ff66}[time] {#c2c2a3}sec more to get paid for this!'
+  taxes: '&8[{#66ff66}!&8] {#66ff66}[amount] {#c2c2a3}server taxes were transferred to this account'
+  boostStarted: '&8[{#66ff66}!&8] {#c2c2a3}Jobs boost time have been started!'
+  boostStoped: '&8[{#ff1a1a}!&8] {#c2c2a3}Jobs boost time have been ended!'
+  crafting:
+    fullinventory: '&8[{#ff1a1a}!&8] {#c2c2a3}Your inventory is full!'
+signs:
+  List: '{#66ff66}[number].{#c2c2a3}[player]&7:{#66ff66}[level]'
+  questList: '{#66ff66}[number].{#c2c2a3}[player]&7:{#66ff66}[quests]'
+  SpecialList:
+    p1: '{#66ff66}⌈ &8First &b⌋'
+    p2: '{#66ff66}⌈ &8Second &b⌋'
+    p3: '{#66ff66}⌈ &8Third &b⌋'
+    p4: '{#66ff66}⌈ &8Fourth &b⌋'
+    p5: '{#66ff66}⌈ &8Fifth &b⌋'
+    p6: '{#66ff66}⌈ &8Sixth &b⌋'
+    p7: '{#66ff66}⌈ &8Seventh &b⌋'
+    p8: '{#66ff66}⌈ &8Eight &b⌋'
+    p9: '{#66ff66}⌈ &8Ninth &b⌋'
+    p10: '{#66ff66}⌈ &8Tenth &b⌋'
+    name: '{#66ff66}[player]'
+    level: '{#66ff66}[level] {#c2c2a3}level'
+    quests: '{#66ff66}[quests] {#c2c2a3}quests'
+    bottom: '&7&m------------'
+  cantcreate: '&8[{#ff1a1a}✖&8] {#c2c2a3}You can''t create this sign!'
+  cantdestroy: '&8[{#ff1a1a}✖&8] {#c2c2a3}You can''t destroy this sign!'
+  topline: '{#66ff66}[Jobs]'
+  secondline:
+    join: '{#66ff66}Join'
+    leave: '{#ff1a1a}Leave'
+    toggle: '{#c2c2a3}Toggle'
+    top: '{#66ff66}Top'
+    browse: '{#66ff66}Browse'
+    stats: '{#66ff66}Stats'
+    limit: '{#66ff66}Limit'
+    info: '{#c2c2a3}Info'
+    archive: '{#c2c2a3}Archive'
+scoreboard:
+  topline: '{#c2c2a3}Top {#66ff66}%jobname%'
+  gtopline: '{#c2c2a3}Global top list'
+  line: '{#66ff66}%number%. {#c2c2a3}%playername% {#66ff66}(%level%)'

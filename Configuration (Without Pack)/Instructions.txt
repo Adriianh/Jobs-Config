@@ -1,0 +1,37 @@
+Instructions for the installation of my configuration:
+
+    • Download the required plugins.
+        - Jobs Reborn and CMILib.
+        - TrMenu (https://github.com/InsinuateProjects/TrMenu/).
+        - PlaceholderAPI
+        - LuckPerms.
+        - AjLeaderboards (Optional)
+
+    • Select your favorite color scheme and copy the folders.
+    • Put the files in the respective folders.
+        - Menus in "plugins/TrMenu/menus"
+        - Jobs in "plugin/jobs" (Replace default settings with my config)
+    • Restart your server. NEVER DO /RELOAD.
+
+    • Download the required extensions of PlaceholderAPI (After downloading, do /papi reload)
+        - LuckPerms
+        - Server
+        - Player
+
+    • (Optional) Register required placeholders in AjLeaderboards.
+        - %jobsr_user_jlevel_(jobname)%
+        - %jobsr_user_points%
+        - %vault_eco_balance%
+
+    • That's all, thanks for using my config.
+
+
+Support server:
+
+    • https://discord.gg/fe6372kRE4
+
+Donations:
+
+    • https://paypal.me/Adrian0w0
+
+

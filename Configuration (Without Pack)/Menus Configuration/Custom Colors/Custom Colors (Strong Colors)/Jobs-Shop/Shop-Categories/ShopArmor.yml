@@ -1,0 +1,135 @@
+
+# Made by TrMenu Template
+# Date: 2022-02-07 16:51:28
+
+Layout:
+- '#########'
+- '#A#E# # #'
+- '#B#F# # #'
+- '#C#G# # #'
+- '#D#H# # #'
+- '##<#X#>##'
+Title: "&{#251e3e}ᴊᴏʙs sʜᴏᴘ &8| &{#251e3e}ᴀʀᴍᴏʀ ᴍᴇɴᴜ"
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+  'A':
+    display:
+      material: iron helmet
+      name: "&bIron Helmet"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f50'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_HELMET 50 1 64'
+  'B':
+    display:
+      material: iron chestplate
+      name: "&bIron Chestplate"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f80'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_CHESTPLATE 80 1 64'
+  'C':
+    display:
+      material: iron leggings
+      name: "&bIron Leggings"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f75'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_LEGGINGS 75 1 64'
+  'D':
+    display:
+      material: iron boots
+      name: "&bIron Boots"
+      lore:
+        - ''
+        - ' &7• &bItem Info:'
+        - '     &7Price: &f45'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_BOOTS 45 1 64'
+  ">":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19'
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the main menu. "
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsShop"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

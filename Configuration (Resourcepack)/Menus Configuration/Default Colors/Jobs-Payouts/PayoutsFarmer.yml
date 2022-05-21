@@ -1,0 +1,186 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f갊갊힖"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' ABC DEF '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzNTJiOTc5YTQ4OWRmYzhiYTdiMWUxMjU5NzYzODQzZDc3MmYzOWYxNDIwZjg2NzI1MzdhYTc1MjJkYzFiZiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Farmer &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&7Here you can find all the blocks that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZiYjZlZWE1NzU0N2IyNTg4YmFmOGFmNjQ5ZDkxMTZmZjA4Y2FjNTZkZDIxNDBiM2M0OTU3Nzc5OWJhZDdjIn19fQ=="
+      name: "&{#3AB4B2}☆ &{#123973}Cook &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "\uEDC6 &7Potato &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - ""
+      - "\uEDD0 &7Cod &8» &{#3AB4B2}12.50$ &8- &a16.0XP &8- &{#123973}8.75⛁           "
+      - "\uEDD1 &7Salmon &8» &{#3AB4B2}12.50$ &8- &a16.0XP &8- &{#123973}8.75⛁"
+      - "\uEDD2 &7Raw Chicken &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDD3 &7Raw Porkchop &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDD4 &7Raw Beef &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDD5 &7Raw Mutton &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDD6 &7Raw Rabbit &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiMGUyMjFmZDgxYjk4YjhiNTY5YjM1MjJkNTIzMWNmOGIzNjc3MzJmMzdiMzgxZTdhY2VhMjlhNmU4NCJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Eat &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "\uEEB0 &7Apple &8» &{#3AB4B2}12.50$ &8- &a16.0XP &8- &{#123973}8.75⛁           "
+      - "\uEEB1 &7Bread &8» &{#3AB4B2}12.50$ &8- &a16.0XP &8- &{#123973}8.75⛁"
+      - "\uEEB2 &7Baked Potato &8» &{#3AB4B2}13.35$ &8- &a20.0XP &8- &{#123973}8.75⛁"
+      - "\uEEB3 &7Carrot &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEB4 &7Beetroot Soup &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEB5 &7Dried Kelp &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEB6 &7Melon Slice &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDF0 &7Sweet Berries &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDF1 &7Mushroom Stew &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - ""
+      - "\uEDF2 &7Cooked Cod &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDF3 &7Cooked Salmon &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDF4 &7Cooked Chicken &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDF5 &7Cooked Porkchop &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEDF6 &7Cooked Beef &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEA0 &7Cooked Mutton &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEA1 &7Cooked Rabbit &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEA2 &7Rabbit Stew &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - ""
+      - "\uEEA3 &7Pumpkin Pie &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEA4 &7Cake &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEA5 &7Cookie &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEA6 &7Golden Apple &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEEC0 &7Enchanted Golden Apple &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg5MDJlMjk5Y2FjOWI4YTU4YWQzZjY0MTg1YTk5MzA1N2QxNGYyNmY4OGZhZDdkZDYxMTliMWQwYTE1MTk3In19fQ=="
+      name: "&{#3AB4B2}☆ &{#123973}Breed &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "\uE0F5 &7Chicken &8» &{#3AB4B2}12.50$ &8- &a16.0XP &8- &{#123973}8.75⛁           "
+      - "\uE0F4 &7Pig &8» &{#3AB4B2}12.50$ &8- &a16.0XP &8- &{#123973}8.75⛁"
+      - "\uE0F3 &7Cow &8» &{#3AB4B2}13.35$ &8- &a20.0XP &8- &{#123973}8.75⛁"
+      - "\uE0F6 &7Sheep &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEA00 &7Rabbit &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEF01 &7Horse &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEF02 &7Donkey and Mule &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEF03 &7Llama &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEF06 &7Wolf &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - "\uEF05 &7Cat &8» &{#3AB4B2}15.0$ &8- &a23.0XP &8- &{#123973}11.50⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19"
+      name: "&{#3AB4B2}☆ &{#123973}Collect (Seeds) &{#3AB4B2}☆"
+      lore: 
+      - ""
+      - "\uEEC1 &7Saplings &8» &{#3AB4B2}0.1$ &8- &a0.3XP &8- &{#123973}0⛁"
+      - "\uEEC3 &7Wheat &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁           "
+      - "\uEDC6 &7Potato &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEEB3 &7Carrot &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEEC4 &7Sugar Cane &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEEC5 &7Beetroot &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEEC6 &7Cactus &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEED0 &7Cocoa &8» &{#3AB4B2}7.0$ &8- &a10.0XP &8- &{#123973}5.50⛁"
+      - "\uEED1 &7Kelp &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEED2 &7Pumpkin &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEED3 &7Melon &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - "\uEED4 &7Sweet Berries &8» &{#3AB4B2}0.3$ &8- &a0.5XP &8- &{#123973}0.1⛁"
+      - ""
+      - "\uEED5 &7Brown Mushroom &8» &{#3AB4B2}5.85$ &8- &a13.0XP &8- &{#123973}3.75⛁"
+      - "\uEED6 &7Red Mushroom &8» &{#3AB4B2}5.85$ &8- &a13.0XP &8- &{#123973}3.75⛁"
+      - ""
+      - "\uEAE0 &7Nether Wart &8» &{#3AB4B2}6.30$ &8- &a8.85XP &8- &{#123973}4.0⛁"
+      - ""
+  'E':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM2ODAxNDlhZDE3ZTQ2ZmJiZjc2MDZiMjg0Y2M4M2EwM2IxYTY3Y2Q4YTUyNzE3YjQ0YmZhM2FkNTkxNGYxNCJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Collect (Mobs) &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "\uEEE0 &7Wool &8» &{#3AB4B2}3.00$ &8- &a3.50XP &8- &{#123973}2.00⛁"
+      - "\uEEE1 &7Milk &8» &{#3AB4B2}5.00$ &8- &a6.00XP &8- &{#123973}3.00⛁"
+      - ""
+  'F':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkYmQwNmY5YzkyN2RiNmM3OWZjOWY1ZWYyMzk3YWIwNjU0MTkxMzY0ZDBmNWM4OWY5MjRlNWVkOGQzYWYifX19"
+      name: "&{#3AB4B2}☆ &{#123973}Extras &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "\uEAB3 &7Player Kill &8» &{#3AB4B2}3.00$ &8- &a3.50XP &8- &{#123973}2.00⛁"
+      - "\uEDC5 &7Custom Kill (Fisherman) &{#3AB4B2}5.00$ &8- &a6.00XP &8- &{#123973}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 3
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 1
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the hunter menu."
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoFarmer"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"

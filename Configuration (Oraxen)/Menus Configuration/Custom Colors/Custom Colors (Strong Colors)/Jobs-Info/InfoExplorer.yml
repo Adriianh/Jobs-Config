@@ -1,0 +1,127 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_info_sub_menu2%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- '   A B   '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUzYzg5YTJhZGM0ZWU1YmExZjA1ZTVkNjRlOWI0YmI2YjMyMzJjNzIwMjhlMGNiZTM1ZTFiNzNkMGM1N2RjMSJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Explorer &{#251e3e}★"
+      lore:
+        - ""
+        - "&7Hello, &{#251e3e}%player_name%&7!"
+        - ""
+        - "&7In this little guide we will"
+        - "&7teach you the basics about the"
+        - "&7the work of a builder."
+        - ""
+        - "&7More than a job, it's a hobby..."
+        - "&7"
+        - '&7This "work" will generate profits'
+        - "&7for the blocks you walk.."
+        - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ=="
+      name: "&{#251e3e}☆ &{#851e3e}Earnings &{#251e3e}☆"
+      lore:
+      - ""
+      - "&7A explorer's earnings are based on the number"
+      - "&7of blocks you walk."
+      - ""
+      - "&7The longer you walk, the higher your income."
+      - ""
+      - "&7Go to the next &{#251e3e}head&7!"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19"
+      name: "&{#251e3e}☆ &{#851e3e}Stats and Rewards &{#251e3e}☆"
+      lore:
+      - ""
+      - "&7From here you can see your level and claim your rewards."
+      - ""
+      - "&7You will be rewarded with something every time you level up"
+      - "&7a job, each job will have its own rewards."
+      - ""
+      - "&7If you are one of the highest level people on the server, you"
+      - "&7will appear in the leaderboards menu."
+      - ""
+      - " &7» &{#251e3e}Right-Click &7to see your stats."
+      - " &7» &{#251e3e}Left-Click &7to see your rewards."
+      - ""
+    actions:
+      right:
+        - "open: JobsStats"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - "open: RewardsExplorer"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the info menu."
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsInformation"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
