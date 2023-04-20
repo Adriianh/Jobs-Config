@@ -1,4 +1,6 @@
 
+    • Put the "CMILib" folder in your plugins folder, it's necessary for some things in the configuration to work properly.
+
     • The folder called "Configuration", is to use my configuration without the need of a plugin that manages a texturepack. Use a minecraft vanilla texturepack, it comes included with the configuration.
 
     • The folder called "Configuration (Oraxen)", is to use my configuration with the Oraxen plugin, it also includes the necessary configuration for this one.

@@ -1,0 +1,112 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&{#251e3e}ᴊᴏʙs &8| &{#251e3e}ᴡᴇᴀᴘᴏɴsᴍɪᴛʜ ɪᴛᴇᴍs &8| &{#251e3e}ᴡᴇᴀᴘᴏɴs"
+Layout:
+- '#########'
+- '####-####'
+- '#########'
+- '##A#B#C##'
+- '#########'
+- '##<#X#>##'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI5Njc2ZWU2ZGE1YTM1MjFjYjQ3ODQ2Mzc3OWI4NzExZTMxODg3Y2Q5YTZkOWZkZWNmY2JjNTUwODNlNTUxNSJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Enchanter &{#251e3e}★"
+      lore:
+      - ""
+      - "&7Here you can see how much money you'll receive for crafting or repairing weapons."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EzMGNmMjVkYjRkNjlhZWFjMjU5NTE2Yzc2NzhjNzgxMzQzMjQyNDNjYzY3NTFmMWIzN2MzZDI5ZDU0YjAwNiJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Swords &{#251e3e}☆"
+      lore:
+      - ""
+      - "&7Netherite Sword &8» &{#251e3e}10.0$ &8- &a12.0XP &8- &{#851e3e}8.5⛁"
+      - "&7Diamond Sword &8» &{#251e3e}9.5$ &8- &a11.0XP &8- &{#851e3e}8.0⛁"
+      - "&7Iron Sword &8» &{#251e3e}9.0$ &8- &a10.3XP &8- &{#851e3e}7.6⛁"
+      - "&7Golden Sword &8» &{#251e3e}8.6$ &8- &a9.6XP &8- &{#851e3e}7.1⛁"
+      - "&7Stone Sword &8» &{#251e3e}8.0$ &8- &a9.0XP &8- &{#851e3e}6.5⛁"
+      - "&7Wooden Sword &8» &{#251e3e}7.6$ &8- &a8.4XP &8- &{#851e3e}6.0⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U1ZmIyYjE2ZDFhZDA5MGZiYjgxNjVjYTI3NzhiNTJkYmU0MGNiMWZhYmI2OTY1MTBhMDYyNGZiZTM0ZGI2OCJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Projectiles &{#251e3e}☆"
+      lore: 
+      - ""
+      - "&7Bow &8» &{#251e3e}8.6$ &8- &a9.8XP &8- &{#851e3e}7.2⛁"
+      - "&7Crossbow &8» &{#251e3e}8.9$ &8- &a10.3XP &8- &{#851e3e}7.5⛁"
+      - "&7Trident &8» &{#251e3e}9.8$ &8- &a12.0XP &8- &{#851e3e}8.6⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZjOWZiZTE0MjJkNWIwZWRiZTA2NTBlNTExYjFkOWMyMjkxNDYwNzUyYjA2NmM0ZjcwMWMwMjk3YTYyMDFlOCJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Extras &{#251e3e}☆"
+      lore:
+      - ""
+      - "&7Shield &8» &{#251e3e}7.3$ &8- &a8.5XP &8- &{#851e3e}6.8⛁"
+      - ""
+  ">":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the payouts menu."
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: PayoutsWeaponsmith"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

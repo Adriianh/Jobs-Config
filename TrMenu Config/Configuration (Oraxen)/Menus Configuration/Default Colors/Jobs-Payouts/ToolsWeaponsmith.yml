@@ -1,0 +1,147 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_info_sub_menu6%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' ABC DEF '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI5Njc2ZWU2ZGE1YTM1MjFjYjQ3ODQ2Mzc3OWI4NzExZTMxODg3Y2Q5YTZkOWZkZWNmY2JjNTUwODNlNTUxNSJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Enchanter &{#3AB4B2}★"
+      lore:
+      - ""
+      - "&7Here you can see how much money you'll receive for crafting or repairing tools."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlMjlhNThjMDYwNTExZmYwMzUwMjQxYzljODY0OTY5NDdkOGY4NGJmMzJmMmRmMzVlYmUzNzQyZjBlMjAyOSJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Netherite Tools &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "%oraxen_netherite_pickaxe% &7Netherite Pickaxe &8» &{#3AB4B2}9.6$ &8- &a10.8XP &8- &{#123973}8.0⛁"
+      - "%oraxen_netherite_axe% &7Netherite Axe &8» &{#3AB4B2}9.6$ &8- &a10.8XP &8- &{#123973}8.0⛁"
+      - "%oraxen_netherite_shovel% &7Netherite Shovel &8» &{#3AB4B2}9.0$ &8- &a10.0XP &8- &{#123973}7.7⛁"
+      - "%oraxen_netherite_hoe% &7Netherite Hoe &8» &{#3AB4B2}9.4$ &8- &a10.5XP &8- &{#123973}7.9⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3NGE5NjQ0ZWMzY2NiZTkzNmNhNjI5NDI5N2MwZWVjZTQ3MTZkMjUxMjdiYjFiMTI1MjFmM2Y1OGRmOTZkYSJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Diamond Tools &{#3AB4B2}☆"
+      lore: 
+      - ""
+      - "%oraxen_diamond_pickaxe% &7Diamond Pickaxe &8» &{#3AB4B2}9.2$ &8- &a10.4XP &8- &{#123973}7.8⛁"
+      - "%oraxen_diamond_axe% &7Diamond Axe &8» &{#3AB4B2}9.2$ &8- &a10.4XP &8- &{#123973}7.8⛁"
+      - "%oraxen_diamond_shovel% &7Diamond Shovel &8» &{#3AB4B2}8.6$ &8- &a9.5XP &8- &{#123973}7.2⛁"
+      - "%oraxen_diamond_hoe% &7Diamond Hoe &8» &{#3AB4B2}9.0$ &8- &a10.0XP &8- &{#123973}7.5⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZjNWUyODZkOWMxZDE5ZDZkNjA1OWQ2OWIzMzEzOWYxOGNlNjlmYWVmZjBmZWU4OTRkMDRlOTNlN2NiOTg2NyJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Iron Tools &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "%oraxen_iron_pickaxe% &7Iron Pickaxe &8» &{#3AB4B2}8.8$ &8- &a9.9XP &8- &{#123973}7.3⛁"
+      - "%oraxen_iron_axe% &7Iron Axe &8» &{#3AB4B2}8.8$ &8- &a9.9XP &8- &{#123973}7.3⛁"
+      - "%oraxen_iron_shovel% &7Iron Shovel &8» &{#3AB4B2}8.0$ &8- &a9.0XP &8- &{#123973}6.5⛁"
+      - "%oraxen_iron_hoe% &7Iron Hoe &8» &{#3AB4B2}8.5$ &8- &a9.5XP &8- &{#123973}7.0⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Golden Tools &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "%oraxen_golden_pickaxe% &7Golden Pickaxe &8» &{#3AB4B2}8.2$ &8- &a9.0XP &8- &{#123973}6.8⛁"
+      - "%oraxen_golden_axe% &7Golden Axe &8» &{#3AB4B2}8.2$ &8- &a9.0XP &8- &{#123973}6.8⛁"
+      - "%oraxen_golden_shovel% &7Golden Shovel &8» &{#3AB4B2}7.6$ &8- &a8.2XP &8- &{#123973}6.0⛁"
+      - "%oraxen_golden_hoe% &7Golden Hoe &8» &{#3AB4B2}8.0$ &8- &a8.7XP &8- &{#123973}6.6⛁"
+      - ""
+  'E':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc0Mjg4NWRiNjgwM2FiMzY4MGNhNTBhYzJiOTdiMDhiZGRjMjRlMWFkMzA5NWRhOTE0Njc3ZjUyNGE2YjFhNiJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Stone Tools &{#3AB4B2}☆"
+      lore: 
+      - ""
+      - "%oraxen_stone_pickaxe% &7Stone Pickaxe &8» &{#3AB4B2}7.6$ &8- &a8.5XP &8- &{#123973}6.2⛁"
+      - "%oraxen_stone_axe% &7Stone Axe &8» &{#3AB4B2}7.6$ &8- &a8.5XP &8- &{#123973}6.2⛁"
+      - "%oraxen_stone_shovel% &7Stone Shovel &8» &{#3AB4B2}7.0$ &8- &a7.7XP &8- &{#123973}5.7⛁"
+      - "%oraxen_stone_hoe% &7Stone Hoe &8» &{#3AB4B2}7.7$ &8- &a8.1XP &8- &{#123973}6.0⛁"
+      - ""
+  'F':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU2YzY2NWI4MjczODlhYWU0MjNmMGJjNzAzYjZjY2E4M2I1MTgxZDMzZjYwZjcyNzI4MzY3NGY4MDE0YTQ1NiJ9fX0="
+      name: "&{#3AB4B2}☆ &{#123973}Wooden Tools &{#3AB4B2}☆"
+      lore:
+      - ""
+      - "%oraxen_wooden_pickaxe% &7Wooden Pickaxe &8» &{#3AB4B2}7.0$ &8- &a8.0XP &8- &{#123973}5.8⛁"
+      - "%oraxen_wooden_axe% &7Wooden Axe &8» &{#3AB4B2}7.0$ &8- &a8.0XP &8- &{#123973}5.8⛁"
+      - "%oraxen_wooden_shovel% &7Wooden Shovel &8» &{#3AB4B2}6.5$ &8- &a7.3XP &8- &{#123973}5.2⛁"
+      - "%oraxen_wooden_hoe% &7Wooden Hoe &8» &{#3AB4B2}7.1$ &8- &a7.6XP &8- &{#123973}5.6⛁"
+      - ""
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the payouts menu."
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: PayoutsWeaponsmith"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

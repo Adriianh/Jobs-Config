@@ -1,0 +1,156 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f갊갊힝"
+Layout:
+- '         '
+- ' - @ | = '
+- '         '
+- '  < X >  '
+Options:
+  arguments: false
+Bindings: 
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? info 2'
+Icons:
+  '-':
+    update: 20
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+      name: "&{#251e3e}★ &{#851e3e}Enchanter &{#251e3e}★"
+      lore:
+      - ""
+      - "&7We will teach you the basics of a enchanter's work."
+      - ""
+      - "&{#851e3e}Things like:"
+      - "  &7» &{#251e3e}Earnings"
+      - "  &7» &{#251e3e}Payouts"
+      - "  &7» &{#251e3e}Blocks"
+      - "  &7» &{#251e3e}Stats and Rewards"
+      - ""
+      - "&7Click here to see the information."
+      - ""
+    actions:
+      all: 
+        actions:
+          - "open: InfoEnchanter"
+          - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  '@':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI5Njc2ZWU2ZGE1YTM1MjFjYjQ3ODQ2Mzc3OWI4NzExZTMxODg3Y2Q5YTZkOWZkZWNmY2JjNTUwODNlNTUxNSJ9fX0="
+      name: "&{#251e3e}★ &{#851e3e}Weaponsmith &{#251e3e}★"
+      lore:
+      - ""
+      - "&7We will teach you the basics of a weaponsmith's work."
+      - ""
+      - "&{#851e3e}Things like:"
+      - "  &7» &{#251e3e}Earnings"
+      - "  &7» &{#251e3e}Payouts"
+      - "  &7» &{#251e3e}Blocks"
+      - "  &7» &{#251e3e}Stats and Rewards"
+      - ""
+      - "&7Click here to see the information."
+      - ""
+    actions:
+      all: 
+        - "open: InfoWeaponsmith"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  '|':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5MWExNDg2N2VmOTg2Nzg3MmRjZGM4YzU0ZTNkNGNmYjVlNTI1ZGNjZmI3Zjk5YTczMTRhNDVmYWViMzAxZSJ9fX0="
+      name: "&{#251e3e}★ &{#851e3e}Fisher &{#251e3e}★"
+      lore:
+      - ""
+      - "&7We will teach you the basics of a fisher's work."
+      - ""
+      - "&{#851e3e}Things like:"
+      - "  &7» &{#251e3e}Earnings"
+      - "  &7» &{#251e3e}Payouts"
+      - "  &7» &{#251e3e}Blocks"
+      - "  &7» &{#251e3e}Stats and Rewards"
+      - ""
+      - "&7Click here to see the information."
+      - ""
+    actions:
+      all: 
+        - "open: InfoFisher"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  =:
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzNTJiOTc5YTQ4OWRmYzhiYTdiMWUxMjU5NzYzODQzZDc3MmYzOWYxNDIwZjg2NzI1MzdhYTc1MjJkYzFiZiJ9fX0="
+      name: "&{#251e3e}★ &{#851e3e}Farmer &{#251e3e}★"
+      lore:
+      - ""
+      - "&7We will teach you the basics of a farmer's work."
+      - ""
+      - "&{#851e3e}Things like:"
+      - "  &7» &{#251e3e}Earnings"
+      - "  &7» &{#251e3e}Payouts"
+      - "  &7» &{#251e3e}Blocks"
+      - "  &7» &{#251e3e}Stats and Rewards"
+      - ""
+      - "&7Click here to see the information."
+      - ""
+    actions:
+      all: 
+        - "open: InfoFarmer"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 7
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 8
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "open: JobsInformation"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the main menu. "
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsMenu"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

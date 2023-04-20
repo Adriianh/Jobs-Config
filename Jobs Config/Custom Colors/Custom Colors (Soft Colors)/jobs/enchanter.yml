@@ -1,0 +1,278 @@
+Enchanter:
+  fullname: Enchanter
+  shortname: E
+  FullDescription:
+  - "Earns money enchanting weapons."
+  ChatColour: DARK_BLUE
+  chat-display: full
+  max-level: 100
+  leveling-progression-equation: 12*(joblevel)+(joblevel*joblevel*4.5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.02))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.02))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 3
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Harry the wizard
+      Objectives:
+      - Enchant;wood_sword;1
+      - Enchant;diamond_sword;1
+      - Enchant;ARROW_DAMAGE;1
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Be a wizard and get money
+      - Get 100 for this!
+  Gui:
+    Item: enchanting_table
+  Enchant:
+    #Armors
+    netherite_helmet:
+      income: 15
+      experience: 20
+      points: 12
+    netherite_chestplate:
+      income: 20.5
+      experience: 25
+      points: 15.5
+    netherite_leggings:
+      income: 18.6
+      experience: 23
+      points: 13.5
+    netherite_boots:
+      income: 13
+      experience: 18.5
+      points: 10.5
+    diamond_helmet:
+      income: 13
+      experience: 18
+      points: 10
+    diamond_chestplate:
+      income: 18.5
+      experience: 22.5
+      points: 13
+    diamond_leggings:
+      income: 15.8
+      experience: 18.8
+      points: 12.5
+    diamond_boots:
+      income: 9.9
+      experience: 15.4
+      points: 7.6
+    iron_helmet:
+      income: 11
+      experience: 15
+      points: 9.5
+    iron_chestplate:
+      income: 15
+      experience: 20
+      points: 12
+    iron_leggings:
+      income: 13.6
+      experience: 17.8
+      points: 10.5
+    iron_boots:
+      income: 8.7
+      experience: 13
+      points: 7.5
+    golden_helmet:
+      income: 13
+      experience: 18
+      points: 10
+    golden_chestplate:
+      income: 18.5
+      experience: 22.5
+      points: 13
+    golden_leggings:
+      income: 15.8
+      experience: 18.8
+      points: 9.5
+    golden_boots:
+      income: 9.9
+      experience: 15.4
+      points: 7.6
+    chainmail_helmet:
+      income: 11
+      experience: 15
+      points: 9.5
+    chainmail_chestplate:
+      income: 15
+      experience: 20
+      points: 12
+    chainmail_leggings:
+      income: 13.6
+      experience: 17.8
+      points: 10.5
+    chainmail_boots:
+      income: 8.7
+      experence: 13
+      points: 7.5
+    leather_cap:
+      income: 8.5
+      experience: 13.2
+      points: 7.6
+    leather_tunic:
+      income: 12
+      experience: 18.6
+      points: 9.8
+    leather_pants:
+      uncome: 11.5
+      experience: 15.6
+      points: 8.6
+    leather_boots:
+      income: 6.8
+      experience: 10.5
+      points: 5.3
+    #Tools
+    netherite_pickaxe:
+      income: 9.6
+      experience: 10.8
+      points: 8.0
+    netherite_axe:
+      income: 9.6
+      experience: 10.8
+      points: 8.0
+    netherite_shovel:
+      income: 9
+      experience: 10.
+      points: 7.7
+    netherite_hoe:
+      income: 9.4
+      experience: 10.5
+      points: 7.9
+    diamond_pickaxe:
+      income: 9.2
+      experience: 10.4
+      points: 7.8
+    diamond_axe:
+      income: 9.2
+      experience: 10.4
+      points: 7.8
+    diamond_shovel:
+      income: 8.6
+      experience: 9.5
+      points: 7.2
+    diamond_hoe:
+      income: 9
+      experience: 10
+      points: 7.5
+    iron_pickaxe:
+      income: 8.8
+      experience: 9.9
+      points: 7.3
+    iron_axe:
+      income: 8.8
+      experience: 9.9
+      points: 7.3
+    iron_shovel:
+      income: 8
+      experience: 9
+      points: 6.5
+    iron_hoe:
+      income: 8.5
+      experience: 9.5
+      points: 7
+    golden_pickaxe:
+      income: 8.2
+      experience: 9
+      points: 6.8
+    golden_axe:
+      income: 8.2
+      experience: 9
+      points: 6.8
+    golden_shovel:
+      income: 7.6
+      experience: 8.2
+      points: 6
+    golden_hoe:
+      income: 8
+      experience: 8.7
+      points: 6.6
+    stone_pickaxe:
+      income: 7.6
+      experience: 8.5
+      points: 6.2
+    stone_axe:
+      income: 7.6
+      experience: 8.5
+      points: 6.2
+    stone_shovel:
+      income: 7
+      experience: 7.7
+      points: 5.7
+    stone_hoe:
+      income: 7.7
+      experience: 8.1
+      points: 6
+    wooden_pickaxe:
+      income: 7
+      experience: 8
+      points: 5.8
+    wooden_axe:
+      income: 7
+      experience: 8
+      points: 5.8
+    wooden_shovel:
+      income: 6.5
+      experience: 7.3
+      points: 5.2
+    wooden_hoe:
+      income: 7.1
+      experience: 7.6
+      points: 5.6
+    #Weapons
+    netherite_sword:
+      income: 10
+      experience: 12
+      points: 8.5
+    diamond_sword:
+      income: 9.5
+      experience: 11
+      points: 8
+    iron_sword:
+      income: 9
+      experience: 10.3
+      points: 7.6
+    golden_sword:
+      income: 8.6
+      experience: 9.6
+      points: 7.1
+    stone_sword:
+      income: 8
+      experience: 9
+      points: 6.5
+    wooden_sword:
+      income: 7.6
+      experience: 8.4
+      points: 6
+    bow:
+      income: 8.6
+      experience: 9.8
+      points: 7.2
+    crossbow:
+      income: 8.9
+      experience: 10.3
+      points: 7.5
+    trident:
+      income: 9.8
+      experience: 12
+      points: 8.6
+    shield:
+      income: 7.3
+      experience: 8.5
+      points: 6.8
+  Kill:
+    Player:
+      income: 3.0
+      points: 2.0
+      experience: 3.50
+  custom-kill:
+    enchanter:
+      income: 5.0
+      points: 3.0
+      experience: 6.0
+

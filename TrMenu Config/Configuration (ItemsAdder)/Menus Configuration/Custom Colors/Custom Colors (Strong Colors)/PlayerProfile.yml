@@ -1,0 +1,124 @@
+Title: "&f%img_offset_-8%%img_jobs_profile_menu%"
+
+Events:
+  Open:
+    - condition: '$ utils.isPlayerOnline(vars("{0}"))'
+      deny:
+        - 'tell: &7Player &f{0} &7is not online.'
+        - 'set-agent: {0}'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'return'
+      list:
+        - 'sound: BLOCK_CHEST_OPEN-1-0'
+
+
+Bindings:
+  Commands: 'profiles?'
+
+Tasks:
+  profileService:
+    period: 15
+    task:
+      - condition: '$ utils.isPlayerOnline(vars("{0}"))'
+        action: 'refresh: H;C;L;B;R;Z'
+        deny:
+          - 'tell: &7Player &f{0} &7is offline now.'
+          - 'close'
+
+Layout:
+  - '         '
+  - '  H      '
+  - ' RCZ  -  '
+  - '  L   !  '
+  - '  B      '
+  - '         '
+
+Icons:
+
+  '#':
+    display:
+      material: Cyan Stained Glass Pane
+
+  '-':
+    display:
+      material: 'head:{0}'
+      name: "&{#251e3e}★ &{#851e3e}User Info &{#251e3e}★"
+      lore:
+        - ''
+        - ' &7• &{#451e3e}User Info:'
+        - '     &7IGN: &f%player_name%'
+        - '     &7Rank: &f%luckperms_prefix%'
+        - ''
+        - '     &7Money: &f%vault_eco_balance_fixed%'
+        - '     &7Points: &f%jobsr_user_points_fixed%'
+        - '     &7Jobs Count: &f%jobsr_user_joinedjobcount%/5'
+        - ''
+        - '     &7Active Jobs: &f%jobsr_user_jobs%'
+        - ''
+  '!':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZhM2Y2ZjlmNTBhYzY3ZGI5OGI2OGExNWZkMDU5MDE1Mjg4MzZhMThjNzBmYjM5MmFhODlmNGI2MDgzNzY2YiJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Mail &{#251e3e}★"
+      lore:
+        - ''
+        - '&7Click here to send a message'
+        - '&7to {0}'
+        - ''
+    actions:
+      all:
+        - 'command: msg {0} Hey!'
+        - 'close'
+      
+  '|':
+    display:
+      material: Black Stained Glass Pane
+
+  'H':
+    display:
+      material: 'source:JS:utils.getEquipment(vars("{0}"), "HEAD")'
+    icons:
+      - condition: '$ !utils.hasEquipment(vars("{0}"), "HEAD")'
+        display:
+          name: '&3{0}'
+          material: 'head:{0}'
+
+  'C':
+    display:
+      material: 'source:JS:utils.getEquipment(vars("{0}"), "CHEST")'
+    icons:
+      - condition: '$ !utils.hasEquipment(vars("{0}"), "CHEST")'
+        display:
+          name: '%server_time_ss%%'
+          material: Gray Stained Glass Pane
+
+  'L':
+    display:
+      material: 'source:JS:utils.getEquipment(vars("{0}"), "LEGS")'
+    icons:
+      - condition: '$ !utils.hasEquipment(vars("{0}"), "LEGS")'
+        display:
+          material: Gray Stained Glass Pane
+
+  'B':
+    display:
+      material: 'source:JS:utils.getEquipment(vars("{0}"), "FEET")'
+    icons:
+      - condition: '$ !utils.hasEquipment(vars("{0}"), "FEET")'
+        display:
+          material: Gray Stained Glass Pane
+
+  'R':
+    display:
+      material: 'source:JS:utils.getEquipment(vars("{0}"), "MAINHAND")'
+    icons:
+      - condition: '$ !utils.hasEquipment(vars("{0}"), "MAINHAND")'
+        display:
+          material: Gray Stained Glass Pane
+
+  'Z':
+    display:
+      material: 'source:JS:utils.getEquipment(vars("{0}"), "OFFHAND")'
+    icons:
+      - condition: '$ !utils.hasEquipment(vars("{0}"), "OFFHAND")'
+        display:
+          material: Gray Stained Glass Pane

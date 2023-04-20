@@ -1,0 +1,165 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f갊갊힙"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Hunter &{#251e3e}★"
+      lore:
+        - ""
+        - "&7Hello, &{#251e3e}%player_name%&7!"
+        - ""
+        - "&7In this little guide we will"
+        - "&7teach you the basics about the"
+        - "&7the work of a hunter."
+        - ""
+        - "&7A hunter's job, as his name says, is to hunt."
+        - "&7You'll have to kill monsters, animals, and people"
+        - "&7in order to make a profit and level up."
+        - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ=="
+      name: "&{#251e3e}☆ &{#851e3e}Earnings &{#251e3e}☆"
+      lore:
+      - ""
+      - "&7Your winnings will be based on the &{#251e3e}murders"
+      - "&{#251e3e}you perform, each monster or animal will have"
+      - "&7a different price. Obviously, players and bosses"
+      - "&7will have a very high price!"
+      - ""
+      - "&7Go to the next &{#251e3e}head&7!"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Payouts &{#251e3e}☆"
+      lore: 
+      - ""
+      - "Click here to see the list of payouts"
+      - "(The money you will receive for each block)"
+      - ""
+      - " &7» &{#251e3e}Click &7to see payouts."
+      - ""
+    actions:
+      all:
+        - "open: PayoutsHunter"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+    
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBjZDEzMjIzYThkOWMxNzNjZWRjZTZjNGJlYmViYTA2YTI0YTFiYTI3NWRkM2ViNWM3OTMzZjlhNzRiYTAxMSJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Main Mobs &{#251e3e}☆"
+      lore:
+      - ""
+      - "\uE0E4 &7Zombie and Baby Zombie           "
+      - "\uE0E5 &7Skeleton"
+      - "\uE0E6 &7Spider and Cave Spider"
+      - "\uE0F0 &7Creeper"
+      - "\uE0F1 &7Enderman"
+      - "\uE0F2 &7Piglin"
+      - ""
+      - "\uE0F3 &7Cow"
+      - "\uE0F4 &7Pig"
+      - "\uE0F5 &7Chicken"
+      - "\uE0F6 &7Sheep"
+      - "\uEA00 &7Rabbit        "
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19"
+      name: "&{#251e3e}☆ &{#851e3e}Stats and Rewards &{#251e3e}☆"
+      lore:
+      - ""
+      - "&7From here you can see your level and claim your rewards."
+      - ""
+      - "&7You will be rewarded with something every time you level up"
+      - "&7a job, each job will have its own rewards."
+      - ""
+      - "&7If you are one of the highest level people on the server, you"
+      - "&7will appear in the leaderboards menu."
+      - ""
+      - " &7» &{#251e3e}Right-Click &7to see your stats."
+      - " &7» &{#251e3e}Left-Click &7to see your rewards."
+      - ""
+    actions:
+      right:
+        - "open: JobsStatsList"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - "open: JobsLevelHunter"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 7
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 8
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the info menu."
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsInformation"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

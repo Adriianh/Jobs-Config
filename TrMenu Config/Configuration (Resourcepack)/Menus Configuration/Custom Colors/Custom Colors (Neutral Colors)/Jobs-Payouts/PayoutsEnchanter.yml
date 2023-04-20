@@ -1,0 +1,123 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f갊갊힗"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- '  A B C  '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19>'
+      name: "&{#D7B9AA}★ &{#AA9183}Enchanter &{#D7B9AA}★"
+      lore:
+      - ""
+      - "&7You will receive money enchanting some objects, here you will see the profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUyMmRiOTJmMTg4ZWJjNzcxM2NmMzViNGNiYWVkMWNmZTI2NDJhNTk4NmMzYmRlOTkzZjVjZmIzNzI3NjY0YyJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Combat &{#D7B9AA}☆"
+      lore:
+        - ""
+        - " &7This list takes up more space"
+        - " &7than normal, will be divided."
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to see the armors"
+        - " &7» &{#D7B9AA}Left-Click &7to see the weapons"
+        - ""
+    actions:
+      right:
+        - "open: ArmorsEnchanter"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "open: WeaponsEnchanter"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EzMGNmMjVkYjRkNjlhZWFjMjU5NTE2Yzc2NzhjNzgxMzQzMjQyNDNjYzY3NTFmMWIzN2MzZDI5ZDU0YjAwNiJ9fX0="
+      name: "&{#D7B9AA}☆ &{#AA9183}Tools &{#D7B9AA}☆"
+      lore: 
+        - ""
+        - " &7This list takes up more space"
+        - " &7than normal."
+        - " "
+        - " &7» &{#D7B9AA}Click &7to see the tools"
+        - ""
+    actions:
+      all:
+        - "open: ToolsEnchanter"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkYmQwNmY5YzkyN2RiNmM3OWZjOWY1ZWYyMzk3YWIwNjU0MTkxMzY0ZDBmNWM4OWY5MjRlNWVkOGQzYWYifX19"
+      name: "&{#D7B9AA}☆ &{#AA9183}Extras &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "\uEAB3 &7Player Kill &8» &{#D7B9AA}3.00$ &8- &a3.50XP &8- &{#AA9183}2.00⛁"
+      - "\uEAB4 &7Custom Kill (Enchanter) &{#D7B9AA}5.00$ &8- &a6.00XP &8- &{#AA9183}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 7
+      name: "&{#D7B9AA}★ &{#AA9183}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  "<":  
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 8
+      name: "&{#D7B9AA}★ &{#AA9183}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - "title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10"
+  X:
+    display:
+      material: paper
+      nbt:
+        CustomModelData: 2
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the enchanter menu."
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoEnchanter"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - "close"
+        - "sound: BLOCK_ANVIL_PLACE-1-2"

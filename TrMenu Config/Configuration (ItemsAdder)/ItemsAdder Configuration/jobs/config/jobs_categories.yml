@@ -1,0 +1,18 @@
+info:
+  namespace: "jobs"
+categories:
+  icons:
+    enabled: true
+    skip_if_already: false
+    icon: jobs:close_button
+    name: display-category-jobs
+    permission: ia.menu.seecategory.jobs
+    items:
+      - jobs:close_button
+      - jobs:previous_page
+      - jobs:next_page
+      - jobs:barrier_icon
+      - jobs:green_alert
+      - jobs:yellow_alert
+      - jobs:red_alert
+      - jobs:gray_alert

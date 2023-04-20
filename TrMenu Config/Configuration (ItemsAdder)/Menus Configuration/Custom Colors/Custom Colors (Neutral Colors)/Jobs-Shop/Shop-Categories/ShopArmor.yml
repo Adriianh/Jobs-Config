@@ -1,0 +1,135 @@
+
+# Made by TrMenu Template
+# Date: 2022-02-07 16:51:28
+
+Layout:
+- '         '
+- ' A E     '
+- ' B F     '
+- ' C G     '
+- ' D H     '
+- '  < X >  '
+Title: "&f%img_offset_-8%%img_jobs_shop_categories_armor%"
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+  'A':
+    display:
+      material: iron helmet
+      name: "&{#E5CEC1}Iron Helmet"
+      lore:
+        - ''
+        - ' &7• &{#E5CEC1}Item Info:'
+        - '     &7Price: &f50'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_HELMET 50 1 64'
+  'B':
+    display:
+      material: iron chestplate
+      name: "&{#E5CEC1}Iron Chestplate"
+      lore:
+        - ''
+        - ' &7• &{#E5CEC1}Item Info:'
+        - '     &7Price: &f80'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_CHESTPLATE 80 1 64'
+  'C':
+    display:
+      material: iron leggings
+      name: "&{#E5CEC1}Iron Leggings"
+      lore:
+        - ''
+        - ' &7• &{#E5CEC1}Item Info:'
+        - '     &7Price: &f75'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_LEGGINGS 75 1 64'
+  'D':
+    display:
+      material: iron boots
+      name: "&{#E5CEC1}Iron Boots"
+      lore:
+        - ''
+        - ' &7• &{#E5CEC1}Item Info:'
+        - '     &7Price: &f45'
+        - '     &7Required: &cNothing ✖'
+        - ''
+        - '     &7Your Points: &f%jobsr_user_points%  '
+        - ''
+    actions:
+      all:
+        - 'sound: UI_BUTTON_CLICK-1-2'
+        - 'menu: Shop-Handler-Purchase-Jobs ShopArmor IRON_BOOTS 45 1 64'
+  ">":
+    display:
+      material: 'source:IA:next_page'
+      name: "&{#D7B9AA}★ &{#ECC9C7}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:IA:previous_page'
+      name: "&{#D7B9AA}★ &{#ECC9C7}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:IA:close_button'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the main menu. "
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsShop"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

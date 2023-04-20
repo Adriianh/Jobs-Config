@@ -1,0 +1,142 @@
+Title: "&f%img_offset_-8%%img_jobs_info_sub_menu%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' A B C D '
+- '         '
+- '  < X >  '
+Options:
+  arguments: false
+Bindings: 
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? stat(s)? fisher'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5MWExNDg2N2VmOTg2Nzg3MmRjZGM4YzU0ZTNkNGNmYjVlNTI1ZGNjZmI3Zjk5YTczMTRhNDVmYWViMzAxZSJ9fX0='
+      name: '&{#251e3e}★ &{#851e3e}Fisher Stats &{#251e3e}★'
+      lore:
+        - ''
+        - '&7From this menu you will have a preview of your statistics'  
+        - '&7in a specific job.'
+        - ''
+        - '&7You will be able to see your level, the experience you have, '
+        - '&7the bonus stats and the server stats.'
+        - ''
+  'A':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRjZmY4NGI5YWJlMjM0YzA4YTI0Zjk5OGUxNzljYTRkMzdkZTQ3YzUxOWQyZWNlYWUxOGY2NGVkNWZkNyJ9fX0='
+      name: '&{#251e3e}★ &{#851e3e}Your Stats &{#251e3e}★'
+      lore:
+        - ''
+        - ' &7• &{#451e3e}Jobs Stats:'
+        - '     &7Level: &f%jobsr_user_jlevel_fisherman%'
+        - '     &7XP: &f%jobsr_user_jexp_fisherman%/%jobsr_user_jmaxexp_fisherman%'
+        - ''
+        - '     &7Joined: &f%jobsr_user_isin_fisherman%'
+        - ''
+  'B':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZhZGRiZDVkZWRhZDQwOTk5NDczYmU0YTdmNDhmNjIzNmE3OWEwZGNlOTcxYjVkYmQ3MzcyMDE0YWUzOTRkIn19fQ=='
+      name: '&{#251e3e}★ &{#851e3e}Server Stats &{#251e3e}★'
+      lore:
+        - ''
+        - ' &7• &{#451e3e}Jobs Stats:'
+        - '     &7Players: &f%jobsr_totalplayers_fisherman%'
+        - '     &7Max Level: &f%jobsr_maxlvl_fisherman%'
+        - ''
+        - ' &7• &{#451e3e}Top Players:'
+        - '     &7Top 1: &f%ajlb_lb_jobsr_user_jlevel_fisherman_1_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_1_alltime_value%'
+        - '     &7Top 2: &f%ajlb_lb_jobsr_user_jlevel_fishermam_2_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_2_alltime_value%'
+        - '     &7Top 3: &f%ajlb_lb_jobsr_user_jlevel_fisherman_3_alltime_name% - %ajlb_lb_jobsr_user_jlevel_fisherman_3_alltime_value%'
+        - ''
+  'C':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlNjIyNmQ2MWVjY2NkYjU3MzJiNmY3MTU2MGQ2NDAxZDJjYTBlZmY4ZTFhYWZiYmUzY2I3M2ZiNWE5ZiJ9fX0='
+      name: '&{#251e3e}★ &{#851e3e}Job Quests &{#251e3e}★'
+      lore:
+        - ''
+        - ' &7• &{#451e3e}Daily Quests:'
+        - '     &7Max Quests (Job): &f%jobsr_maxdailyq_fisherman%'
+        - '     &7Pending Quests: &f%jobsr_user_dailyquests_pending%'
+        - '     &7Completed Quests: &f%jobsr_user_dailyquests_completed%'
+        - ''
+        - '&7Also, you can review the permanent missions of each job.'
+        - ''
+        - " &7» &{#251e3e}Right-Click &7to see your missions."
+        - ""
+  'D':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: '&{#251e3e}★ &{#851e3e}Bonus Info &{#251e3e}★'
+      lore:
+        - ''
+        - ' &7• &{#451e3e}Bonus Info:'
+        - '     &7Money: &f%jobsr_user_boost_fisherman_money%'
+        - '     &7Experience: &f%jobsr_user_boost_fisherman_exp%'
+        - '     &7Points: &f%jobsr_user_boost_fisherman_points%'
+        - ''
+  ">":
+    display:
+      material: 'source:IA:next_page'
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:IA:previous_page'
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:IA:close_button'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the main menu. "
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsStatsList2"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

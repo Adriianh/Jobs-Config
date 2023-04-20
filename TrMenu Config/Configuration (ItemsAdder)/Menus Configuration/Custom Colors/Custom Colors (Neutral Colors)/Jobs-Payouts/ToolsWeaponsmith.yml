@@ -1,0 +1,147 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%img_offset_-8%%img_jobs_info_sub_menu6%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' ABC DEF '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI5Njc2ZWU2ZGE1YTM1MjFjYjQ3ODQ2Mzc3OWI4NzExZTMxODg3Y2Q5YTZkOWZkZWNmY2JjNTUwODNlNTUxNSJ9fX0='
+      name: "&{#D7B9AA}★ &{#ECC9C7}Enchanter &{#D7B9AA}★"
+      lore:
+      - ""
+      - "&7Here you can see how much money you'll receive for crafting or repairing tools."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlMjlhNThjMDYwNTExZmYwMzUwMjQxYzljODY0OTY5NDdkOGY4NGJmMzJmMmRmMzVlYmUzNzQyZjBlMjAyOSJ9fX0="
+      name: "&{#D7B9AA}☆ &{#ECC9C7}Netherite Tools &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "%img_netherite_pickaxe% &7Netherite Pickaxe &8» &{#D7B9AA}9.6$ &8- &a10.8XP &8- &{#ECC9C7}8.0⛁"
+      - "%img_netherite_axe% &7Netherite Axe &8» &{#D7B9AA}9.6$ &8- &a10.8XP &8- &{#ECC9C7}8.0⛁"
+      - "%img_netherite_shovel% &7Netherite Shovel &8» &{#D7B9AA}9.0$ &8- &a10.0XP &8- &{#ECC9C7}7.7⛁"
+      - "%img_netherite_hoe% &7Netherite Hoe &8» &{#D7B9AA}9.4$ &8- &a10.5XP &8- &{#ECC9C7}7.9⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3NGE5NjQ0ZWMzY2NiZTkzNmNhNjI5NDI5N2MwZWVjZTQ3MTZkMjUxMjdiYjFiMTI1MjFmM2Y1OGRmOTZkYSJ9fX0="
+      name: "&{#D7B9AA}☆ &{#ECC9C7}Diamond Tools &{#D7B9AA}☆"
+      lore: 
+      - ""
+      - "%img_diamond_pickaxe% &7Diamond Pickaxe &8» &{#D7B9AA}9.2$ &8- &a10.4XP &8- &{#ECC9C7}7.8⛁"
+      - "%img_diamond_axe% &7Diamond Axe &8» &{#D7B9AA}9.2$ &8- &a10.4XP &8- &{#ECC9C7}7.8⛁"
+      - "%img_diamond_shovel% &7Diamond Shovel &8» &{#D7B9AA}8.6$ &8- &a9.5XP &8- &{#ECC9C7}7.2⛁"
+      - "%img_diamond_hoe% &7Diamond Hoe &8» &{#D7B9AA}9.0$ &8- &a10.0XP &8- &{#ECC9C7}7.5⛁"
+      - ""
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZjNWUyODZkOWMxZDE5ZDZkNjA1OWQ2OWIzMzEzOWYxOGNlNjlmYWVmZjBmZWU4OTRkMDRlOTNlN2NiOTg2NyJ9fX0="
+      name: "&{#D7B9AA}☆ &{#ECC9C7}Iron Tools &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "%img_iron_pickaxe% &7Iron Pickaxe &8» &{#D7B9AA}8.8$ &8- &a9.9XP &8- &{#ECC9C7}7.3⛁"
+      - "%img_iron_axe% &7Iron Axe &8» &{#D7B9AA}8.8$ &8- &a9.9XP &8- &{#ECC9C7}7.3⛁"
+      - "%img_iron_shovel% &7Iron Shovel &8» &{#D7B9AA}8.0$ &8- &a9.0XP &8- &{#ECC9C7}6.5⛁"
+      - "%img_iron_hoe% &7Iron Hoe &8» &{#D7B9AA}8.5$ &8- &a9.5XP &8- &{#ECC9C7}7.0⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0="
+      name: "&{#D7B9AA}☆ &{#ECC9C7}Golden Tools &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "%img_golden_pickaxe% &7Golden Pickaxe &8» &{#D7B9AA}8.2$ &8- &a9.0XP &8- &{#ECC9C7}6.8⛁"
+      - "%img_golden_axe% &7Golden Axe &8» &{#D7B9AA}8.2$ &8- &a9.0XP &8- &{#ECC9C7}6.8⛁"
+      - "%img_golden_shovel% &7Golden Shovel &8» &{#D7B9AA}7.6$ &8- &a8.2XP &8- &{#ECC9C7}6.0⛁"
+      - "%img_golden_hoe% &7Golden Hoe &8» &{#D7B9AA}8.0$ &8- &a8.7XP &8- &{#ECC9C7}6.6⛁"
+      - ""
+  'E':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc0Mjg4NWRiNjgwM2FiMzY4MGNhNTBhYzJiOTdiMDhiZGRjMjRlMWFkMzA5NWRhOTE0Njc3ZjUyNGE2YjFhNiJ9fX0="
+      name: "&{#D7B9AA}☆ &{#ECC9C7}Stone Tools &{#D7B9AA}☆"
+      lore: 
+      - ""
+      - "%img_stone_pickaxe% &7Stone Pickaxe &8» &{#D7B9AA}7.6$ &8- &a8.5XP &8- &{#ECC9C7}6.2⛁"
+      - "%img_stone_axe% &7Stone Axe &8» &{#D7B9AA}7.6$ &8- &a8.5XP &8- &{#ECC9C7}6.2⛁"
+      - "%img_stone_shovel% &7Stone Shovel &8» &{#D7B9AA}7.0$ &8- &a7.7XP &8- &{#ECC9C7}5.7⛁"
+      - "%img_stone_hoe% &7Stone Hoe &8» &{#D7B9AA}7.7$ &8- &a8.1XP &8- &{#ECC9C7}6.0⛁"
+      - ""
+  'F':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU2YzY2NWI4MjczODlhYWU0MjNmMGJjNzAzYjZjY2E4M2I1MTgxZDMzZjYwZjcyNzI4MzY3NGY4MDE0YTQ1NiJ9fX0="
+      name: "&{#D7B9AA}☆ &{#ECC9C7}Wooden Tools &{#D7B9AA}☆"
+      lore:
+      - ""
+      - "%img_wooden_pickaxe% &7Wooden Pickaxe &8» &{#D7B9AA}7.0$ &8- &a8.0XP &8- &{#ECC9C7}5.8⛁"
+      - "%img_wooden_axe% &7Wooden Axe &8» &{#D7B9AA}7.0$ &8- &a8.0XP &8- &{#ECC9C7}5.8⛁"
+      - "%img_wooden_shovel% &7Wooden Shovel &8» &{#D7B9AA}6.5$ &8- &a7.3XP &8- &{#ECC9C7}5.2⛁"
+      - "%img_wooden_hoe% &7Wooden Hoe &8» &{#D7B9AA}7.1$ &8- &a7.6XP &8- &{#ECC9C7}5.6⛁"
+      - ""
+  ">":
+    display:
+      material: 'source:IA:next_page'
+      name: "&{#D7B9AA}★ &{#ECC9C7}Next Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:IA:previous_page'
+      name: "&{#D7B9AA}★ &{#ECC9C7}Previous Page &{#D7B9AA}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:IA:close_button'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#D7B9AA}Right-Click &7to return to the payouts menu."
+        - " &7» &{#D7B9AA}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: PayoutsWeaponsmith"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

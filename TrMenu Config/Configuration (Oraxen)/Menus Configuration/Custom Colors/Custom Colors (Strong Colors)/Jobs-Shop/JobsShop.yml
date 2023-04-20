@@ -1,0 +1,144 @@
+
+# Made by TrMenu Template
+# Date: 2022-02-07 16:35:20
+
+Layout:
+- '         '
+- ' -  ABC  '
+- '     DEF '
+- '    GHI  '
+- '         '
+- '  < X >  '
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_shop_main%"
+
+Bindings:
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? shop' 
+
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: '&7'
+  '-':
+    display:
+      material: 'head:%player_name%'
+      name: "&{#251e3e}★ &{#851e3e}Profile &{#251e3e}★"
+  'A':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdlYWIxMmIzMTAxYzU1M2UzNjNiZTI3N2QxZTYxZDEyNDA3MDcxNWYwMzA3ZWQwNzc3MzNhNzFmMzkxY2UzZSJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Blocks &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopBlocks'
+  'B':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4MmUxMWQ1YTY0YzZkNjUzZjNhMWM1M2M5NDIwYTE1MzgxOGU2N2RiZDhlOTM0NDJjMzVjNjI3ZTBjNjMxIn19fQ=='
+      name: "&{#251e3e}★ &{#851e3e}Food &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopFood'
+  'C':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxMTI3ZDIyNjc1YzVjNzY5YTBjMDhiNTcyMDE4ZDI5OWM4MzA0NmY4ZTFmOTQzZWQ5ZDUxYmUwM2IwNyJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Seeds &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopSeeds'
+  'D':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I2ODYzMDcyMGJhNDFiODI5OGUzMjJmOGEwOTNmY2I5ZDM5MjRmNDJlZTZlZTVmYTZmMzRiNTZlNDNhOTZhYyJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Armor &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopArmor'
+  'E':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4MzJjMTQ2NmM4NDFjYzc5ZDVmMTAyOTVkNDY0Mjc5OTY3OTc1YTI0NTFjN2E1MzNjNzk5Njg5NzQwOGJlYSJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Weapons &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopWeapons'
+  'F':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlYTIxMzU4Mzg0NjE1MzQzNzJmMmRhNmM4NjJkMjFjZDVmM2QyYzcxMTlmMmJiNjc0YmJkNDI3OTEifX19'
+      name: "&{#251e3e}★ &{#851e3e}Tools &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopTools'
+  'G':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI0YTVjMjlkOTAxNzIxODUxZDg4NjhiOTA3NWY0OWM0NzZhODk0MDk4YzdlZjI2NjU4MTNjNTUyYmJjOWFkZCJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Potions &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopPotions'
+  'H':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Decoration &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopDecorations'
+  'I':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFiNTI2MjQ1YjBmNTlmM2ZkODg5NjIyMTcxOTVjNzZlNzU4ODEyOWI5ZjY1NDYzYTgzYTIzZmQ2MDdmOWY1NCJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Redstone &{#251e3e}★"
+    actions:
+      all:
+        - 'open: ShopRedstone'
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the main menu. "
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsMenu"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

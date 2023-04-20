@@ -1,0 +1,712 @@
+
+# Made by TrMenu Template
+# Date: 2022-01-30 12:10:24
+
+Layout:
+- '         '
+- ' ABCDEFG '
+- '  HIJKL  '
+- '   M O   '
+- '         '
+- '  < X >  '
+Title: "&f%img_offset_-8%%img_jobs_boost_menu%"
+
+Bindings:
+  Commands:
+    - '(?i)job(-)?(gui)?(s)? boost'
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+  'A':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x2] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f2x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost'
+  'B':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x4] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f4x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost2'
+  'C':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x6] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f6x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost3'
+  'D':  
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x8] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f8x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost4'
+  'E':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x10] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f10x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost5'
+  'F':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x12] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f12x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost6'
+  'G':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Personal Boost &6[x14] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f14x'
+        - '     &7Active (Jobs): &f${woodcutter} ${miner} ${builder} ${digger}'
+        - '                       &f${explorer} ${hunter} ${crafter} ${brewer}'
+        - '                       &f${enchanter} ${weaponsmith} ${fisherman} ${farmer}'
+        - ''
+    actions:
+      all:
+        - 'open: PersonalBoost7'
+  'H':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Server Boost &6[x2] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f2x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &F$50,000'
+        - '     &7Type: &fGlobal (server)'
+        - '     &7Active (Jobs): &f${global}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.exp.0.02 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.global true 15m'
+        - 'take-money: 50000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 49999 || player.hasPermission("jobsmenu.boost.active.global")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to level up..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f2x'
+            - '     &7Time: &f15m'
+            - '     &7Price: &f$50,000'
+            - '     &7Type: &fGlobal (server)'
+            - '     &7Active (Jobs): &f${global}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'I':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Server Boost &6[x4] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f4x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &f$65,000'
+        - '     &7Type: &fGlobal (server)'
+        - '     &7Active (Jobs): &f${global}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.exp.0.04 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.global true 15m'
+        - 'take-money: 65000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 64999 || player.hasPermission("jobsmenu.boost.active.global")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to level up..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f4x'
+            - '     &7Time: &f15m'
+            - '     &7Price: &f$65,000'
+            - '     &7Type: &fGlobal (server)'
+            - '     &7Active (Jobs): &f${global}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'J':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Server Boost &6[x6] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f6x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &f$80,000'
+        - '     &7Type: &fGlobal (server)'
+        - '     &7Active (Jobs): &f${global}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.exp.0.06 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.global true 15m'
+        - 'take-money: 80000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 79999 || player.hasPermission("jobsmenu.boost.active.global")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to level up..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f6x'
+            - '     &7Time: &f15m'
+            - '     &7Price: &f$80,000'
+            - '     &7Type: &fGlobal (server)'
+            - '     &7Active (Jobs): &f${global}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'K':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Server Boost &6[x8] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f8x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &f$100,000'
+        - '     &7Type: &fGlobal (server)'
+        - '     &7Active (Jobs): &f${global}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.exp.0.08 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.global true 15m'
+        - 'take-money: 100000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 99999 || player.hasPermission("jobsmenu.boost.active.global")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to level up..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f8x'
+            - '     &7Time: &F15m'
+            - '     &7Price: &f$100,000'
+            - '     &7Type: &fGlobal (server)'
+            - '     &7Active (Jobs): &f${global}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'L':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Server Boost &6[x10] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to level up..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f10x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &F$120,000'
+        - '     &7Type: &fGlobal (server)'
+        - '     &7Active (Jobs): &f${global}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.exp.0.10 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.global true 15m'
+        - 'take-money: 120000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 119999 || player.hasPermission("jobsmenu.boost.active.global")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to level up..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f10x'
+            - '     &7Time: &f15m'
+            - '     &7Price: &f$120,000'
+            - '     &7Type: &fGlobal (server)'
+            - '     &7Active (Jobs): &f${global}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'M':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Money Boost &6[x2] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to get money..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f2x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &f$10,000'
+        - '     &7Active: &f${money}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.money.0.02 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.money true 15m'
+        - 'take-money: 10000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 9999 || player.hasPermission("jobsmenu.boost.active.money")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to get money..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f2x'
+            - '     &7Time: &f15m'
+            - '     &7Price: &f$10,000'
+            - '     &7Active (Jobs): &f${money}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  'O':
+    update: [20, 20, 20, 20]
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0='
+      name: "&{#3AB4B2}★ &{#123973}Points Boost &6[x2] &{#3AB4B2}★"
+      lore:
+        - ''
+        - "&7You know? sometimes it's a little difficult to get points..."
+        - "&7that's why you should use boost's, everything will be easier!"
+        - ''
+        - ' &7• &bBonus Info:'
+        - '     &7Quantity: &f2x'
+        - '     &7Time: &f15m'
+        - '     &7Price: &f$15,000'
+        - '     &7Active: &f${points}'
+        - ''
+    actions:
+      all:
+        - 'console: lp user %player_name% permission settemp jobs.boost.all.points.0.02 true 15m'
+        - 'console: lp user %player_name% permission settemp jobsmenu.boost.active.points true 15m'
+        - 'take-money: 15000'
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - 'title: `&aSUCCESS` `&7You bought your boost (Hunter)!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+    Icons:
+      - condition: 'js: vars("%vault_eco_balance%") <= 14999 || player.hasPermission("jobsmenu.boost.active.points")'
+        inherit: true
+        display:
+          lore:
+            - ''
+            - "&7You know? sometimes it's a little difficult to get points..."
+            - "&7that's why you should use boost's, everything will be easier!"
+            - ''
+            - ' &7• &bBonus Info:'
+            - '     &7Quantity: &f2x'
+            - '     &7Time: &f15m'
+            - '     &7Price: &f$15,000'
+            - '     &7Active (Jobs): &f${points}'
+            - ''
+            - '&cAlert: &7You need more money.'
+            - ''
+        actions:
+          all:
+            - "message: &8[&4✘&8] &7Oh, maybe you need more money or already have a boost..."
+            - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+            - 'title: `&cERROR` `&7You need more money!` 20 20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+            - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+              actions:
+                - 'close'
+  ">":
+    display:
+      material: 'source:IA:next_page'
+      name: "&{#3AB4B2}★ &{#123973}Next Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:IA:previous_page'
+      name: "&{#3AB4B2}★ &{#123973}Previous Page &{#3AB4B2}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:IA:close_button'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#3AB4B2}Right-Click &7to return to the main menu. "
+        - " &7» &{#3AB4B2}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: JobsMenu"
+        - 'sound: ENTITY_EXPERIENCE_ORB_PICKUP-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+
+Functions:
+  woodcutter:
+    function woodcutter() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.woodcutter%") == "no") {
+        return "&cWoodcutter ✖,"
+      } else {
+        return "&aWoodcutter ✔,"       
+      }
+    }
+    woodcutter()
+  miner:
+    function miner() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.miner%") == "no") {
+        return "&cMiner ✖,"
+      } else {
+        return "&aMiner ✔,"       
+      }
+    }
+    miner()
+  builder:
+    function builder() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.builder%") == "no") {
+        return "&cBuilder ✖,"
+      } else {
+        return "&aBuilder ✔,"       
+      }
+    }
+    builder()
+  digger:
+    function digger() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.digger%") == "no") {
+        return "&cDigger ✖,"
+      } else {
+        return "&aDigger ✔,"       
+      }
+    }
+    digger()
+  explorer:
+    function explorer() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.explorer%") == "no") {
+        return "&cExplorer ✖,"
+      } else {
+        return "&aExplorer ✔,"       
+      }
+    }
+    explorer()
+  hunter:
+    function hunter() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.hunter%") == "no") {
+        return "&cHunter ✖,"
+      } else {
+        return "&aHunter ✔,"       
+      }
+    }
+    hunter()
+  crafter:
+    function crafter() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.crafter%") == "no") {
+        return "&cCrafter ✖,"
+      } else {
+        return "&aCrafter ✔,"       
+      }
+    }
+    crafter()
+  brewer:
+    function brewer() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.brewer%") == "no") {
+        return "&cBrewer ✖,"
+      } else {
+        return "&aBrewer ✔,"       
+      }
+    }
+    brewer()
+  enchanter:
+    function enchanter() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.enchanter%") == "no") {
+        return "&cEnchanter ✖,"
+      } else {
+        return "&aEnchanter ✔,"       
+      }
+    }
+    enchanter()
+  weaponsmith:
+    function weaponsmith() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.weaponsmith%") == "no") {
+        return "&cWeaponsmith ✖,"
+      } else {
+        return "&aWeaponsmith ✔,"       
+      }
+    }
+    weaponsmith()
+  fisherman:
+    function fisherman() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.fisher%") == "no") {
+        return "&cFisher ✖,"
+      } else {
+        return "&aFisher ✔,"       
+      }
+    }
+    fisherman()
+  farmer:
+    function farmer() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.farmer%") == "no") {
+        return "&cFarmer ✖."
+      } else {
+        return "&aFarmer ✔."       
+      }
+    }
+    farmer()
+  global:
+    function global() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.global%") == "no") {
+        return "&cFalse ✖."
+      } else {
+        return "&aTrue ✔."       
+      }
+    }
+    global()
+  money:
+    function money() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.money%") == "no") {
+        return "&cFalse ✖."
+      } else {
+        return "&aTrue ✔."       
+      }
+    }
+    money()
+  points:
+    function points() {
+      if (vars("%luckperms_has_permission_jobsmenu.boost.active.points%") == "no") {
+        return "&cFalse ✖."
+      } else {
+        return "&aTrue ✔."       
+      }
+    }
+    points()

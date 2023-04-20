@@ -1,0 +1,59 @@
+info:
+  namespace: "jobs"
+items:
+  close_button:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/close_button
+  previous_page:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/previous_page
+  next_page:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/next_page
+  barrier_icon:
+    enabled: true
+    resource:
+      material: BARRIER
+      generate: true
+      textures:
+      - item/barrier_icon
+  green_alert:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/green_alert
+  yellow_alert:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/yellow_alert
+  red_alert:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/red_alert
+  gray_alert:
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/gray_alert

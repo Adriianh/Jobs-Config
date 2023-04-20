@@ -1,0 +1,1298 @@
+# Guis - Jobs Config
+pixel_split:
+  code: 42014
+  texture: guis/pixel_split.png
+  ascent: -32768
+  height: -6
+jobs_main:
+  code: 42015
+  texture: guis/jobs_main.png
+  ascent: 19
+  height: 256
+jobs_browse:
+  code: 42016
+  texture: guis/jobs_browse.png
+  ascent: 19
+  height: 256
+jobs_info_36: # 4 Rows
+  code: 42017
+  texture: guis/jobs_info_36.png
+  ascent: 19
+  height: 256
+jobs_info_54: # 6 Rows
+  code: 42018
+  texture: guis/jobs_info_54.png
+  ascent: 19
+  height: 256
+jobs_info_sub_menu:
+  code: 42019
+  texture: guis/jobs_info_sub_menu.png
+  ascent: 19
+  height: 256
+jobs_info_sub_menu2:
+  code: 42020
+  texture: guis/jobs_info_sub_menu2.png
+  ascent: 19
+  height: 256
+jobs_info_sub_menu3:
+  code: 42021
+  texture: guis/jobs_info_sub_menu3.png
+  ascent: 19
+  height: 256
+jobs_info_sub_menu6:
+  code: 42022
+  texture: guis/jobs_info_sub_menu6.png
+  ascent: 19
+  height: 256
+jobs_reward_36:
+  code: 42023
+  texture: guis/jobs_rewards_36.png
+  ascent: 19
+  height: 256
+jobs_reward_54:
+  code: 42024
+  texture: guis/jobs_rewards_54.png
+  ascent: 19
+  height: 256
+jobs_menu_stats:
+  code: 42025
+  texture: guis/jobs_menu_stats.png
+  ascent: 19
+  height: 256
+jobs_boost_menu:
+  code: 42026
+  texture: guis/jobs_boost_menu.png
+  ascent: 19
+  height: 256
+jobs_boost_others:
+  code: 42027
+  texture: guis/jobs_boost_others.png
+  ascent: 19
+  height: 256
+jobs_options_menu_png:
+  code: 42028
+  texture: guis/jobs_options_menu.png
+  ascent: 19
+  height: 256
+jobs_profile_menu:
+  code: 42029
+  texture: guis/jobs_profile_menu.png
+  ascent: 19
+  height: 256
+jobs_purchase_menu:
+  code: 42030
+  texture: guis/jobs_purchase_menu.png
+  ascent: 19
+  height: 256
+jobs_sell_menu:
+  code: 42031
+  texture: guis/jobs_sell_menu.png
+  ascent: 19
+  height: 256
+jobs_shop_categories_armor:
+  code: 42032
+  texture: guis/jobs_shop_categories_armor.png
+  ascent: 19
+  height: 256
+jobs_shop_categories:
+  code: 42033
+  texture: guis/jobs_shop_categories.png
+  ascent: 19
+  height: 256
+jobs_shop_main:
+  code: 42034
+  texture: guis/jobs_shop_main.png
+  ascent: 19
+  height: 256
+jobs_server_stats_menu:
+  code: 42035
+  texture: guis/jobs_server_stats_menu.png
+  ascent: 19
+  height: 256
+jobs_tops_menu:
+  code: 42036
+  texture: guis/jobs_tops_menu.png
+  ascent: 19
+  height: 256
+
+# Icons - Jobs Config
+player:
+  texture: custom/player.png
+  ascent: 8
+  height: 8
+  code: 42037
+
+oak_log:
+  texture: custom/oak.png
+  ascent: 8
+  height: 8
+  code: 42038
+birch_log:
+  texture: custom/birch.png
+  ascent: 8
+  height: 8
+  code: 42039
+spruce_log:
+  texture: custom/spruce.png
+  ascent: 8
+  height: 8
+  code: 42040
+acacia_log:
+  texture: custom/acacia.png
+  ascent: 8
+  height: 8
+  code: 42041
+dark_oak_log:
+  texture: custom/dark_oak.png
+  ascent: 8
+  height: 8
+  code: 42042
+jungle_log:
+  texture: custom/jungle.png
+  ascent: 8
+  height: 8
+  code: 42043
+crimson_stem:
+  texture: custom/stem_crimson.png
+  ascent: 8
+  height: 8
+  code: 42044
+warped_stem:
+  texture: custom/stem_warped.png
+  ascent: 8
+  height: 8
+  code: 42045
+crimson_hyphae:
+  texture: custom/crimson_hyphae.png
+  ascent: 8
+  height: 8
+  code: 42046
+warped_hyphae:
+  texture: custom/warped_hyphae.png
+  ascent: 8
+  height: 8
+  code: 42047
+stripped_oak_log:
+  texture: custom/stripped_oak.png
+  ascent: 8
+  height: 8
+  code: 42048
+stripped_birch_log:
+  texture: custom/stripped_birch.png
+  ascent: 8
+  height: 8
+  code: 42049
+stripped_spruce_log:
+  texture: custom/stripped_spruce.png
+  ascent: 8
+  height: 8
+  code: 42050
+stripped_acacia_log:
+  texture: custom/stripped_acacia.png
+  ascent: 8
+  height: 8
+  code: 42051
+stripped_dark_oak_log:
+  texture: custom/stripped_dark_oak.png
+  ascent: 8
+  height: 8
+  code: 42052
+stripped_jungle_log:
+  texture: custom/stripped_jungle.png
+  ascent: 8
+  height: 8
+  code: 42053
+stripped_crimson_stem:
+  texture: custom/stripped_crimson_stem.png
+  ascent: 8
+  height: 8
+  code: 42054
+stripped_warped_stem:
+  texture: custom/stripped_warped_stem.png
+  ascent: 8
+  height: 8
+  code: 42055
+stripped_crimson_hyphae:
+  texture: custom/stripped_crimson_hyphae.png
+  ascent: 8
+  height: 8
+  code: 42056
+stripped_warped_hyphae:
+  texture: custom/stripped_warped_hyphae.png
+  ascent: 8
+  height: 8
+  code: 42057
+oak_planks:
+  texture: custom/oak_planks.png
+  ascent: 8
+  height: 8
+  code: 42058
+birch_planks:
+  texture: custom/oak_planks.png
+  ascent: 8
+  height: 8
+  code: 42059
+spruce_planks:
+  texture: custom/spruce_planks.png
+  ascent: 8
+  height: 8
+  code: 42060
+acacia_planks:
+  texture: custom/acacia_planks.png
+  ascent: 8
+  height: 8
+  code: 42061
+dark_oak_planks:
+  texture: custom/dark_oak_planks.png
+  ascent: 8
+  height: 8
+  code: 42062
+jungle_planks:
+  texture: custom/jungle_planks.png
+  ascent: 8
+  height: 8
+  code: 42063
+crimson_planks:
+  texture: custom/crimson_planks.png
+  ascent: 8
+  height: 8
+  code: 42064
+warped_planks:
+  texture: custom/warped_planks.png
+  ascent: 8
+  height: 8
+  code: 42065
+coal_ore:
+  texture: custom/coal.png
+  ascent: 8
+  height: 8
+iron_ore:
+  texture: custom/iron.png
+  ascent: 8
+  height: 8
+quartz_ore:
+  texture: custom/quartz.png
+  ascent: 8
+  height: 8
+gold_ore:
+  texture: custom/gold.png
+  ascent: 8
+  height: 8
+nether_gold_ore:
+  texture: custom/nether_gold_ore.png
+  asccent: 8
+  height: 8
+lapislazuli_ore:
+  texture: custom/lapislazuli.png
+  ascent: 8
+  height: 8
+redstone_ore:
+  texture: custom/redstone.png
+  ascent: 8
+  height: 8
+emerald_ore:
+  texture: custom/emerald.png
+  ascent: 8
+  height: 8
+diamond_ore: 
+  texture: custom/diamond.png
+  ascent: 8
+  height: 8
+ancient_debris:
+  texture: custom/ancient_debris.png
+  ascent: 8
+  height: 8
+cobblestone:
+  texture: custom/cobblestone.png
+  ascent: 8
+  height: 8
+mossy_cobblestone:
+  texture: custom/mossy_cobblestone.png
+  ascent: 8
+  height: 8
+stone:
+  texture: custom/stone.png
+  ascent: 8
+  height: 8
+granite:
+  texture: custom/granite.png
+  ascent: 8
+  height: 8
+diorite:
+  texture: custom/diorite.png
+  ascent: 8
+  height: 8
+andesite:
+  texture: custom/andesite.png
+  ascent: 8
+  height: 8
+sandstone:
+  texture: custom/sandstone.png
+  ascent: 8
+  height: 8
+red_sandstone:
+  texture: custom/red_sandstone.png
+  ascent: 8
+  height: 8
+blackstone:
+  texture: custom/blackstone.png
+  ascent: 8
+  height: 8
+obsidian:
+  texture: custom/obsidian.png
+  ascent: 8
+  height: 8
+tube_coral_block:
+  texture: custom/tube_coral_block.png
+  ascent: 8
+  height: 8
+bubble_coral_block:
+  texture: custom/bubble_coral_block.png
+  ascent: 8
+  height: 8
+brain_coral_block:
+  texture: custom/brain_coral_block.png
+  ascent: 8
+  height: 8
+fire_coral_block:
+  texture: custom/fire_coral_block.png
+  ascent: 8
+  height: 8
+horn_coral_block:
+  texture: custom/horn_coral_block.png
+  ascent: 8
+  height: 8
+dead_tube_coral_block:
+  texture: custom/dead_tube_coral_block.png
+  ascent: 8
+  height: 8
+dead_bubble_coral_block:
+  texture: custom/bubble_coral_block.png
+  ascent: 8
+  height: 8
+dead_brain_coral_block:
+  texture: custom/dead_brain_coral_block.png
+  ascent: 8
+  height: 8
+dead_fire_coral_block:
+  texture: custom/dead_fire_coral_block.png
+  ascent: 8
+  height: 8
+dead_horn_coral_block:
+  texture: custom/dead_horn_coral_block.png
+  ascent: 8
+  height: 8
+netherrack:
+  texture: custom/netherrack.png
+  ascent: 8
+  height: 8
+nether_bricks:
+  texture: custom/nether_bricks.png
+  ascent: 8
+  height: 8
+cracked_nether_bricks:
+  texture: custom/cracked_nether_bricks.png
+  ascent: 8
+  height: 8
+chiseled_nether_bricks:
+  texture: custom/chiseled_nether_bricks.png
+  ascent: 8
+  height: 8
+smooth_sandstone:
+  texture: custom/smooth_sandstone.png
+  ascent: 8
+  height: 8
+cut_sandstone:
+  texture: custom/cut_sandstone.png
+  ascent: 8
+  height: 8
+chiseled_sandstone:
+  texture: custom/chiseled_sandstone.png
+  ascent: 8
+  height: 8
+smooth_red_sandstone:
+  texture: custom/smooth_red_sandstone.png
+  ascent: 8
+  height: 8
+cut_red_sandstone:
+  texture: custom/cut_red_sandstone.png
+  ascent: 8
+  height: 8
+chiseled_red_sandstone:
+  texture: custom/chiseled_red_sandstone.png
+  ascent: 8
+  height: 8
+prismarine:
+  texture: custom/prismarine.png
+  ascent: 8
+  height: 8
+prismarine_bricks:
+  texture: custom/prismarine_bricks.png
+  ascent: 8
+  height: 8
+dark_prismarine:
+  texture: custom/dark_prismarine.png
+  ascent: 8
+  height: 8
+purpur_block:
+  texture: custom/purpur_block.png
+  ascent: 8
+  height: 8
+purpur_pilar:
+  texture: custom/purpur_pillar.png
+  ascent: 8
+  height: 8
+dirt:
+  texture: custom/dirt.png
+  ascent: 8
+  height: 8
+coarse_dirt:
+  texture: custom/coarse_dirt.png
+  ascent: 8
+  height: 8
+grass_block:
+  texture: custom/grass_block.png
+  ascent: 8
+  height: 8
+sand:
+  texture: custom/sand.png
+  ascent: 8
+  height: 8
+red_sand:
+  texture: custom/red_sand.png
+  ascent: 8
+  height: 8
+clay:
+  texture: custom/clay.png
+  ascent: 8
+  height: 8
+gravel:
+  texture: custom/gravel.png
+  ascent: 8
+  height: 8
+soul_sand:
+  texture: custom/soul_sand.png
+  ascent: 8
+  height: 8
+soul_soil:
+  texture: custom/soul_soil.png
+  ascent: 8
+  height: 8
+concrete_powder:
+  texture: custom/concrete.png
+  ascent: 8
+  height: 8
+
+zombie:
+  texture: custom/zombie.png
+  ascent: 8
+  height: 8
+zombie_villager:
+  texture: custom/zombie_villager.png
+  ascent: 8
+  height: 8
+zombie_horse:
+  texture: custom/zombie_horse.png
+  ascent: 8
+  height: 8
+husk:
+  texture: custom/husk.png
+  ascent: 8
+  height: 8
+drowned:
+  texture: custom/drowned.png
+  ascent: 8
+  height: 8
+skeleton:
+  texture: custom/skeleton.png
+  ascent: 8
+  height: 8
+skeleton_horse:
+  texture: custom/skeleton_horse.png
+  ascent: 8
+  height: 8
+stray:
+  texture: custom/stray.png
+  ascent: 8
+  height: 8
+spider:
+  texture: custom/spider.png
+  ascent: 8
+  height: 8
+cave_spider:
+  texture: custom/cave_spider.png
+  ascent: 8
+  height: 8
+silverfish:
+  texture: custom/silverfish.png
+  ascent: 8
+  height: 8
+creeper:
+  texture: custom/creeper.png
+  ascent: 8
+  height: 8
+witch:
+  texture: custom/witch.png
+  ascent: 8
+  height: 8
+phantom:
+  texture: custom/phantom.png
+  ascent: 8
+  height: 8
+slime:
+  texture: custom/slime.png
+  ascent: 8
+  height: 8
+iron_golem:
+  texture: custom/iron_golem.png
+  ascent: 8
+  height: 8
+snowman:
+  texture: custom/snowman.png
+  ascent: 8
+  height: 8
+pillager:
+  texture: custom/pillager.png
+  ascent: 8
+  height: 8
+ravager:
+  texture: custom/ravager.png
+  ascent: 8
+  height: 8
+vindicator:
+  texture: custom/vindicator.png
+  ascent: 8
+  height: 8
+evoker:
+  texture: custom/evoker.png
+  ascent: 8
+  height: 8
+vex:
+  texture: custom/vex.png
+  ascent: 8
+  height: 8
+guardian:
+  texture: custom/guardian.png
+  ascent: 8
+  height: 8
+blaze:
+  texture: custom/blaze.png
+  ascent: 8
+  height: 8
+magma_cube:
+  texture: custom/magma_cube.png
+  ascent: 8
+  heoght: 8
+strider:
+  texture: custom/strider.png
+  ascent: 8
+  height: 8
+piglin:
+  texture: custom/piglin.png
+  ascent: 8
+  height: 8
+piglin_brute:
+  texture: custom/piglin_brute.png
+  ascent: 8
+  height: 8
+zoglin:
+  texture: custom/zoglin.png
+  ascent: 8
+  height: 8
+ghast:
+  texture: custom/ghast.png
+  ascent: 8
+  height: 8
+wither_skeleton:
+  texture: custom/wither_skeleton.png
+  ascent: 8
+  height: 8
+enderman:
+  texture: custom/enderman.png
+  ascent: 8
+  height: 8
+shulker:
+  texture: custom/shulker.png
+  ascent: 8
+  height: 8
+endermite:
+  texture: custom/endermite.png
+  ascent: 8
+  height: 8
+chicken:
+  texture: custom/chicken.png
+  ascent: 8
+  height: 8
+cow:
+  texture: custom/cow.png
+  ascent: 8
+  height: 8
+mooshroom:
+  texture: custom/mooshroom.png
+  ascent: 8
+  height: 8
+pig:
+  texture: custom/pig.png
+  ascent: 8
+  height: 8
+sheep:
+  texture: custom/sheep.png
+  ascent: 8
+  height: 8
+rabbit:
+  texture: custom/rabbit.png
+  ascent: 8
+  height: 8
+squid:
+  texture: custom/squid.png
+  ascent: 8
+  height: 8
+dolphin:
+  texture: custom/dolphin.png
+  ascent: 8
+  height: 8
+cod:
+  texture: "minecraft:item/cod.png"
+  ascent: 8
+  height: 8
+bat:
+  texture: custom/bat.png
+  ascent: 8
+  height: 8
+parrot:
+  texture: custom/parrot.png
+  ascent: 8
+  height: 8
+bee:
+  texture: custom/bee.png
+  ascent: 8
+  height: 8
+mule:
+  texture: custom/mule.png
+  ascent: 8
+  height: 8
+horse:
+  texture: custom/horse.png
+  ascent: 8
+  height: 8
+donkey:
+  texture: custom/donkey.png
+  ascent: 8
+  height: 8
+llama:
+  texture: custom/llama.png
+  ascent: 8
+  height: 8
+ocelot:
+  texture: custom/ocelot.png
+  ascent: 8
+  height: 8
+cat:
+  texture: custom/cat.png
+  ascent: 8
+  height: 8
+wolf:
+  texture: custom/wolf.png
+  ascent: 8
+  height: 8
+fox:
+  texture: custom/fox.png
+  ascent: 8
+  height: 8
+polar_bear:
+  texture: custom/polar_bear.png
+  ascent: 8
+  height: 8
+panda:
+  texture: custom/panda.png
+  ascent: 8
+  height: 8
+turtle:
+  texture: custom/turtle.png
+  ascent: 8 
+  height: 8
+elder_guardian:
+  texture: custom/elder_guardian.png
+  ascent: 8
+  height: 8
+wither_boss:
+  texture: custom/wither_boss.png
+  ascent: 8
+  height: 8
+ender_dragon:
+  texture: custom/ender_dragon.png
+  ascent: 8
+  height: 8
+villager:
+  texture: custom/villager.png
+  ascent: 8
+  height: 8
+wandering_trader:
+  texture: custom/wandering_trader.png
+  ascent: 8
+  height: 8
+
+salmon:
+  texture: "minecraft:item/salmon.png"
+  ascent: 8
+  height: 8
+pufferfish:
+  texture: "minecraft:item/pufferfish.png"
+  ascent: 8
+  height: 8
+tropical_fish:
+  texture: "minecraft:item/tropical_fish.png"
+  ascent: 8
+  height: 8
+
+potion:
+  texture: custom/potion.png
+  ascent: 8
+  height: 8
+potion_of_regeneration:
+  texture: custom/potion_regeneration.png
+  ascent: 8
+  height: 8
+potion_of_speed:
+  texture: custom/potion_speed.png
+  ascent: 8
+  height: 8
+potion_of_strength:
+  texture: custom/potion_strength.png
+  ascent: 8
+  height: 8
+potion_of_fire_resistance:
+  texture: custom/potion_fireresistance.png
+  ascent: 8
+  height: 8
+potion_of_instant_health:
+  texture: custom/potion_instanthealth.png
+  ascent: 8
+  height: 8
+potion_of_night_vision:
+  texture: custom/potion_nightvision.png
+  ascent: 8
+  height: 8
+potion_of_leaping:
+  texture: custom/potion_leaping.png
+  ascent: 8
+  height: 8
+potion_of_water_breathing:
+  texture: custom/potion_waterbreathing.png
+  ascent: 8
+  height: 8
+potion_of_invisibility:
+  texture: custom/potion_invisibility.png
+  ascent: 8
+  height: 8
+potion_of_slow_falling:
+  texture: custom/potion_slowfalling.png
+  ascent: 8
+  height: 8
+potion_of_luck:
+  texture: custom/potion_luck.png
+  ascent: 8
+  height: 8
+potion_of_poison:
+  texture: custom/potion_poison.png
+  ascent: 8
+  height: 8
+potion_of_weakness:
+  texture: custom/potion_weakness.png
+  ascent: 8
+  height: 8
+potion_of_slowness:
+  texture: custom/potion_slowness.png
+  ascent: 8
+  height: 8
+potion_of_harming:
+  texture: custom/potion_harming.png
+  ascent: 8
+  height: 8
+potion_of_turtle_master:
+  texture: custom/potion_turtlemaster.png
+  ascent: 8
+  height: 8
+nether_wart:
+  texture: "minecraft:item/nether_wart.png"
+  ascent: 8
+  height: 8
+redstone:
+  texture: "minecraft:item/redstone.png"
+  ascent: 8
+  height: 8
+glowstone_dust:
+  texture: "minecraft:item/glowstone_dust.png"
+  ascent: 8
+  height: 8
+fermented_spider_eye:
+  texture: "minecraft:item/fermented_spider_eye.png"
+  ascent: 8
+  height: 8
+gunpowder:
+  texture: "minecraft:item/gunpowder.png"
+  ascent: 8
+  height: 8
+dragon_breath:
+  texture: "minecraft:item/dragon_breath.png"
+  ascent: 8
+  height: 8
+sugar:
+  texture: "minecraft:item/sugar.png"
+  ascent: 8
+  height: 8
+rabbit_foot:
+  texture: "minecraft:item/rabbit_foot.png"
+  ascent: 8
+  height: 8
+glistering_melon:
+  texture: "minecraft:item/glistering_melon_slice.png"
+  ascent: 8
+  height: 8
+spider_eye:
+  texture: "minecraft:item/spider_eye.png"
+  ascent: 8
+  height: 8
+magma_cream:
+  texture: "minecraft:item/magma_cream.png"
+  ascent: 8
+  height: 8
+golden_carrot:
+  texture: "minecraft:item/golden_carrot.png"
+  ascent: 8
+  height: 8
+blaze_powder:
+  texture: "minecraft:item/blaze_powder.png"
+  ascent: 8
+  height: 8
+ghast_tear:
+  texture: "minecraft:item/ghast_tear.png"
+  ascent: 8
+  height: 8
+turtle_helmet:
+  texture: "minecraft:item/turtle_helmet.png"
+  ascent: 8
+  height: 8
+phantom_membrane:
+  texture: "minecraft:item/phantom_membrane.png"
+  ascent: 8
+  height: 8
+
+netherite_helmet:
+  texture: custom/netherite_helmet.png
+  ascent: 8
+  height: 8
+netherite_chestplate:
+  texture: custom/netherite_chestplate.png
+  ascent: 8
+  height: 8
+netherite_leggings:
+  texture: custom/netherite_leggings.png
+  ascent: 8
+  height: 8
+netherite_boots:
+  texture: custom/netherite_boots.png
+  ascent: 8
+  height: 8
+diamond_helmet:
+  texture: custom/diamond_helmet.png
+  ascent: 8
+  height: 8
+diamond_chestplate:
+  texture: custom/diamond_chestplate.png
+  ascent: 8
+  height: 8
+diamond_leggings:
+  texture: custom/diamond_leggings.png
+  ascent: 8
+  height: 8
+diamond_boots:
+  texture: custom/diamond_boots.png
+  ascent: 8
+  height: 8
+iron_helmet:
+  texture: custom/iron_helmet.png
+  ascent: 8
+  height: 8
+iron_chestplate:
+  texture: custom/iron_chestplate.png
+  ascent: 8
+  height: 8
+iron_leggings:
+  texture: custom/iron_leggings.png
+  ascent: 8
+  height: 8
+iron_boots:
+  texture: custom/iron_boots.png
+  ascent: 8
+  height: 8
+golden_helmet:
+  texture: custom/golden_helmet.png
+  ascent: 8
+  height: 8
+golden_chestplate:
+  texture: custom/golden_chestplate.png
+  ascent: 8
+  height: 8
+golden_leggins:
+  texture: custom/golden_leggings.png
+  ascent: 8
+  height: 8
+golden_boots:
+  texture: custom/golden_boots.png
+  ascent: 8
+  height: 8
+chainmail_helmet:
+  texture: custom/chainmail_helmet.png
+  ascent: 8
+  height: 8
+chainmail_chestplate:
+  texture: custom/chainmail_chestplate.png
+  ascent: 8
+  height: 8
+chainmail_leggings:
+  texture: custom/chainmail_leggings.png
+  ascent: 8
+  height: 8
+chainmail_boots:
+  texture: custom/chainmail_boots.png
+  ascent: 8
+  height: 8
+leather_cap:
+  texture: custom/leather_cap.png
+  ascent: 8
+  height: 8
+leather_tunic:
+  texture: custom/leather_tunic.png
+  ascent: 8
+  height: 8
+leather_pants:
+  texture: custom/leather_pants.png
+  ascent: 8
+  height: 8
+leather_boots:
+  texture: custom/leather_boots.png
+  ascent: 8
+  height: 8
+netherite_sword:
+  texture: "minecraft:item/netherite_sword.png"
+  ascent: 8
+  height: 8
+diamond_sword:
+  texture: "minecraft:item/diamond_sword.png"
+  ascent: 8
+  height: 8
+iron_sword:
+  texture: "minecraft:item/iron_sword.png"
+  ascent: 8
+  height: 8
+golden_sword:
+  texture: "minecraft:item/golden_sword.png"
+  ascent: 8
+  height: 8
+stone_sword:
+  texture: "minecraft:item/stone_sword.png"
+  ascent: 8
+  height: 8
+wooden_sword:
+  texture: "minecraft:item/wooden_sword.png"
+  ascent: 8
+  height: 8
+bow:
+  texture: "minecraft:item/bow.png"
+  ascent: 8
+  height: 8
+crossbow:
+  texture: "minecraft:item/crossbow.png"
+  ascent: 8
+  height: 8
+trident:
+  texture: "minecraft:item/trident.png"
+  ascent: 8
+  height: 8
+shield:
+  texture: custom/shield.png
+  ascent: 8
+  height: 8
+netherite_pickaxe:
+  texture: "minecraft:item/netherite_pickaxe"
+  ascent: 8
+  height: 8
+netherite_axe:
+  texture: "minecraft:item/netherite_axe"
+  ascent: 8
+  height: 8
+netherite_shovel:
+  texture: "minecraft:item/netherite_shovel"
+  ascent: 8
+  height: 8
+netherite_hoe:
+  texture: "minecraft:item/netherite_hoe"
+  ascent: 8
+  height: 8
+diamond_pickaxe:
+  texture: "minecraft:item/diamond_pickaxe"
+  ascent: 8
+  height: 8
+diamond_axe:
+  texture: "minecraft:item/diamond_axe"
+  ascent: 8
+  height: 8
+diamond_shovel:
+  texture: "minecraft:item/diamond_shovel"
+  ascent: 8
+  height: 8
+diamond_hoe:
+  texture: "minecraft:item/diamond_hoe"
+  ascent: 8
+  height: 8
+iron_pickaxe:
+  texture: "minecraft:item/iron_pickaxe"
+  ascent: 8
+  height: 8
+iron_axe:
+  texture: "minecraft:item/iron_axe"
+  ascent: 8
+  height: 8
+iron_shovel:
+  texture: "minecraft:item/iron_shovel"
+  ascent: 8
+  height: 8
+iron_hoe:
+  texture: "minecraft:item/iron_hoe"
+  ascent: 8
+  height: 8
+golden_pickaxe:
+  texture: "minecraft:item/golden_pickaxe"
+  ascent: 8
+  height: 8
+golden_axe:
+  texture: "minecraft:item/golden_axe"
+  ascent: 8
+  height: 8
+golden_shovel:
+  texture: "minecraft:item/golden_shovel"
+  ascent: 8
+  height: 8
+golden_hoe:
+  texture: "minecraft:item/golden_hoe"
+  ascent: 8
+  height: 8
+stone_pickaxe:
+  texture: "minecraft:item/stone_pickaxe"
+  ascent: 8
+  height: 8
+stone_axe:
+  texture: "minecraft:item/stone_axe"
+  ascent: 8
+  height: 8
+stone_shovel:
+  texture: "minecraft:item/stone_shovel"
+  ascent: 8
+  height: 8
+stone_hoe:
+  texture: "minecraft:item/stone_hoe"
+  ascent: 8
+  height: 8
+wooden_pickaxe:
+  texture: "minecraft:item/wooden_pickaxe"
+  ascent: 8
+  height: 8
+wooden_axe:
+  texture: "minecraft:item/wooden_axe"
+  ascent: 8
+  height: 8
+wooden_shovel:
+  texture: "minecraft:item/wooden_shovel"
+  ascent: 8
+  height: 8
+wooden_hoe:
+  texture: "minecraft:item/wooden_hoe"
+  ascent: 8
+  height: 8
+
+raw_chicken:
+  texture: "minecraft:item/chicken"
+  ascent: 8
+  height: 8
+raw_porkchop:
+  texture: "minecraft:item/porkchop"
+  ascent: 8
+  height: 8
+raw_beef:
+  texture: "minecraft:item/beef"
+  ascent: 8
+  height: 8
+raw_mutton:
+  texture: "minecraft:item/mutton"
+  ascent: 8
+  height: 8
+raw_rabbit:
+  texture: "minecraft:item/rabbit"
+  ascent: 8
+  height: 8
+apple:
+  texture: "minecraft:item/apple"
+  ascent: 8
+  height: 8
+bread:
+  texture: "minecraft:item/bread"
+  ascent: 8
+  height: 8
+baked_potato:
+  texture: "minecraft:item/baked_potato"
+  ascent: 8
+  height: 8
+carrot:
+  texture: "minecraft:item/carrot"
+  ascent: 8
+  height: 8
+beetroot_soup:
+  texture: "minecraft:item/beetroot_soup"
+  ascent: 8
+  height: 8
+dried_kelp:
+  texture: "minecraft:item/dried_kelp"
+  ascent: 8
+  height: 8
+melon_slice:
+  texture: "minecraft:item/melon_slice"
+  ascent: 8
+  height: 8
+sweet_berries:
+  texture: "minecraft:item/sweet_berries"
+  ascent: 8
+  height: 8
+mushroom_stew:
+  texture: "minecraft:item/mushroom_stew"
+  ascent: 8
+  height: 8
+cooked_cod:
+  texture: "minecraft:item/cooked_cod"
+  ascent: 8
+  height: 8
+cooked_salmon:
+  texture: "minecraft:item/cooked_salmon"
+  ascent: 8
+  height: 8
+cooked_chicken:
+  texture: "minecraft:item/cooked_chicken"
+  ascent: 8
+  height: 8
+cooked_porkchop:
+  texture: "minecraft:item/cooked_porkchop"
+  ascent: 8
+  height: 8
+cooked_beef:
+  texture: "minecraft:item/cooked_beef"
+  ascent: 8
+  height: 8
+cooked_mutton:
+  texture: "minecraft:item/cooked_mutton"
+  ascent: 8
+  height: 8
+cooked_rabbit:
+  texture: "minecraft:item/cooked_rabbit"
+  ascent: 8
+  height: 8
+rabbit_stew:
+  texture: "minecraft:item/rabbit_stew"
+  ascent: 8
+  height: 8
+pumpkin_pie:
+  texture: "minecraft:item/pumpkin_pie"
+  ascent: 8
+  height: 8
+cake:
+  texture: "minecraft:item/cake"
+  ascent: 8
+  height: 8
+cookie:
+  texture: "minecraft:item/cookie"
+  ascent: 8
+  height: 8
+golden_apple:
+  texture: "minecraft:item/golden_apple"
+  ascent: 8
+  height: 8
+enchanted_golden_apple:
+  texture: custom/enchanted_golden_apple.png
+  ascent: 8
+  height: 8
+saplings:
+  texture: "minecraft:block/oak_sapling.png"
+  ascent: 8
+  height: 8
+wheat:
+  texture: "minecraft:item/wheat.png"
+  ascent: 8
+  height: 8
+potato:
+  texture: "minecraft:item/potato.png"
+  ascent: 8
+  height: 8
+sugar_cane:
+  texture: "minecraft:item/sugar_cane.png"
+  ascent: 8
+  height: 8
+beetroot:
+  texture: "minecraft:item/beetroot.png"
+  ascent: 8
+  height: 8
+cactus:
+  texture: custom/cactus.png
+  ascent: 8
+  height: 8
+cocoa:
+  texture: "minecraft:item/cocoa_beans.png"
+  ascent: 8
+  height: 8
+kelp:
+  texture: "minecraft:item/kelp.png"
+  ascent: 8
+  height: 8
+pumpkin:
+  texture: custom/pumpkin.png
+  ascent: 8
+  height: 8
+melon:
+  texture: custom/melon.png
+  ascent: 8
+  height: 8
+brown_mushroom:
+  texture: custom/brown_mushroom.png
+  ascent: 8
+  height: 8
+red_mushroom:
+  texture: custom/red_mushroom.png
+  ascent: 8
+  height: 8
+wool:
+  texture: custom/white_wool.png
+  ascent: 8
+  height: 8
+milk:
+  texture: "minecraft:item/milk_bucket.png"
+  ascent: 8
+  height: 8
+
+oak_leaves:
+  texture: "minecraft:block/oak_leaves.png"
+  ascent: 8
+  height: 8
+glass:
+  texture: "minecraft:block/glass.png"
+  ascent: 8
+  height: 8
+terracotta:
+  texture: "minecraft:block/terracotta.png"
+  ascent: 8
+  height: 8
+concrete:
+  texture: "minecraft:block/white_concrete.png"
+  ascent: 8
+  height: 8
+glass_pane:
+  texture: "minecraf:block/glass_pane.png"
+  ascent: 8
+  height: 8

@@ -1,0 +1,186 @@
+# 
+# Made by TrMenu Template
+# Date: 2020-12-12 00:36:50
+#  
+
+Title: "&f%oraxen_pixel_split%%oraxen_pixel_split%%oraxen_jobs_info_sub_menu6%"
+Layout:
+- '         '
+- '    -    '
+- '         '
+- ' ABC DEF '
+- '         '
+- '  < X >  '
+Icons:
+  '#':
+    display:
+      material: black stained glass pane
+      name: "&7"
+  '-':
+    display:
+      material: 'head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzNTJiOTc5YTQ4OWRmYzhiYTdiMWUxMjU5NzYzODQzZDc3MmYzOWYxNDIwZjg2NzI1MzdhYTc1MjJkYzFiZiJ9fX0='
+      name: "&{#251e3e}★ &{#851e3e}Farmer &{#251e3e}★"
+      lore:
+      - ""
+      - "&7Here you can find all the blocks that will generate profits."
+      - ""
+  'A':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZiYjZlZWE1NzU0N2IyNTg4YmFmOGFmNjQ5ZDkxMTZmZjA4Y2FjNTZkZDIxNDBiM2M0OTU3Nzc5OWJhZDdjIn19fQ=="
+      name: "&{#251e3e}☆ &{#851e3e}Cook &{#251e3e}☆"
+      lore:
+      - ""
+      - "%oraxen_potato% &7Potato &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - ""
+      - "%oraxen_cod% &7Cod &8» &{#251e3e}12.50$ &8- &a16.0XP &8- &{#851e3e}8.75⛁           "
+      - "%oraxen_salmon% &7Salmon &8» &{#251e3e}12.50$ &8- &a16.0XP &8- &{#851e3e}8.75⛁"
+      - "%oraxen_raw_chicken% &7Raw Chicken &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_raw_porkchop% &7Raw Porkchop &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_raw_beef% &7Raw Beef &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_raw_mutton% &7Raw Mutton &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_raw_rabbit% &7Raw Rabbit &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - ""
+  'B':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiMGUyMjFmZDgxYjk4YjhiNTY5YjM1MjJkNTIzMWNmOGIzNjc3MzJmMzdiMzgxZTdhY2VhMjlhNmU4NCJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Eat &{#251e3e}☆"
+      lore:
+      - ""
+      - "%oraxen_apple% &7Apple &8» &{#251e3e}12.50$ &8- &a16.0XP &8- &{#851e3e}8.75⛁           "
+      - "%oraxen_bread% &7Bread &8» &{#251e3e}12.50$ &8- &a16.0XP &8- &{#851e3e}8.75⛁"
+      - "%oraxen_baked_potato% &7Baked Potato &8» &{#251e3e}13.35$ &8- &a20.0XP &8- &{#851e3e}8.75⛁"
+      - "%oraxen_carrot% &7Carrot &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_beetroot_soup% &7Beetroot Soup &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_dried_kelp% &7Dried Kelp &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_melon_slice% &7Melon Slice &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_sweet_berries% &7Sweet Berries &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_mushroom_stew% &7Mushroom Stew &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - ""
+      - "%oraxen_cooked_cod% &7Cooked Cod &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cooked_salmon% &7Cooked Salmon &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cooked_chicken% &7Cooked Chicken &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cooked_porkchop% &7Cooked Porkchop &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cooked_beef% &7Cooked Beef &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cooked_mutton% &7Cooked Mutton &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cooked_rabbit% &7Cooked Rabbit &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_rabbit_stew% &7Rabbit Stew &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - ""
+      - "%oraxen_pumpkin_pie% &7Pumpkin Pie &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cake% &7Cake &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cookie% &7Cookie &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_golden_apple% &7Golden Apple &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_enchanted_golden_apple% &7Enchanted Golden Apple &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+  'C':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg5MDJlMjk5Y2FjOWI4YTU4YWQzZjY0MTg1YTk5MzA1N2QxNGYyNmY4OGZhZDdkZDYxMTliMWQwYTE1MTk3In19fQ=="
+      name: "&{#251e3e}☆ &{#851e3e}Breed &{#251e3e}☆"
+      lore:
+      - ""
+      - "%oraxen_chicken% &7Chicken &8» &{#251e3e}12.50$ &8- &a16.0XP &8- &{#851e3e}8.75⛁           "
+      - "%oraxen_pig% &7Pig &8» &{#251e3e}12.50$ &8- &a16.0XP &8- &{#851e3e}8.75⛁"
+      - "%oraxen_cow% &7Cow &8» &{#251e3e}13.35$ &8- &a20.0XP &8- &{#851e3e}8.75⛁"
+      - "%oraxen_sheep% &7Sheep &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_rabbit% &7Rabbit &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_horse% &7Horse &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_donkey% &7Donkey and Mule &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_llama% &7Llama &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_wolf% &7Wolf &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - "%oraxen_cat% &7Cat &8» &{#251e3e}15.0$ &8- &a23.0XP &8- &{#851e3e}11.50⛁"
+      - ""
+  'D':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzODI2Mjc1N2Q2M2U0MmQ0NGE2ZjE1OTliMTJkODI3NzQwZDdmM2FiOWEyZTZkZGIxNjFmZGE4YzNlZWYifX19"
+      name: "&{#251e3e}☆ &{#851e3e}Collect (Seeds) &{#251e3e}☆"
+      lore: 
+      - ""
+      - "%oraxen_saplings% &7Saplings &8» &{#251e3e}0.1$ &8- &a0.3XP &8- &{#851e3e}0⛁"
+      - "%oraxen_wheat% &7Wheat &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁           "
+      - "%oraxen_potato% &7Potato &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_carrot% &7Carrot &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_sugar_cane% &7Sugar Cane &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_beetroot% &7Beetroot &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_cactus% &7Cactus &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_cocoa% &7Cocoa &8» &{#251e3e}7.0$ &8- &a10.0XP &8- &{#851e3e}5.50⛁"
+      - "%oraxen_kelp% &7Kelp &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_pumpkin% &7Pumpkin &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_melon% &7Melon &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - "%oraxen_sweet_berries% &7Sweet Berries &8» &{#251e3e}0.3$ &8- &a0.5XP &8- &{#851e3e}0.1⛁"
+      - ""
+      - "%oraxen_brown_mushroom% &7Brown Mushroom &8» &{#251e3e}5.85$ &8- &a13.0XP &8- &{#851e3e}3.75⛁"
+      - "%oraxen_red_mushroom% &7Red Mushroom &8» &{#251e3e}5.85$ &8- &a13.0XP &8- &{#851e3e}3.75⛁"
+      - ""
+      - "%oraxen_nether_wart% &7Nether Wart &8» &{#251e3e}6.30$ &8- &a8.85XP &8- &{#851e3e}4.0⛁"
+      - ""
+  'E':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM2ODAxNDlhZDE3ZTQ2ZmJiZjc2MDZiMjg0Y2M4M2EwM2IxYTY3Y2Q4YTUyNzE3YjQ0YmZhM2FkNTkxNGYxNCJ9fX0="
+      name: "&{#251e3e}☆ &{#851e3e}Collect (Mobs) &{#251e3e}☆"
+      lore:
+      - ""
+      - "%oraxen_wool% &7Wool &8» &{#251e3e}3.00$ &8- &a3.50XP &8- &{#851e3e}2.00⛁"
+      - "%oraxen_milk% &7Milk &8» &{#251e3e}5.00$ &8- &a6.00XP &8- &{#851e3e}3.00⛁"
+      - ""
+  'F':
+    display:
+      material: "head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkYmQwNmY5YzkyN2RiNmM3OWZjOWY1ZWYyMzk3YWIwNjU0MTkxMzY0ZDBmNWM4OWY5MjRlNWVkOGQzYWYifX19"
+      name: "&{#251e3e}☆ &{#851e3e}Extras &{#251e3e}☆"
+      lore:
+      - ""
+      - "%oraxen_player% &7Player Kill &8» &{#251e3e}3.00$ &8- &a3.50XP &8- &{#851e3e}2.00⛁"
+      - "%oraxen_player% &7Custom Kill (Fisherman) &{#251e3e}5.00$ &8- &a6.00XP &8- &{#851e3e}3.00⛁"
+      - ""
+  ">":
+    display:
+      material: 'source:ORAXEN:next_page'
+      name: "&{#251e3e}★ &{#851e3e}Next Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to go to the "
+        - " &7next page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  "<":  
+    display:
+      material: 'source:ORAXEN:previous_page'
+      name: "&{#251e3e}★ &{#851e3e}Previous Page &{#251e3e}★"
+      lore:
+        - ""
+        - " &7Click here to return to the "
+        - " &7previous page. "
+        - ""
+    actions:
+      all:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'
+        - "message: &8[&4✘&8] &7Oh, you better come back soon."
+        - 'title: `&cError` `&7Apparently, there is nothing around here.` 20  20 10 {condition=check papi *"%luckperms_has_permission_jobsmenu.titles%" == *yes}'
+  X:
+    display:
+      material: 'source:ORAXEN:close_icon'
+      name: "&4★ &cClose &4★"
+      lore:
+        - ""
+        - " &7Are you done and want to go out?, Don't "
+        - " &7worry, click here!"
+        - " "
+        - " &7» &{#251e3e}Right-Click &7to return to the hunter menu."
+        - " &7» &{#251e3e}Left-Click &7to close the menu."
+        - ""
+    actions:
+      right:
+        - "open: InfoFarmer"
+        - "sound: ENTITY_EXPERIENCE_ORB_PICKUP"
+      left:
+        - condition: 'check papi *"%luckperms_has_permission_jobsmenu.close.menus%" == *yes'
+          actions:
+            - 'close'
+        - 'sound: BLOCK_ANVIL_PLACE-1-2 {condition=check papi *"%luckperms_has_permission_jobsmenu.sounds%" == *yes}'

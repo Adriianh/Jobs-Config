@@ -1,0 +1,1813 @@
+info:
+  namespace: "jobs"
+font_images:
+
+  # GUI FONTS
+
+  jobs_main:
+    permission: jobs_main_menu
+    show_in_gui: false
+    path: "guis/jobs_main"
+    y_position: 18
+  jobs_browse:
+    permission: jobs_browse_menu
+    show_in_gui: false
+    path: "guis/jobs_browse"
+    y_position: 19
+  jobs_info_36:
+    permission: jobs_info_36
+    show_in_gui: false
+    path: "guis/jobs_info_36"
+    y_position: 19
+  jobs_info_54:
+    permission: jobs_info_54
+    show_in_gui: false
+    path: "guis/jobs_info_54"
+    y_position: 19
+  jobs_info_sub_menu:
+    permission: jobs_info_sub_menu
+    show_in_gui: false
+    path: "guis/jobs_info_sub_menu"
+    y_position: 19
+  jobs_info_sub_menu2:
+    permission: jobs_info_sub_menu2
+    show_in_gui: false
+    path: "guis/jobs_info_sub_menu2"
+    y_position: 19
+  jobs_info_sub_menu3:
+    permission: jobs_info_sub_menu3
+    show_in_gui: false
+    path: "guis/jobs_info_sub_menu3"
+    y_position: 19
+  jobs_info_sub_menu6:
+    permission: jobs_info_sub_menu6
+    show_in_gui: false
+    path: "guis/jobs_info_sub_menu6"
+    y_position: 20
+  jobs_rewards_36:
+    permission: jobs_rewards_36
+    show_in_gui: false
+    path: "guis/jobs_rewards_36"
+    y_position: 19
+  jobs_rewards_54:
+    permission: jobs_rewards_54
+    show_in_gui: false
+    path: "guis/jobs_rewards_54"
+    y_position: 19
+  jobs_menu_stats:
+    permission: jobs_menu_stats
+    show_in_gui: false
+    path: "guis/jobs_menu_stats"
+    y_position: 19
+  jobs_boost_menu:
+    permission: jobs_boost_menu
+    show_in_gui: false
+    path: "guis/jobs_boost_menu"
+    y_position: 19
+  jobs_boost_others:
+    permission: jobs_boost_others
+    show_in_gui: false
+    path: "guis/jobs_boost_others"
+    y_position: 19
+  jobs_options_menu:
+    permission: jobs_options_menu
+    show_in_gui: false
+    path: "guis/jobs_options_menu"
+    y_position: 20
+  jobs_profile_menu:
+    permission: jobs_profile_menu
+    show_in_gui: false
+    path: "guis/jobs_profile_menu"
+    y_position: 20
+  jobs_purchase_menu:
+    permission: jobs_purchase_menu
+    show_in_gui: false
+    path: "guis/jobs_purchase_menu"
+    y_position: 19
+  jobs_sell_menu:
+    permission: jobs_sell_menu
+    show_in_gui: false
+    path: "guis/jobs_sell_menu"
+    y_position: 19
+  jobs_shop_main:
+    permission: jobs_shop_main
+    show_in_gui: false
+    path: "guis/jobs_shop_main"
+    y_position: 20
+  jobs_shop_categories:
+    permission: jobs_shop_categories
+    show_in_gui: false
+    path: "guis/jobs_shop_categories"
+    y_position: 20
+  jobs_shop_categories_armor:
+    permission: jobs_shop_categories_armor
+    show_in_gui: false
+    path: "guis/jobs_shop_categories_armor"
+    y_position: 20
+  jobs_server_stats_menu:
+    permission: jobs_server_stats
+    show_in_gui: false
+    path: "guis/jobs_server_stats_menu"
+    y_position: 20
+  jobs_tops_menu:
+    permission: jobs_tops_menu
+    show_in_gui: false
+    path: "guis/jobs_tops_menu"
+    y_position: 19
+
+  # ICON FONTS
+
+  player:
+    permission: jobs_player 
+    show_in_gui: false
+    path: "custom/player"
+    scale_ratio: 9
+    y_position: 8
+  # WOOD
+  oak_log:
+    permission: jobs_oak_log
+    show_in_gui: false
+    path: "custom/oak"
+    scale_ratio: 9
+    y_position: 8
+  birch_log:
+    permission: jobs_birch_log
+    show_in_gui: false
+    path: "custom/birch"
+    scale_ratio: 9
+    y_position: 8
+  spruce_log:
+    permission: jobs_spruce_log
+    show_in_gui: false
+    path: "custom/spruce"
+    scale_ratio: 9
+    y_position: 8
+  acacia_log:
+    permission: jobs_acacia_log
+    show_in_gui: false
+    path: "custom/acacia"
+    scale_ratio: 9
+    y_position: 8
+  dark_oak_log:
+    permission: jobs_dark_oak_log
+    show_in_gui: false
+    path: "custom/dark_oak"
+    scale_ratio: 9
+    y_position: 8
+  jungle_log:
+    permission: jobs_jungle_log
+    show_in_gui: false
+    path: "custom/jungle"
+    scale_ratio: 9
+    y_position: 8
+  crimson_stem:
+    permission: jobs_crimson_stem
+    show_in_gui: false
+    path: "custom/stem_crimson"
+    scale_ratio: 9
+    y_position: 8
+  warped_stem:
+    permission: jobs_warped_stem
+    show_in_gui: false
+    path: "custom/stem_warped"
+    scale_ratio: 9
+    y_position: 8
+  crimson_hyphae:
+    permission: jobs_crimson_hyphae
+    show_in_gui: false
+    path: "custom/crimson_hyphae"
+    scale_ratio: 9
+    y_position: 8
+  warped_hyphae:
+    permission: jobs_warped_hyphae
+    show_in_gui: false
+    path: "custom/warped_hyphae"
+    scale_ratio: 9
+    y_position: 8
+  stripped_oak_log:
+    permission: jobs_stripped_oak_log
+    show_in_gui: false
+    path: "custom/stripped_oak"
+    scale_ratio: 9
+    y_position: 8
+  stripped_birch_log:
+    permission: jobs_stripped_birch_log
+    show_in_gui: false
+    path: "custom/stripped_birch"
+    scale_ratio: 9
+    y_position: 8
+  stripped_spruce_log:
+    permission: jobs_stripped_spruce_log
+    show_in_gui: false
+    path: "custom/stripped_spruce"
+    scale_ratio: 9
+    y_position: 8
+  stripped_acacia_log:
+    permission: jobs_stripped_acacia_log
+    show_in_gui: false
+    path: "custom/stripped_acacia"
+    scale_ratio: 9
+    y_position: 8
+  stripped_dark_oak_log:
+    permission: jobs_stripped_dark_oak_log
+    show_in_gui: false
+    path: "custom/stripped_dark_oak"
+    scale_ratio: 9
+    y_position: 8
+  stripped_jungle_log:
+    permission: jobs_stripped_jungle_log
+    show_in_gui: false
+    path: "custom/stripped_jungle"
+    scale_ratio: 9
+    y_position: 8
+  stripped_crimson_stem:
+    permission: jobs_stripped_crimson_stem
+    show_in_gui: false
+    path: "custom/stripped_crimson_stem"
+    scale_ratio: 9
+    y_position: 8
+  stripped_warped_stem:
+    permission: jobs_stripped_warped_stem
+    show_in_gui: false
+    path: "custom/stripped_warped_stem"
+    scale_ratio: 9
+    y_position: 8
+  stripped_crimson_hyphae:
+    permission: jobs_stripped_crimson_hyphae
+    show_in_gui: false
+    path: "custom/stripped_crimson_hyphae"
+    scale_ratio: 9
+    y_position: 8
+  stripped_warped_hyphae:
+    permission: jobs_stripped_warped_hyphae
+    show_in_gui: false
+    path: "custom/stripped_warped_hyphae"
+    scale_ratio: 9
+    y_position: 8
+  oak_planks:
+    permission: jobs_oak_planks
+    show_in_gui: false
+    path: "custom/oak_planks"
+    scale_ratio: 9
+    y_position: 8
+  birch_planks:
+    permission: jobs_birch_planks
+    show_in_gui: false
+    path: "custom/birch_planks"
+    scale_ratio: 9
+    y_position: 8
+  spruce_planks:
+    permission: jobs_spruce_planks
+    show_in_gui: false
+    path: "custom/spruce_planks"
+    scale_ratio: 9
+    y_position: 8
+  acacia_planks:
+    permission: jobs_acacia_planks
+    show_in_gui: false
+    path: "custom/acacia_planks"
+    scale_ratio: 9
+    y_position: 8
+  dark_oak_planks:
+    permission: jobs_dark_oak_planks
+    show_in_gui: false
+    path: "custom/dark_oak_planks"
+    scale_ratio: 9
+    y_position: 8
+  jungle_planks:
+    permission: jobs_jungle_planks
+    show_in_gui: false
+    path: "custom/jungle_planks"
+    scale_ratio: 9
+    y_position: 8
+  crimson_planks:
+    permission: jobs_crimson_planks
+    show_in_gui: false
+    path: "custom/crimson_planks"
+    scale_ratio: 9
+    y_position: 8
+  warped_planks:
+    permission: jobs_warped_planks
+    show_in_gui: false
+    path: "custom/warped_planks"
+    scale_ratio: 9
+    y_position: 8
+  # ORES
+  coal_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/coal"
+    scale_ratio: 9
+    y_position: 8
+  iron_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/iron"
+    scale_ratio: 9
+    y_position: 8
+  quartz_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/quartz"
+    scale_ratio: 9
+    y_position: 8
+  gold_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/gold"
+    scale_ratio: 9
+    y_position: 8
+  nether_gold_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/nether_gold_ore"
+    scale_ratio: 9
+    y_position: 8
+  lapislazuli_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/lapislazuli"
+    scale_ratio: 9
+    y_position: 8
+  redstone_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/redstone"
+    scale_ratio: 9
+    y_position: 8
+  emerald_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/emerald"
+    scale_ratio: 9
+    y_position: 8
+  diamond_ore:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/diamond"
+    scale_ratio: 9
+    y_position: 8
+  ancient_debris:
+    permission: jobs_coal_ore
+    show_in_gui: false
+    path: "custom/ancient_debris"
+    scale_ratio: 9
+    y_position: 8
+  # BLOCKS
+  cobblestone:
+    permission: jobs_cobblestone
+    show_in_gui: false
+    path: "custom/cobblestone"
+    scale_ratio: 9
+    y_position: 8
+  mossy_cobblestone:
+    permission: jobs_mossy_cobblestone
+    show_in_gui: false
+    path: "custom/mossy_cobblestone"
+    scale_ratio: 9
+    y_position: 8
+  stone:
+    permission: jobs_stone
+    show_in_gui: false
+    path: "custom/stone"
+    scale_ratio: 9
+    y_position: 8
+  granite:
+    permission: jobs_granite
+    show_in_gui: false
+    path: "custom/granite"
+    scale_ratio: 9
+    y_position: 8
+  diorite: 
+    permission: jobs_diorite
+    show_in_gui: false
+    path: "custom/diorite"
+    scale_ratio: 9
+    y_position: 8
+  andesite:
+    permission: jobs_andesite
+    show_in_gui: false
+    path: "custom/andesite"
+    scale_ratio: 9
+    y_position: 8
+  sandstone:
+    permission: jobs_sandstone
+    show_in_gui: false
+    path: "custom/sandstone"
+    scale_ratio: 9
+    y_position: 8
+  red_sandstone:
+    permission: jobs_red_sandstone
+    show_in_gui: false
+    path: "custom/red_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  blackstone:
+    permission: jobs_blackstone
+    show_in_gui: false
+    path: "custom/blackstone"
+    scale_ratio: 9
+    y_position: 8
+  obsidian:
+    permission: jobs_obsidian
+    show_in_gui: false
+    path: "custom/obsidian"
+    scale_ratio: 9
+    y_position: 8
+  tube_coral_block:
+    permission: jobs_tube_coral_block
+    show_in_gui: false
+    path: "custom/tube_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  bubble_coral_block:
+    permission: jobs_bubble_coral_block
+    show_in_gui: false
+    path: "custom/bubble_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  brain_coral_block:
+    permission: jobs_brain_coral_block
+    show_in_gui: false
+    path: "custom/brain_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  fire_coral_block:
+    permission: jobs_fire_coral_block
+    show_in_gui: false
+    path: "custom/fire_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  horn_coral_block:
+    permission: jobs_horn_coral_block
+    show_in_gui: false
+    path: "custom/horn_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  dead_tube_coral_block:
+    permission: jobs_dead_tube_coral_block
+    show_in_gui: false
+    path: "custom/dead_tube_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  dead_bubble_coral_block:
+    permission: jobs_dead_bubble_coral_block
+    show_in_gui: false
+    path: "custom/dead_bubble_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  dead_brain_coral_block:
+    permission: jobs_dead_brain_coral_block
+    show_in_gui: false
+    path: "custom/dead_brain_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  dead_fire_coral_block:
+    permission: jobs_dead_fire_coral_block
+    show_in_gui: false
+    path: "custom/dead_fire_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  dead_horn_coral_block:
+    permission: jobs_dead_horn_coral_block
+    show_in_gui: false
+    path: "custom/dead_horn_coral_block"
+    scale_ratio: 9
+    y_position: 8
+  netherrack:
+    permission: jobs_netherrack
+    show_in_gui: false
+    path: "custom/netherrack"
+    scale_ratio: 9
+    y_position: 8
+  nether_bricks:  
+    permission: jobs_nether_bricks
+    show_in_gui: false
+    path: "custom/nether_bricks"
+    scale_ratio: 9
+    y_position: 8
+  cracked_nether_bricks:      
+    permission: jobs_cracked_nether_bricks
+    show_in_gui: false
+    path: "custom/cracked_nether_bricks"
+    scale_ratio: 9
+    y_position: 8
+  chiseled_nether_bricks:    
+    permission: jobs_chiseled_nether_bricks
+    show_in_gui: false
+    path: "custom/chiseled_nether_bricks"
+    scale_ratio: 9
+    y_position: 8
+  smooth_sandstone:
+    permission: jobs_smooth_sandstone
+    show_in_gui: false
+    path: "custom/smooth_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  cut_sandstone:
+    permission: jobs_cut_sandstone
+    show_in_gui: false
+    path: "custom/cut_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  chiseled_sandstone:
+    permission: jobs_chiseled_sandstone
+    show_in_gui: false
+    path: "custom/chiseled_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  smooth_red_sandstone:
+    permission: jobs_smooth_red_sandstone
+    show_in_gui: false
+    path: "custom/smooth_red_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  cut_red_sandstone:
+    permission: jobs_cut_red_sandstone
+    show_in_gui: false
+    path: "custom/cut_red_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  chiseled_red_sandstone:
+    permission: jobs_chiseled_red_sandstone
+    show_in_gui: false
+    path: "custom/chiseled_red_sandstone"
+    scale_ratio: 9
+    y_position: 8
+  prismarine:
+    permission: jobs_prismarine
+    show_in_gui: false
+    path: "custom/prismarine"
+    scale_ratio: 9
+    y_position: 8
+  prismarine_bricks:
+    permission: jobs_prismarine_bricks
+    show_in_gui: false
+    path: "custom/prismarine_bricks"
+    scale_ratio: 9
+    y_position: 8
+  dark_prismarine:
+    permission: jobs_dark_prismarine
+    show_in_gui: false
+    path: "custom/dark_prismarine"
+    scale_ratio: 9
+    y_position: 8
+  purpur_block:
+    permission: jobs_purpur_block
+    show_in_gui: false
+    path: "custom/purpur_block"
+    scale_ratio: 9
+    y_position: 8
+  purpur_pilar:
+    permission: jobs_purpur_pillar
+    show_in_gui: false
+    path: "custom/purpur_pillar"
+    scale_ratio: 9
+    y_position: 8
+  dirt: 
+    permission: jobs_dirt
+    show_in_gui: false
+    path: "custom/dirt"
+    scale_ratio: 9
+    y_position: 8
+  coarse_dirt:
+    permission: jobs_coarse_dirt
+    show_in_gui: false
+    path: "custom/coarse_dirt"
+    scale_ratio: 9
+    y_position: 8
+  grass_block:
+    permission: jobs_grass_block
+    show_in_gui: false
+    path: "custom/grass_block"
+    scale_ratio: 9
+    y_position: 8
+  sand:
+    permission: jobs_sand
+    show_in_gui: false
+    path: "custom/sand"
+    scale_ratio: 9
+    y_position: 8
+  red_sand:
+    permission: jobs_red_sand
+    show_in_gui: false
+    path: "custom/red_sand"
+    scale_ratio: 9
+    y_position: 8
+  clay:
+    permission: jobs_clay
+    show_in_gui: false
+    path: "custom/clay"
+    scale_ratio: 9
+    y_position: 8
+  gravel:
+    permission: jobs_gravel
+    show_in_gui: false
+    path: "custom/gravel"
+    scale_ratio: 9
+    y_position: 8
+  soul_sand:
+    permission: jobs_soul_sand
+    show_in_gui: false
+    path: "custom/soul_sand"
+    scale_ratio: 9
+    y_position: 8
+  soul_soil:
+    permission: jobs_soul_soil
+    show_in_gui: false
+    path: "custom/soul_soil"
+    scale_ratio: 9
+    y_position: 8
+  concrete_powder:
+    permission: jobs_concrete_powder
+    show_in_gui: false
+    path: "minecraft:block/white_concrete_powder"
+    scale_ratio: 9
+    y_position: 8
+  # MOBS
+  zombie:
+    permission: jobs_zombie
+    show_in_gui: false
+    path: "custom/zombie"
+    scale_ratio: 9
+    y_position: 8
+  zombie_villager:
+    permission: jobs_zombie_villager
+    show_in_gui: false
+    path: "custom/zombie_villager"
+    scale_ratio: 9
+    y_position: 8
+  zombie_horse:
+    permission: jobs_zombie_horse
+    show_in_gui: false
+    path: "custom/zombie_horse"
+    scale_ratio: 9
+    y_position: 8
+  skeleton:
+    permission: jobs_skeleton
+    show_in_gui: false
+    path: "custom/skeleton"
+    scale_ratio: 9
+    y_position: 8
+  skeleton_horse:
+    permission: jobs_skeleton_horse
+    show_in_gui: false
+    path: "custom/skeleton_horse"
+    scale_ratio: 9
+    y_position: 8
+  stray:
+    permission: jobs_stray
+    show_in_gui: false
+    path: "custom/stray"
+    scale_ratio: 9
+    y_position: 8
+  spider:
+    permission: jobs_spider
+    show_in_gui: false
+    path: "custom/spider"
+    scale_ratio: 9
+    y_position: 8
+  cave_spider:
+    permission: jobs_cave_spider
+    show_in_gui: false
+    path: "custom/cave_spider"
+    scale_ratio: 9
+    y_position: 8
+  silverfish:
+    permission: jobs_silverfish
+    show_in_gui: false
+    path: "custom/silverfish"
+    scale_ratio: 9
+    y_position: 8
+  creeper:
+    permission: jobs_creeper
+    show_in_gui: false
+    path: "custom/creeper"
+    scale_ratio: 9
+    y_position: 8
+  witch:
+    permission: jobs_witch
+    show_in_gui: false
+    path: "custom/witch"
+    scale_ratio: 9
+    y_position: 8
+  phantom:
+    permission: jobs_phantom
+    show_in_gui: false
+    path: "custom/phantom"
+    scale_ratio: 9
+    y_position: 8
+  slime:
+    permission: jobs_slime
+    show_in_gui: false
+    path: "custom/slime"
+    scale_ratio: 9
+    y_position: 8
+  iron_golem:
+    permission: jobs_iron_golem
+    show_in_gui: false
+    path: "custom/iron_golem"
+    scale_ratio: 9
+    y_position: 8
+  snowman:
+    permission: jobs_snowman
+    show_in_gui: false
+    path: "custom/snowman"
+    scale_ratio: 9
+    y_position: 8
+  pillager:
+    permission: jobs_pillager
+    show_in_gui: false
+    path: "custom/pillager"
+    scale_ratio: 9
+    y_position: 8
+  ravager:
+    permission: jobs_ravager
+    show_in_gui: false
+    path: "custom/ravager"
+    scale_ratio: 9
+    y_position: 8
+  vindicator:
+    permission: jobs_vindicator
+    show_in_gui: false
+    path: "custom/vindicator"
+    scale_ratio: 9
+    y_position: 8
+  evoker:
+    permission: jobs_evoker
+    show_in_gui: false
+    path: "custom/evoker"
+    scale_ratio: 9
+    y_position: 8
+  guardian:
+    permission: jobs_guardian
+    show_in_gui: false
+    path: "custom/guardian"
+    scale_ratio: 9
+    y_position: 8
+  blaze:
+    permission: jobs_blaze
+    show_in_gui: false
+    path: "custom/blaze"
+    scale_ratio: 9
+    y_position: 8
+  magma_cube:
+    permission: jobs_magma_cube
+    show_in_gui: false
+    path: "custom/magma_cube"
+    scale_ratio: 9
+    y_position: 8
+  strider:
+    permission: jobs_strider
+    show_in_gui: false
+    path: "custom/strider"
+    scale_ratio: 9
+    y_position: 8
+  piglin:
+    permission: jobs_piglin
+    show_in_gui: false
+    path: "custom/piglin"
+    scale_ratio: 9
+    y_position: 8
+  piglin_brute:
+    permission: jobs_piglin_brute
+    show_in_gui: false
+    path: "custom/piglin_brute"
+    scale_ratio: 9
+    y_position: 8
+  zoglin:
+    permission: jobs_zoglin
+    show_in_gui: false
+    path: "custom/zoglin"
+    scale_ratio: 9
+    y_position: 8
+  ghast:
+    permission: jobs_ghast
+    show_in_gui: false
+    path: "custom/ghast"
+    scale_ratio: 9
+    y_position: 8
+  wither_skeleton:
+    permission: jobs_wither_skeleton
+    show_in_gui: false
+    path: "custom/wither_skeleton"
+    scale_ratio: 9
+    y_position: 8
+  enderman:
+    permission: jobs_enderman
+    show_in_gui: false
+    path: "custom/enderman"
+    scale_ratio: 9
+    y_position: 8
+  shulker:
+    permission: jobs_shulker
+    show_in_gui: false
+    path: "custom/shulker"
+    scale_ratio: 9
+    y_position: 8
+  endermite:
+    permission: jobs_endermite
+    show_in_gui: false
+    path: "custom/endermite"
+    scale_ratio: 9
+    y_position: 8
+  chicken:
+    permission: jobs_chicken
+    show_in_gui: false
+    path: "custom/chicken"
+    scale_ratio: 9
+    y_position: 8
+  cow:
+    permission: jobs_cow
+    show_in_gui: false
+    path: "custom/cow"
+    scale_ratio: 9
+    y_position: 8
+  mooshroom:
+    permission: jobs_mooshroom
+    show_in_gui: false
+    path: "custom/mooshroom"
+    scale_ratio: 9
+    y_position: 8
+  pig:
+    permission: jobs_pig
+    show_in_gui: false
+    path: "custom/pig"
+    scale_ratio: 9
+    y_position: 8
+  sheep:
+    permission: jobs_sheep
+    show_in_gui: false
+    path: "custom/sheep"
+    scale_ratio: 9
+    y_position: 8
+  rabbit:
+    permission: jobs_rabbit
+    show_in_gui: false
+    path: "custom/rabbit"
+    scale_ratio: 9
+    y_position: 8
+  squid:
+    permission: jobs_squid
+    show_in_gui: false
+    path: "custom/squid"
+    scale_ratio: 9
+    y_position: 8
+  dolphin:
+    permission: jobs_dolphin
+    show_in_gui: false
+    path: "custom/dolphin"
+    scale_ratio: 9
+    y_position: 8
+  cod:
+    permission: jobs_cod
+    show_in_gui: false
+    path: "minecraft:item/cod"
+    scale_ratio: 9
+    y_position: 8
+  bat:
+    permission: jobs_bat
+    show_in_gui: false
+    path: "custom/bat"
+    scale_ratio: 9
+    y_position: 8
+  parrot:
+    permission: jobs_parrot
+    show_in_gui: false
+    path: "custom/parrot"
+    scale_ratio: 9
+    y_position: 8
+  bee:
+    permission: jobs_bee
+    show_in_gui: false
+    path: "custom/bee"
+    scale_ratio: 9
+    y_position: 8
+  mule:
+    permission: jobs_mule
+    show_in_gui: false
+    path: "custom/mule"
+    scale_ratio: 9
+    y_position: 8
+  horse:
+    permission: jobs_horse
+    show_in_gui: false
+    path: "custom/horse"
+    scale_ratio: 9
+    y_position: 8
+  donkey: 
+    permission: jobs_donkey
+    show_in_gui: false
+    path: "custom/donkey"
+    scale_ratio: 9
+    y_position: 8
+  llama:
+    permission: jobs_llama
+    show_in_gui: false
+    path: "custom/llama"
+    scale_ratio: 9
+    y_position: 8
+  ocelot:
+    permission: jobs_ocelot
+    show_in_gui: false
+    path: "custom/ocelot"
+    scale_ratio: 9
+    y_position: 8
+  cat:
+    permission: jobs_cat
+    show_in_gui: false
+    path: "custom/cat"
+    scale_ratio: 9
+    y_position: 8
+  wolf:
+    permission: jobs_wolf
+    show_in_gui: false
+    path: "custom/wolf"
+    scale_ratio: 9
+    y_position: 8
+  fox:
+    permission: jobs_fox
+    show_in_gui: false
+    path: "custom/fox"
+    scale_ratio: 9
+    y_position: 8
+  polar_bear:
+    permission: jobs_polar_bear
+    show_in_gui: false
+    path: "custom/polar_bear"
+    scale_ratio: 9
+    y_position: 8
+  panda:
+    permission: jobs_panda
+    show_in_gui: false
+    path: "custom/panda"
+    scale_ratio: 9
+    y_position: 8
+  turtle:
+    permission: jobs_turtle
+    show_in_gui: false
+    path: "custom/turtle"
+    scale_ratio: 9
+    y_position: 8
+  elder_guardian:
+    permission: jobs_elder_guardian
+    show_in_gui: false
+    path: "custom/elder_guardian"
+    scale_ratio: 9
+    y_position: 8
+  wither_boss:
+    permission: jobs_wither_boss
+    show_in_gui: false
+    path: "custom/wither_boss"
+    scale_ratio: 9
+    y_position: 8
+  ender_dragon:
+    permission: jobs_ender_dragon
+    show_in_gui: false
+    path: "custom/ender_dragon"
+    scale_ratio: 9
+    y_position: 8
+  villager:
+    permission: jobs_villager
+    show_in_gui: false
+    path: "custom/villager"
+    scale_ratio: 9
+    y_position: 8
+  wandering_trader:
+    permission: jobs_wandering_trader
+    show_in_gui: false
+    path: "custom/wandering_trader"
+    scale_ratio: 9
+    y_position: 8
+  salmon:
+    permission: jobs_salmon
+    show_in_gui: false
+    path: "minecraft:item/salmon"
+    scale_ratio: 9
+    y_position: 8
+  pufferfish:
+    permission: jobs_pufferfish
+    show_in_gui: false
+    path: "minecraft:item/pufferfish"
+    scale_ratio: 9
+    y_position: 8
+  tropical_fish:
+    permission: jobs_tropical_fish
+    show_in_gui: false
+    path: "minecraft:item/tropical_fish"
+    scale_ratio: 9
+    y_position: 8
+  potion:
+    permission: jobs_potion
+    show_in_gui: false
+    path: "custom/potion"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_regeneration:
+    permission: jobs_potion_of_regeneration
+    show_in_gui: false
+    path: "custom/potion_regeneration"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_speed:
+    permission: jobs_potion_of_speed
+    show_in_gui: false
+    path: "custom/potion_speed"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_strength:
+    permission: jobs_potion_of_strength
+    show_in_gui: false
+    path: "custom/potion_strength"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_fire_resistance:
+    permission: jobs_potion_of_fire_resistance
+    show_in_gui: false
+    path: "custom/potion_fireresistance"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_instant_health:
+    permission: jobs_potion_of_instant_health
+    show_in_gui: false
+    path: "custom/potion_instanthealth"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_night_vision:
+    permission: jobs_potion_of_night_vision
+    show_in_gui: false
+    path: "custom/potion_nightvision"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_leaping:
+    permission: jobs_potion_of_leaping
+    show_in_gui: false
+    path: "custom/potion_leaping"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_water_breathing:
+    permission: jobs_potion_of_water_breathing
+    show_in_gui: false
+    path: "custom/potion_waterbreathing"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_invisibility:
+    permission: jobs_potion_of_invisibility
+    show_in_gui: false
+    path: "custom/potion_invisibility"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_slow_falling:
+    permission: jobs_potion_of_slow_falling
+    show_in_gui: false
+    path: "custom/potion_slowfalling"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_luck:
+    permission: jobs_potion_of_luck
+    show_in_gui: false
+    path: "custom/potion_luck"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_poison:
+    permission: jobs_potion_of_poison
+    show_in_gui: false
+    path: "custom/potion_poison"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_weakness:
+    permission: jobs_potion_of_weakness
+    show_in_gui: false
+    path: "custom/potion_weakness"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_slowness:
+    permission: jobs_potion_of_slowness
+    show_in_gui: false
+    path: "custom/potion_slowness"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_harming:
+    permission: jobs_potion_of_harming
+    show_in_gui: false
+    path: "custom/potion_harming"
+    scale_ratio: 9
+    y_position: 8
+  potion_of_turtle_master:
+    permission: jobs_potion_of_turtle_master
+    show_in_gui: false
+    path: "custom/potion_turtlemaster"
+    scale_ratio: 9
+    y_position: 8
+  # Items
+  nether_wart:
+    permission: jobs_nether_wart
+    show_in_gui: false
+    path: "minecraft:item/nether_wart"
+    scale_ratio: 9
+    y_position: 8
+  redstone:
+    permission: jobs_redstone
+    show_in_gui: false
+    path: "minecraft:item/redstone"
+    scale_ratio: 9
+    y_position: 8
+  glowstone_dust:
+    permission: jobs_glowstone_dust
+    show_in_gui: false
+    path: "minecraft:item/glowstone_dust"
+    scale_ratio: 9
+    y_position: 8
+  fermented_spider_eye:
+    permission: jobs_fermented_spider_eye
+    show_in_gui: false
+    path: "minecraft:item/fermented_spider_eye"
+    scale_ratio: 9
+    y_position: 8
+  gunpowder:
+    permission: jobs_gunpowder
+    show_in_gui: false
+    path: "minecraft:item/gunpowder"
+    scale_ratio: 9
+    y_position: 8
+  dragon_breath:
+    permission: jobs_dragon_breath
+    show_in_gui: false
+    path: "minecraft:item/dragon_breath"
+    scale_ratio: 9
+    y_position: 8
+  sugar:
+    permission: jobs_sugar
+    show_in_gui: false
+    path: "minecraft:item/sugar"
+    scale_ratio: 9
+    y_position: 8
+  rabbit_foot:
+    permission: jobs_rabbit_foot
+    show_in_gui: false
+    path: "minecraft:item/rabbit_foot"
+    scale_ratio: 9
+    y_position: 8
+  glistering_melon:
+    permission: jobs_glistering
+    show_in_gui: false
+    path: "minecraft:item/glistering_melon_slice"
+    scale_ratio: 9
+    y_position: 8
+  spider_eye:
+    permission: jobs_spider_eye
+    show_in_gui: false
+    path: "minecraft:item/spider_eye"
+    scale_ratio: 9
+    y_position: 8
+  magma_cream:
+    permission: jobs_magma_cream
+    show_in_gui: false
+    path: "minecraft:item/magma_cream"
+    scale_ratio: 9
+    y_position: 8
+  golden_carrot:
+    permission: jobs_golden_carrot
+    show_in_gui: false
+    path: "minecraft:item/golden_carrot"
+    scale_ratio: 9
+    y_position: 8
+  blaze_powder:
+    permission: jobs_blaze_powder
+    show_in_gui: false
+    path: "minecraft:item/blaze_powder"
+    scale_ratio: 9
+    y_position: 8
+  ghast_tear:
+    permission: jobs_ghast_tear
+    show_in_gui: false
+    path: "minecraft:item/ghast_tear"
+    scale_ratio: 9
+    y_position: 8
+  turtle_helmet:
+    permission: jobs_turtle_helmet
+    show_in_gui: false
+    path: "minecraft:item/turtle_helmet"
+    scale_ratio: 9
+    y_position: 8
+  phantom_membrane:
+    permission: jobs_phantom_membrane
+    show_in_gui: false
+    path: "minecraft:item/phantom_membrane"
+    scale_ratio: 9
+    y_position: 8
+  # Armor
+  netherite_helmet:
+    permission: jobs_netherite_helmet
+    show_in_gui: false
+    path: "custom/netherite_helmet"
+    scale_ratio: 9
+    y_position: 8
+  netherite_chestplate:
+    permission: jobs_netherite_chestplate
+    show_in_gui: false
+    path: "custom/netherite_chestplate"
+    scale_ratio: 9
+    y_position: 8
+  netherite_leggings:
+    permission: jobs_netherite_leggings
+    show_in_gui: false
+    path: "custom/netherite_leggings"
+    scale_ratio: 9
+    y_position: 8
+  netherite_boots:
+    permission: jobs_netherite_boots
+    show_in_gui: false
+    path: "custom/netherite_boots"
+    scale_ratio: 9
+    y_position: 8
+  diamond_helmet:
+    permission: jobs_diamond_helmet
+    show_in_gui: false
+    path: "custom/diamond_helmet"
+    scale_ratio: 9
+    y_position: 8
+  diamond_chestplate:
+    permission: jobs_diamond_chestplate
+    show_in_gui: false
+    path: "custom/diamond_chestplate"
+    scale_ratio: 9
+    y_position: 8
+  diamond_leggings:
+    permission: jobs_diamond_leggings
+    show_in_gui: false
+    path: "custom/diamond_leggings"
+    scale_ratio: 9
+    y_position: 8
+  diamond_boots:
+    permission: jobs_diamond_boots
+    show_in_gui: false
+    path: "custom/diamond_boots"
+    scale_ratio: 9
+    y_position: 8
+  iron_helmet:
+    permission: jobs_iron_helmet
+    show_in_gui: false
+    path: "custom/iron_helmet"
+    scale_ratio: 9
+    y_position: 8
+  iron_chestplate:
+    permission: jobs_iron_chestplate
+    show_in_gui: false
+    path: "custom/iron_chestplate"
+    scale_ratio: 9
+    y_position: 8
+  iron_leggings:
+    permission: jobs_iron_leggings
+    show_in_gui: false
+    path: "custom/iron_leggings"
+    scale_ratio: 9
+    y_position: 8
+  iron_boots:
+    permission: jobs_iron_boots
+    show_in_gui: false
+    path: "custom/iron_boots"
+    scale_ratio: 9
+    y_position: 8
+  golden_helmet:
+    permission: jobs_golden_helmet
+    show_in_gui: false
+    path: "custom/golden_helmet"
+    scale_ratio: 9
+    y_position: 8
+  golden_chestplate:
+    permission: jobs_golden_chestplate
+    show_in_gui: false
+    path: "custom/golden_chestplate"
+    scale_ratio: 9
+    y_position: 8
+  golden_leggings:
+    permission: jobs_golden_leggings
+    show_in_gui: false
+    path: "custom/golden_leggings"
+    scale_ratio: 9
+    y_position: 8
+  golden_boots:
+    permission: jobs_golden_boots
+    show_in_gui: false
+    path: "custom/golden_boots"
+    scale_ratio: 9
+    y_position: 8
+  chainmail_helmet:
+    permission: jobs_chainmail_helmet
+    show_in_gui: false
+    path: "custom/chainmail_helmet"
+    scale_ratio: 9
+    y_position: 8
+  chainmail_chestplate:
+    permission: jobs_chainmail_chestplate
+    show_in_gui: false
+    path: "custom/chainmail_chestplate"
+    scale_ratio: 9
+    y_position: 8
+  chainmail_leggings:
+    permission: jobs_chainmail_leggings
+    show_in_gui: false
+    path: "custom/chainmail_leggings"
+    scale_ratio: 9
+    y_position: 8
+  chainmail_boots:
+    permission: jobs_chainmail_boots
+    show_in_gui: false
+    path: "custom/chainmail_boots"
+    scale_ratio: 9
+    y_position: 8
+  leather_cap:
+    permission: jobs_leather_cap
+    show_in_gui: false
+    path: "custom/leather_cap"
+    scale_ratio: 9
+    y_position: 8
+  leather_tunic:
+    permission: jobs_leather_tunic
+    show_in_gui: false
+    path: "custom/leather_tunic"
+    scale_ratio: 9
+    y_position: 8
+  leather_pants:
+    permission: jobs_leather_pants
+    show_in_gui: false
+    path: "custom/leather_pants"
+    scale_ratio: 9
+    y_position: 8
+  leather_boots:
+    permission: jobs_leather_boots
+    show_in_gui: false
+    path: "custom/leather_boots"
+    scale_ratio: 9
+    y_position: 8
+  # Tools & Weapons
+  netherite_sword:
+    permission: jobs_netherite_sword
+    show_in_gui: false
+    path: "minecraft:item/netherite_sword"
+    scale_ratio: 9
+    y_position: 8
+  diamond_sword:
+    permission: jobs_diamond_sword
+    show_in_gui: false
+    path: "minecraft:item/diamond_sword"
+    scale_ratio: 9
+    y_position: 8
+  iron_sword:
+    permission: jobs_iron_sword
+    show_in_gui: false
+    path: "minecraft:item/iron_sword"
+    scale_ratio: 9
+    y_position: 8
+  golden_sword:
+    permission: jobs_golden_sword
+    show_in_gui: false
+    path: "minecraft:item/golden_sword"
+    scale_ratio: 9
+    y_position: 8
+  stone_sword:
+    permission: jobs_stone_sword
+    show_in_gui: false
+    path: "minecraft:item/stone_sword"
+    scale_ratio: 9
+    y_position: 8
+  wooden_sword:
+    permission: jobs_wooden_sword
+    show_in_gui: false
+    path: "minecraft:item/wooden_sword"
+    scale_ratio: 9
+    y_position: 8
+  bow:
+    permission: jobs_bow
+    show_in_gui: false
+    path: "minecraft:item/bow"
+    scale_ratio: 9
+    y_position: 8
+  crossbow:
+    permission: jobs_crossbow
+    show_in_gui: false
+    path: "minecraft:item/crossbow_standby"
+    scale_ratio: 9
+    y_position: 8
+  trident:
+    permission: jobs_trident
+    show_in_gui: false
+    path: "minecraft:item/trident"
+    scale_ratio: 9
+    y_position: 8
+  shield:
+    permission: jobs_shield
+    show_in_gui: false
+    path: "custom/shield"
+    scale_ratio: 9
+    y_position: 8
+  netherite_pickaxe:
+    permission: jobs_netherite_pickaxe
+    show_in_gui: false
+    path: "minecraft:item/netherite_pickaxe"
+    scale_ratio: 9
+    y_position: 8
+  netherite_axe:
+    permission: jobs_netherite_axe
+    show_in_gui: false
+    path: "minecraft:item/netherite_axe"
+    scale_ratio: 9
+    y_position: 8
+  netherite_shovel:
+    permission: jobs_netherite_shovel
+    show_in_gui: false
+    path: "minecraft:item/netherite_shovel"
+    scale_ratio: 9
+    y_position: 8
+  netherite_hoe:
+    permission: jobs_netherite_hoe
+    show_in_gui: false
+    path: "minecraft:item/netherite_hoe"
+    scale_ratio: 9
+    y_position: 8
+  diamond_pickaxe:
+    permission: jobs_diamond_pickaxe
+    show_in_gui: false
+    path: "minecraft:item/diamond_pickaxe"
+    scale_ratio: 9
+    y_position: 8
+  diamond_axe:
+    permission: jobs_diamond_axe
+    show_in_gui: false
+    path: "minecraft:item/diamond_axe"
+    scale_ratio: 9
+    y_position: 8
+  diamond_shovel:
+    permission: jobs_diamond_shovel
+    show_in_gui: false
+    path: "minecraft:item/diamond_shovel"
+    scale_ratio: 9
+    y_position: 8
+  diamond_hoe:
+    permission: jobs_diamond_hoe
+    show_in_gui: false
+    path: "minecraft:item/diamond_hoe"
+    scale_ratio: 9
+    y_position: 8
+  iron_pickaxe:
+    permission: jobs_iron_pickaxe
+    show_in_gui: false
+    path: "minecraft:item/iron_pickaxe"
+    scale_ratio: 9
+    y_position: 8
+  iron_axe:
+    permission: jobs_iron_axe
+    show_in_gui: false
+    path: "minecraft:item/iron_axe"
+    scale_ratio: 9
+    y_position: 8
+  iron_shovel:
+    permission: jobs_iron_shovel
+    show_in_gui: false
+    path: "minecraft:item/iron_shovel"
+    scale_ratio: 9
+    y_position: 8
+  iron_hoe:
+    permission: jobs_iron_hoe
+    show_in_gui: false
+    path: "minecraft:item/iron_hoe"
+    scale_ratio: 9
+    y_position: 8
+  golden_pickaxe:
+    permission: jobs_golden_pickaxe
+    show_in_gui: false
+    path: "minecraft:item/golden_pickaxe"
+    scale_ratio: 9
+    y_position: 8
+  golden_axe:
+    permission: jobs_golden_axe
+    show_in_gui: false
+    path: "minecraft:item/golden_axe"
+    scale_ratio: 9
+    y_position: 8
+  golden_shovel:
+    permission: jobs_golden_shovel
+    show_in_gui: false
+    path: "minecraft:item/golden_shovel"
+    scale_ratio: 9
+    y_position: 8
+  golden_hoe:
+    permission: jobs_golden_hoe
+    show_in_gui: false
+    path: "minecraft:item/golden_hoe"
+    scale_ratio: 9
+    y_position: 8
+  stone_pickaxe:
+    permission: jobs_stone_pickaxe
+    show_in_gui: false
+    path: "minecraft:item/stone_pickaxe"
+    scale_ratio: 9
+    y_position: 8
+  stone_axe:
+    permission: jobs_stone_axe
+    show_in_gui: false
+    path: "minecraft:item/stone_axe"
+    scale_ratio: 9
+    y_position: 8
+  stone_shovel:
+    permission: jobs_stone_shovel
+    show_in_gui: false
+    path: "minecraft:item/stone_shovel"
+    scale_ratio: 9
+    y_position: 8
+  stone_hoe:
+    permission: jobs_stone_hoe
+    show_in_gui: false
+    path: "minecraft:item/stone_hoe"
+    scale_ratio: 9
+    y_position: 8
+  wooden_pickaxe:
+    permission: jobs_wooden_pickaxe
+    show_in_gui: false
+    path: "minecraft:item/wooden_pickaxe"
+    scale_ratio: 9
+    y_position: 8
+  wooden_axe:
+    permission: jobs_wooden_axe
+    show_in_gui: false
+    path: "minecraft:item/wooden_axe"
+    scale_ratio: 9
+    y_position: 8
+  wooden_shovel:
+    permission: jobs_wooden_shovel
+    show_in_gui: false
+    path: "minecraft:item/wooden_shovel"
+    scale_ratio: 9
+    y_position: 8
+  wooden_hoe:
+    permission: jobs_wooden_hoe
+    show_in_gui: false
+    path: "minecraft:item/wooden_hoe"
+    scale_ratio: 9
+    y_position: 8
+  # Food
+  raw_chicken:
+    permission: jobs_raw_chicken
+    show_in_gui: false
+    path: "minecraft:item/chicken"
+    scale_ratio: 9
+    y_position: 8
+  raw_porkchop:
+    permission: jobs_raw_porkchop
+    show_in_gui: false
+    path: "minecraft:item/porkchop"
+    scale_ratio: 9
+    y_position: 8
+  raw_beef:
+    permission: jobs_raw_beef
+    show_in_gui: false
+    path: "minecraft:item/beef"
+    scale_ratio: 9
+    y_position: 8
+  raw_mutton:
+    permission: jobs_raw_mutton
+    show_in_gui: false
+    path: "minecraft:item/mutton"
+    scale_ratio: 9
+    y_position: 8
+  raw_rabbit:
+    permission: jobs_raw_rabbit
+    show_in_gui: false
+    path: "minecraft:item/rabbit"
+    scale_ratio: 9
+    y_position: 8
+  apple:
+    permission: jobs_apple
+    show_in_gui: false
+    path: "minecraft:item/apple"
+    scale_ratio: 9
+    y_position: 8
+  bread:
+    permission: jobs_bread
+    show_in_gui: false
+    path: "minecraft:item/bread"
+    scale_ratio: 9
+    y_position: 8
+  baked_potato:
+    permission: jobs_baked_potato
+    show_in_gui: false
+    path: "minecraft:item/baked_potato"
+    scale_ratio: 9
+    y_position: 8
+  carrot:
+    permission: jobs_carrot
+    show_in_gui: false
+    path: "minecraft:item/carrot"
+    scale_ratio: 9
+    y_position: 8
+  beetroot_soup:
+    permission: jobs_beetroot_soup
+    show_in_gui: false
+    path: "minecraft:item/beetroot_soup"
+    scale_ratio: 9
+    y_position: 8
+  dried_kelp:
+    permission: jobs_dried_kelp
+    show_in_gui: false
+    path: "minecraft:item/dried_kelp"
+    scale_ratio: 9
+    y_position: 8
+  melon_slice:
+    permission: jobs_melon_slice
+    show_in_gui: false
+    path: "minecraft:item/melon_slice"
+    scale_ratio: 9
+    y_position: 8
+  sweet_berries:
+    permission: jobs_sweet_berries
+    show_in_gui: false
+    path: "minecraft:item/sweet_berries"
+    scale_ratio: 9
+    y_position: 8
+  mushroom_stew:
+    permission: jobs_mushroom_stew
+    show_in_gui: false
+    path: "minecraft:item/mushroom_stew"
+    scale_ratio: 9
+    y_position: 8
+  cooked_cod:
+    permission: jobs_cooked_cod
+    show_in_gui: false
+    path: "minecraft:item/cooked_cod"
+    scale_ratio: 9
+    y_position: 8
+  cooked_salmon:
+    permission: jobs_cooked_salmon
+    show_in_gui: false
+    path: "minecraft:item/cooked_salmon"
+    scale_ratio: 9
+    y_position: 8
+  cooked_chicken:
+    permission: jobs_cooked_chicken
+    show_in_gui: false
+    path: "minecraft:item/cooked_chicken"
+    scale_ratio: 9
+    y_position: 8
+  cooked_porkchop:
+    permission: jobs_cooked_porkchop
+    show_in_gui: false
+    path: "minecraft:item/cooked_porkchop"
+    scale_ratio: 9
+    y_position: 8
+  cooked_beef:
+    permission: jobs_cooked_beef
+    show_in_gui: false
+    path: "minecraft:item/cooked_beef"
+    scale_ratio: 9
+    y_position: 8
+  cooked_mutton:
+    permission: jobs_cooked_mutton
+    show_in_gui: false
+    path: "minecraft:item/cooked_mutton"
+    scale_ratio: 9
+    y_position: 8
+  cooked_rabbit:
+    permission: jobs_cooked_rabbit
+    show_in_gui: false
+    path: "minecraft:item/cooked_rabbit"
+    scale_ratio: 9
+    y_position: 8
+  rabbit_stew:
+    permission: jobs_rabbit_stew
+    show_in_gui: false
+    path: "minecraft:item/rabbit_stew"
+    scale_ratio: 9
+    y_position: 8
+  pumpkin_pie:
+    permission: jobs_pumpkin_pie
+    show_in_gui: false
+    path: "minecraft:item/pumpkin_pie"
+    scale_ratio: 9
+    y_position: 8
+  cake:
+    permission: jobs_cake
+    show_in_gui: false
+    path: "minecraft:item/cake"
+    scale_ratio: 9
+    y_position: 8
+  enchanted_golden_apple:
+    permission: jobs_enchanted_golden_apple
+    show_in_gui: false
+    path: "custom/enchanted_golden_apple"
+    scale_ratio: 9
+    y_position: 8
+  saplings:
+    permission: jobs_saplings
+    show_in_gui: false
+    path: "minecraft:block/oak_sapling"
+    scale_ratio: 9
+    y_position: 8
+  wheat:
+    permission: jobs_wheat
+    show_in_gui: false
+    path: "minecraft:item/wheat"
+    scale_ratio: 9
+    y_position: 8
+  potato:
+    permission: jobs_potato
+    show_in_gui: false
+    path: "minecraft:item/potato"
+    scale_ratio: 9
+    y_position: 8
+  sugar_cane:
+    permission: jobs_sugar_cane
+    show_in_gui: false
+    path: "minecraft:item/sugar_cane"
+    scale_ratio: 9
+    y_position: 8
+  beetroot:
+    permission: jobs_beetroot
+    show_in_gui: false
+    path: "minecraft:item/beetroot"
+    scale_ratio: 9
+    y_position: 8
+  cactus:
+    permission: jobs_cactus
+    show_in_gui: false
+    path: "custom/cactus"
+    scale_ratio: 9
+    y_position: 8
+  cocoa:
+    permission: jobs_cocoa
+    show_in_gui: false
+    path: "minecraft:item/cocoa_beans"
+    scale_ratio: 9
+    y_position: 8
+  kelp:
+    permission: jobs_kelp
+    show_in_gui: false
+    path: "minecraft:item/kelp"
+    scale_ratio: 9
+    y_position: 8
+  pumpkin:
+    permission: jobs_pumpkin
+    show_in_gui: false
+    path: "custom/pumpkin"
+    scale_ratio: 9
+    y_position: 8
+  melon:
+    permission: jobs_melon
+    show_in_gui: false
+    path: "custom/melon"
+    scale_ratio: 9
+    y_position: 8
+  brown_mushroom:
+    permission: jobs_brown_mushroom
+    show_in_gui: false
+    path: "custom/brown_mushroom"
+    scale_ratio: 9
+    y_position: 8
+  red_mushroom:
+    permission: jobs_red_mushroom
+    show_in_gui: false
+    path: "custom/red_mushroom"
+    scale_ratio: 9
+    y_position: 8
+  wool:
+    permission: jobs_wool
+    show_in_gui: false
+    path: "custom/white_wool"
+    scale_ratio: 9
+    y_position: 8
+  milk:
+    permission: jobs_milk
+    show_in_gui: false
+    path: "minecraft:item/milk_bucket"
+    scale_ratio: 9
+    y_position: 8
+  oak_leaves:
+    permission: jobs_oak_leaves
+    show_in_gui: false
+    path: "minecraft:block/oak_leaves"
+    scale_ratio: 9
+    y_position: 8
+  glass:
+    permission: jobs_glass
+    show_in_gui: false
+    path: "minecraft:block/glass"
+    scale_ratio: 9
+    y_position: 8
+  terracota:
+    permission: jobs_terracota
+    show_in_gui: false
+    path: "minecraft:block/terracotta"
+    scale_ratio: 9
+    y_position: 8
+  concrete:
+    permission: jobs_concrete
+    show_in_gui: false
+    path: "minecraft:block/white_concrete"
+    scale_ratio: 9
+    y_position: 8
+  glass_pane:
+    permission: jobs_glass_pane
+    show_in_gui: false
+    path: "minecraft:block/glass_pane_top"
+    scale_ratio: 9
+    y_position: 8
